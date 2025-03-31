@@ -131,3 +131,12 @@ dmypy.json
 
 # Ignore DataSpell
 .idea/
+
+# Ignore all raw feather files, in any subdirectory
+raw_data/**/*.feather
+
+# Ignore all raw parquet files, in any subdirectory
+raw_data/**/*.parquet
+
+# Ignore all raw csv files, in any subdirectory
+raw_data/**/*.csv

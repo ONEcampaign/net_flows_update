@@ -27,4 +27,4 @@ def setup_logger(name: str, level: int = logging.INFO) -> logging.Logger:
     return logger_
 
 
-logger = setup_logger("research_project")
+logger = setup_logger("net_flows")

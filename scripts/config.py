@@ -8,3 +8,7 @@ class Paths:
     raw_data = project / "raw_data"
     output = project / "output"
     scripts = project / "scripts"
+
+
+CONSTANT_BASE_YEAR = 2023
+ANALYSIS_YEARS: tuple = (2000, 2023)
