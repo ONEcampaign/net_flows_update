@@ -8,6 +8,9 @@ from scripts.analysis.common import (
     add_china_as_counterpart_type,
     convert_to_net_flows,
     exclude_countries_without_outflows,
+    exclude_grant_indicators,
+    exclude_grant_and_concessional_indicators,
+    prep_flows,
 )
 from scripts.config import Paths
 from scripts.data.inflows import get_total_inflows
@@ -29,78 +32,6 @@ OUTPUT_GROUPER = [
 ]
 
 
-def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
-    """
-    Prepare the inflow data for further processing.
-
-    This function drops rows with NaN in 'iso_code', zero in 'value', or 'World' in
-    'counterpart_area'. Then, it groups the DataFrame by all columns except
-    'value', and sums up 'value' within each group.
-
-    Args:
-        inflows (pd.DataFrame): The input DataFrame containing inflow data. It is expected to
-         have columns including 'iso_code', 'value', and 'counterpart_area'.
-
-    Returns:
-        pd.DataFrame: The processed DataFrame.
-
-    """
-    # Drop rows with NaN in 'iso_code'
-    df = inflows.dropna(subset=["iso_code"])
-
-    # Further drop rows with zero 'value' or 'World' in 'counterpart_area'
-    df = df.loc[lambda d: d.value != 0].loc[lambda d: d.counterpart_area != "World"]
-
-    # Group by all columns except 'value', and sum up 'value' within each group
-    df = (
-        df.astype({"value": "float"})
-        .groupby([c for c in df.columns if c != "value"], observed=True, dropna=False)[
-            ["value"]
-        ]
-        .sum()
-        .reset_index()
-    )
-
-    return df
-
-
-def rename_indicators(df: pd.DataFrame, suffix: str = "") -> pd.DataFrame:
-    """
-    Rename the indicators in the DataFrame.
-
-    Maps the original indicator names to new ones based on a predefined dictionary.
-    The new names are constructed by appending a suffix to the base name of each indicator.
-    If an indicator does not exist in the dictionary, its original name is preserved.
-
-    Args:
-        df (pd.DataFrame): The input DataFrame with an 'indicator' column that needs to be renamed.
-        suffix (str, optional): The suffix to append to the base name of each indicator.
-        Defaults to an empty string.
-
-    Returns:
-        pd.DataFrame: The DataFrame with renamed indicators.
-    """
-
-    indicators = {
-        "grants": f"Grants{suffix}",
-        "grants_bilateral": f"Bilateral Grants{suffix}",
-        "grants_multilateral": f"Multilateral Grants{suffix}",
-        "bilateral": f"All bilateral{suffix}",
-        "bilateral_non_concessional": f"Bilateral Non-Concessional Debt{suffix}",
-        "bilateral_concessional": f"Bilateral Concessional Debt{suffix}",
-        "multilateral_non_concessional": f"Multilateral Non-Concessional Debt{suffix}",
-        "multilateral_concessional": f"Multilateral Concessional Debt{suffix}",
-        "multilateral": f"All multilateral{suffix}",
-        "bonds": f"Private - bonds{suffix}",
-        "banks": f"Private  - banks{suffix}",
-        "other_private": f"Private - other{suffix}",
-        "other": f"Private - other{suffix}",
-    }
-    return df.assign(
-        indicator=lambda d: d.indicator.map(indicators).fillna(d.indicator)
-    )
-
-
 def get_all_flows(constant: bool = False) -> pd.DataFrame:
     """
     Retrieve all inflow and outflow data, process them, and combine into a single DataFrame.
@@ -114,63 +45,23 @@ def get_all_flows(constant: bool = False) -> pd.DataFrame:
     """
 
     # Get inflow and outflow data
-    inflows = (
-        get_total_inflows(constant=constant)
-        .pipe(prep_flows)
-        .pipe(rename_indicators, suffix="")
-    )
+    inflows_data = get_total_inflows(constant=constant).pipe(prep_flows)
 
     # Get outflow data. NOTE: the value of outflow is negative
-    outflows = (
+    outflows_data = (
         get_debt_service_data(constant=constant)
         .pipe(prep_flows)
         .assign(value=lambda d: -d.value)
-        .pipe(rename_indicators, suffix="")
     )
 
     # Combine inflow and outflow data
     data = (
-        pd.concat([inflows, outflows], ignore_index=True)
+        pd.concat([inflows_data, outflows_data], ignore_index=True)
         .drop(columns=["counterpart_iso_code", "iso_code"])
         .loc[lambda d: d.value != 0]
     )
 
     return data
-
-
-def exclude_grant_indicators(data: pd.DataFrame) -> pd.DataFrame:
-    """
-    Exclude grant indicators from the DataFrame.
-
-    Args:
-        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
-
-    Returns:
-        pd.DataFrame: The DataFrame with grant indicators excluded.
-    """
-
-    return data.loc[lambda d: ~d.indicator.str.contains("grant", case=False)]
-
-
-def exclude_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.DataFrame:
-    """
-    Exclude grant and concessional indicators from the DataFrame,
-    but keep 'Non-concessional'.
-
-    Args:
-        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
-
-    Returns:
-        pd.DataFrame: The DataFrame with grant and concessional indicators excluded,
-                      except for 'Non-concessional'.
-    """
-    return data.loc[
-        lambda d: ~d.indicator.str.contains("grant", case=False, regex=True)
-        & ~(
-            d.indicator.str.contains("concessional", case=False, regex=True)
-            & ~d.indicator.str.contains("non[- ]?concessional", case=False, regex=True)
-        )
-    ]
 
 
 def all_flows_pipeline(

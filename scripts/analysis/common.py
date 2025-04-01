@@ -221,3 +221,73 @@ def exclude_countries_without_outflows(data: pd.DataFrame) -> pd.DataFrame:
         new_data.append(d_)
 
     return pd.concat(new_data, ignore_index=True)
+
+
+def exclude_grant_indicators(data: pd.DataFrame) -> pd.DataFrame:
+    """
+    Exclude grant indicators from the DataFrame.
+
+    Args:
+        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
+
+    Returns:
+        pd.DataFrame: The DataFrame with grant indicators excluded.
+    """
+
+    return data.loc[lambda d: ~d.indicator.str.contains("grant", case=False)]
+
+
+def exclude_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.DataFrame:
+    """
+    Exclude grant and concessional indicators from the DataFrame,
+    but keep 'Non-concessional'.
+
+    Args:
+        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
+
+    Returns:
+        pd.DataFrame: The DataFrame with grant and concessional indicators excluded,
+                      except for 'Non-concessional'.
+    """
+    return data.loc[
+        lambda d: ~d.indicator.str.contains("grant", case=False, regex=True)
+        & ~(
+            d.indicator.str.contains("concessional", case=False, regex=True)
+            & ~d.indicator.str.contains("non[- ]?concessional", case=False, regex=True)
+        )
+    ]
+
+
+def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
+    """
+    Prepare the inflow data for further processing.
+
+    This function drops rows with NaN in 'iso_code', zero in 'value', or 'World' in
+    'counterpart_area'. Then, it groups the DataFrame by all columns except
+    'value', and sums up 'value' within each group.
+
+    Args:
+        inflows (pd.DataFrame): The input DataFrame containing inflow data. It is expected to
+         have columns including 'iso_code', 'value', and 'counterpart_area'.
+
+    Returns:
+        pd.DataFrame: The processed DataFrame.
+
+    """
+    # Drop rows with NaN in 'iso_code'
+    df = inflows.dropna(subset=["iso_code"])
+
+    # Further drop rows with zero 'value' or 'World' in 'counterpart_area'
+    df = df.loc[lambda d: d.value != 0].loc[lambda d: d.counterpart_area != "World"]
+
+    # Group by all columns except 'value', and sum up 'value' within each group
+    df = (
+        df.astype({"value": "float"})
+        .groupby([c for c in df.columns if c != "value"], observed=True, dropna=False)[
+            ["value"]
+        ]
+        .sum()
+        .reset_index()
+    )
+
+    return df
