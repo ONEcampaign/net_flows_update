@@ -19,6 +19,15 @@ LATEST_INFLOWS: int = 2023
 
 AnalysisVersion = Literal["total", "excluding_grants", "excluding_concessional_finance"]
 
+OUTPUT_GROUPER = [
+    "year",
+    "country",
+    "continent",
+    "income_level",
+    "prices",
+    "indicator_type",
+]
+
 
 def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
     """
@@ -175,7 +184,7 @@ def all_flows_pipeline(
     """Create a dataset with all flows for visualisation.
 
     Args:
-        as_net_flows (bool): If True, convert inflows to net flows.
+        as_net_flows (bool): If True, convert inflows - outflows to net flows.
         version (str): Version of the data to use. Options are:
             - "total": All flows
             - "excluding_grants": Exclude grants
@@ -205,7 +214,6 @@ def all_flows_pipeline(
     if china_as_counterpart_type:
         data = data.pipe(add_china_as_counterpart_type)
 
-        # Save the data
         data = (
             data.groupby(
                 [c for c in data.columns if c not in ["value", "counterpart_area"]],
@@ -223,19 +231,25 @@ def all_flows_pipeline(
 
 
 def net_flows_by_country_pipeline(
-    version: AnalysisVersion = "total", constant: bool = False
+    version: AnalysisVersion = "total",
+    as_net_flows: bool = True,
+    constant: bool = False,
 ) -> pd.DataFrame:
-    grouper = [
-        "year",
-        "country",
-        "continent",
-        "income_level",
-        "prices",
-        "indicator_type",
-    ]
+    """Create a dataset with all flows for visualisation.
+
+    Args:
+        as_net_flows (bool): If True, convert inflows - outflows to net flows.
+        version (str): Version of the data to use. Options are:
+            - "total": All flows
+            - "excluding_grants": Exclude grants
+            - "excluding_concessional_finance": Exclude concessional finance (grants and
+               concessional loans)
+        constant (bool): If True, use constant prices.
+
+    """
 
     full_data = all_flows_pipeline(
-        as_net_flows=True,
+        as_net_flows=as_net_flows,
         version=version,
         exclude_outliers=True,
         remove_countries_wo_outflows=True,
@@ -244,7 +258,7 @@ def net_flows_by_country_pipeline(
     )
 
     by_country = (
-        full_data.groupby(grouper, observed=True, dropna=False)["value"]
+        full_data.groupby(OUTPUT_GROUPER, observed=True, dropna=False)["value"]
         .sum()
         .reset_index()
     )
@@ -253,7 +267,7 @@ def net_flows_by_country_pipeline(
         by_country.assign(
             country="Developing countries", income_level="All", continent="World"
         )
-        .groupby(grouper, observed=True, dropna=False)["value"]
+        .groupby(OUTPUT_GROUPER, observed=True, dropna=False)["value"]
         .sum()
         .reset_index()
     )
@@ -262,12 +276,34 @@ def net_flows_by_country_pipeline(
 
 
 if __name__ == "__main__":
-    net_flows = net_flows_by_country_pipeline(constant=False)
+    # Get all flows and net flows
+    all_flows = net_flows_by_country_pipeline(as_net_flows=False)
+    inflows = all_flows.query("indicator_type == 'inflow'")
+    outflows = all_flows.query("indicator_type == 'outflow'")
+    net_flows = all_flows.pipe(convert_to_net_flows)
 
-    net_flows_excluding_grants = net_flows_by_country_pipeline(
-        version="excluding_grants", constant=False
+    # Exclude grants
+    all_flows_excluding_grants = net_flows_by_country_pipeline(
+        version="excluding_grants", as_net_flows=False
     )
+    inflows_excluding_grants = all_flows_excluding_grants.query(
+        "indicator_type == 'inflow'"
+    )
+    outflows_excluding_grants = all_flows_excluding_grants.query(
+        "indicator_type == 'outflow'"
+    )
+    net_flows_excluding_grants = all_flows_excluding_grants.pipe(convert_to_net_flows)
 
-    net_flows_excluding_concessional = net_flows_by_country_pipeline(
-        version="excluding_concessional_finance", constant=False
+    # Exclude concessional finance
+    all_flows_excluding_concessional = net_flows_by_country_pipeline(
+        version="excluding_concessional_finance", as_net_flows=False
+    )
+    inflows_excluding_concessional = all_flows_excluding_concessional.query(
+        "indicator_type == 'inflow'"
+    )
+    outflows_excluding_concessional = all_flows_excluding_concessional.query(
+        "indicator_type == 'outflow'"
+    )
+    net_flows_excluding_concessional = all_flows_excluding_concessional.pipe(
+        convert_to_net_flows
     )
