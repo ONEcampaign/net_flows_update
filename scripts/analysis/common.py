@@ -1,8 +1,24 @@
 import json
 import os
+from typing import Literal
 
 import pandas as pd
 
+from scripts.data.inflows import get_total_inflows
+from scripts.data.outflows import get_debt_service_data
+
+LATEST_INFLOWS: int = 2023
+
+AnalysisVersion = Literal["total", "excluding_grants", "excluding_concessional_finance"]
+
+OUTPUT_GROUPER = [
+    "year",
+    "country",
+    "continent",
+    "income_level",
+    "prices",
+    "indicator_type",
+]
 
 GROUPS = {
     "Developing countries": 1,
@@ -223,6 +239,40 @@ def exclude_countries_without_outflows(data: pd.DataFrame) -> pd.DataFrame:
     return pd.concat(new_data, ignore_index=True)
 
 
+def mask_grant_indicators(data: pd.DataFrame) -> pd.Series:
+    """
+    Return a boolean mask for rows that are NOT grant indicators.
+
+    Args:
+        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
+
+    Returns:
+        pd.Series: A boolean mask where True means the row is NOT a grant indicator.
+    """
+    return ~data.indicator.str.contains("grant", case=False)
+
+
+def mask_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.Series:
+    """
+    Return a boolean mask for rows that are NOT grant or concessional indicators,
+    except it keeps 'Non-concessional'.
+
+    Args:
+        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
+
+    Returns:
+        pd.Series: A boolean mask where True means the row is NOT a grant or concessional
+                   indicator, with 'Non-concessional' preserved.
+    """
+    is_grant = data.indicator.str.contains("grant", case=False)
+    is_concessional = data.indicator.str.contains("concessional", case=False)
+    is_non_concessional = data.indicator.str.contains(
+        "non[- ]?concessional", case=False
+    )
+
+    return ~(is_grant | (is_concessional & ~is_non_concessional))
+
+
 def exclude_grant_indicators(data: pd.DataFrame) -> pd.DataFrame:
     """
     Exclude grant indicators from the DataFrame.
@@ -233,8 +283,7 @@ def exclude_grant_indicators(data: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: The DataFrame with grant indicators excluded.
     """
-
-    return data.loc[lambda d: ~d.indicator.str.contains("grant", case=False)]
+    return data.loc[mask_grant_indicators(data)]
 
 
 def exclude_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.DataFrame:
@@ -249,13 +298,7 @@ def exclude_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.DataFram
         pd.DataFrame: The DataFrame with grant and concessional indicators excluded,
                       except for 'Non-concessional'.
     """
-    return data.loc[
-        lambda d: ~d.indicator.str.contains("grant", case=False, regex=True)
-        & ~(
-            d.indicator.str.contains("concessional", case=False, regex=True)
-            & ~d.indicator.str.contains("non[- ]?concessional", case=False, regex=True)
-        )
-    ]
+    return data.loc[mask_grant_and_concessional_indicators(data)]
 
 
 def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
@@ -291,3 +334,143 @@ def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
     )
 
     return df
+
+
+def exclusions(
+    data: pd.DataFrame,
+    exclude_outliers: bool,
+    remove_countries_wo_outflows: bool,
+    china_as_counterpart_type: bool,
+) -> pd.DataFrame:
+    """
+    Apply exclusions to the DataFrame based on specified criteria.
+
+    Args:
+        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
+        exclude_outliers (bool): If True, exclude outlier countries (China, Ukraine, Russia).
+        remove_countries_wo_outflows (bool): If True, remove countries with missing outflows data.
+        china_as_counterpart_type (bool): If True, add China as a counterpart type.
+
+    Returns:
+        pd.DataFrame: The DataFrame after applying the specified exclusions.
+    """
+    if exclude_outliers:
+        data = exclude_outlier_countries(data)
+
+    if remove_countries_wo_outflows:
+        data = exclude_countries_without_outflows(data)
+
+    if china_as_counterpart_type:
+        data = data.pipe(add_china_as_counterpart_type)
+
+        data = (
+            data.groupby(
+                [c for c in data.columns if c not in ["value", "counterpart_area"]],
+                observed=True,
+                dropna=False,
+            )["value"]
+            .sum()
+            .reset_index()
+        )
+
+    return data
+
+
+def get_all_flows(constant: bool = False) -> pd.DataFrame:
+    """
+    Retrieve all inflow and outflow data, process them, and combine into a single DataFrame.
+
+    Args:
+        constant (bool, optional): A flag to indicate whether to retrieve constant inflow
+        and debt service data. Defaults to False.
+
+    Returns:
+        pd.DataFrame: The combined DataFrame of processed inflow and outflow data.
+    """
+
+    # Get inflow and outflow data
+    inflows_data = get_total_inflows(constant=constant).pipe(prep_flows)
+
+    # Get outflow data. NOTE: the value of outflow is negative
+    outflows_data = (
+        get_debt_service_data(constant=constant)
+        .pipe(prep_flows)
+        .assign(value=lambda d: -d.value)
+    )
+
+    # Combine inflow and outflow data
+    data = (
+        pd.concat([inflows_data, outflows_data], ignore_index=True)
+        .drop(columns=["counterpart_iso_code", "iso_code"])
+        .loc[lambda d: d.value != 0]
+    )
+
+    return data
+
+
+def all_flows_pipeline(
+    as_net_flows: bool = False,
+    version: AnalysisVersion = "total",
+    exclude_outliers: bool = True,
+    remove_countries_wo_outflows: bool = True,
+    china_as_counterpart_type: bool = False,
+    constant: bool = False,
+    exclude_outflow_estimates: bool = True,
+) -> pd.DataFrame:
+    """Create a dataset with all flows for visualisation.
+
+    Args:
+        as_net_flows (bool): If True, convert inflows - outflows to net flows.
+        version (str): Version of the data to use. Options are:
+            - "total": All flows
+            - "excluding_grants": Exclude grants
+            - "excluding_concessional_finance": Exclude concessional finance (grants and
+               concessional loans)
+        exclude_outliers (bool): If True, exclude outlier countries (China, Ukraine, Russia).
+        remove_countries_wo_outflows (bool): If True, remove countries with missing outflows data.
+        china_as_counterpart_type (bool): If True, add China as a counterpart type.
+        constant (bool): If True, use constant prices.
+        exclude_outflow_estimates (bool): If True, exclude outflow estimates.
+
+    """
+
+    # get constant and current data
+    data = get_all_flows(constant=constant)
+
+    if exclude_outflow_estimates:
+        data = data.loc[lambda d: d.year <= LATEST_INFLOWS]
+
+    if version == "excluding_grants":
+        data = exclude_grant_indicators(data)
+    elif version == "excluding_concessional_finance":
+        data = exclude_grant_and_concessional_indicators(data)
+
+    data = exclusions(
+        data,
+        exclude_outliers=exclude_outliers,
+        remove_countries_wo_outflows=remove_countries_wo_outflows,
+        china_as_counterpart_type=china_as_counterpart_type,
+    )
+
+    if as_net_flows:
+        data = data.pipe(convert_to_net_flows)
+
+    return data
+
+
+def create_dev_countries_total(data: pd.DataFrame) -> pd.DataFrame:
+    return (
+        data.assign(
+            country="Developing countries",
+            income_level="All",
+            continent="World",
+            iso_code="DEV",
+        )
+        .groupby(
+            [c for c in data.columns if c != "value"],
+            observed=True,
+            dropna=False,
+        )["value"]
+        .sum()
+        .reset_index()
+    )
