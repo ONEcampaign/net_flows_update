@@ -415,6 +415,7 @@ def all_flows_pipeline(
     remove_countries_wo_outflows: bool = True,
     china_as_counterpart_type: bool = False,
     constant: bool = False,
+    exclude_outflow_estimates: bool = True,
 ) -> pd.DataFrame:
     """Create a dataset with all flows for visualisation.
 
@@ -429,11 +430,15 @@ def all_flows_pipeline(
         remove_countries_wo_outflows (bool): If True, remove countries with missing outflows data.
         china_as_counterpart_type (bool): If True, add China as a counterpart type.
         constant (bool): If True, use constant prices.
+        exclude_outflow_estimates (bool): If True, exclude outflow estimates.
 
     """
 
     # get constant and current data
-    data = get_all_flows(constant=constant).loc[lambda d: d.year <= LATEST_INFLOWS]
+    data = get_all_flows(constant=constant)
+
+    if exclude_outflow_estimates:
+        data = data.loc[lambda d: d.year <= LATEST_INFLOWS]
 
     if version == "excluding_grants":
         data = exclude_grant_indicators(data)
