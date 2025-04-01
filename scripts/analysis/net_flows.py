@@ -1,3 +1,5 @@
+from typing import Literal
+
 import pandas as pd
 from bblocks import set_bblocks_data_path
 
@@ -14,6 +16,8 @@ from scripts.data.outflows import get_debt_service_data
 set_bblocks_data_path(Paths.raw_data)
 
 LATEST_INFLOWS: int = 2023
+
+AnalysisVersion = Literal["total", "excluding_grants", "excluding_concessional_finance"]
 
 
 def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
@@ -139,26 +143,58 @@ def exclude_grant_indicators(data: pd.DataFrame) -> pd.DataFrame:
     return data.loc[lambda d: ~d.indicator.str.contains("grant", case=False)]
 
 
+def exclude_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.DataFrame:
+    """
+    Exclude grant and concessional indicators from the DataFrame,
+    but keep 'Non-concessional'.
+
+    Args:
+        data (pd.DataFrame): The input DataFrame containing inflow and outflow data.
+
+    Returns:
+        pd.DataFrame: The DataFrame with grant and concessional indicators excluded,
+                      except for 'Non-concessional'.
+    """
+    return data.loc[
+        lambda d: ~d.indicator.str.contains("grant", case=False, regex=True)
+        & ~(
+            d.indicator.str.contains("concessional", case=False, regex=True)
+            & ~d.indicator.str.contains("non[- ]?concessional", case=False, regex=True)
+        )
+    ]
+
+
 def all_flows_pipeline(
     as_net_flows: bool = False,
-    exclude_grants: bool = False,
+    version: AnalysisVersion = "total",
     exclude_outliers: bool = True,
     remove_countries_wo_outflows: bool = True,
     china_as_counterpart_type: bool = False,
     constant: bool = False,
 ) -> pd.DataFrame:
-    """Create a dataset with all flows for visualisation. It is saved as a CSV in the
-    output folder. It includes both constant and current prices.
+    """Create a dataset with all flows for visualisation.
 
-    The data is also returned as a DataFrame.
+    Args:
+        as_net_flows (bool): If True, convert inflows to net flows.
+        version (str): Version of the data to use. Options are:
+            - "total": All flows
+            - "excluding_grants": Exclude grants
+            - "excluding_concessional_finance": Exclude concessional finance (grants and
+               concessional loans)
+        exclude_outliers (bool): If True, exclude outlier countries (China, Ukraine, Russia).
+        remove_countries_wo_outflows (bool): If True, remove countries with missing outflows data.
+        china_as_counterpart_type (bool): If True, add China as a counterpart type.
+        constant (bool): If True, use constant prices.
 
     """
 
     # get constant and current data
     data = get_all_flows(constant=constant).loc[lambda d: d.year <= LATEST_INFLOWS]
 
-    if exclude_grants:
+    if version == "excluding_grants":
         data = exclude_grant_indicators(data)
+    elif version == "excluding_concessional_finance":
+        data = exclude_grant_and_concessional_indicators(data)
 
     if exclude_outliers:
         data = exclude_outlier_countries(data)
@@ -187,7 +223,7 @@ def all_flows_pipeline(
 
 
 def net_flows_by_country_pipeline(
-    exclude_grants: bool = False, constant: bool = False
+    version: AnalysisVersion = "total", constant: bool = False
 ) -> pd.DataFrame:
     grouper = [
         "year",
@@ -200,7 +236,7 @@ def net_flows_by_country_pipeline(
 
     full_data = all_flows_pipeline(
         as_net_flows=True,
-        exclude_grants=exclude_grants,
+        version=version,
         exclude_outliers=True,
         remove_countries_wo_outflows=True,
         china_as_counterpart_type=False,
@@ -226,8 +262,12 @@ def net_flows_by_country_pipeline(
 
 
 if __name__ == "__main__":
-    net_flows = net_flows_by_country_pipeline(exclude_grants=False, constant=False)
+    net_flows = net_flows_by_country_pipeline(constant=False)
 
     net_flows_excluding_grants = net_flows_by_country_pipeline(
-        exclude_grants=True, constant=False
+        version="excluding_grants", constant=False
+    )
+
+    net_flows_excluding_concessional = net_flows_by_country_pipeline(
+        version="excluding_concessional_finance", constant=False
     )

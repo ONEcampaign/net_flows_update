@@ -1,4 +1,4 @@
-""" DEBT INFLOWS FROM IDS AND GRANTS INFLOWS FROM ODA DATA"""
+"""DEBT INFLOWS FROM IDS AND GRANTS INFLOWS FROM ODA DATA"""
 
 import pandas as pd
 from bblocks import set_bblocks_data_path, DebtIDS, add_income_level_column

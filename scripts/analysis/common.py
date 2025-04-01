@@ -18,7 +18,7 @@ GROUPS = {
 
 
 def create_grouping_totals(
-        data: pd.DataFrame, group_column: str, exclude_cols: list[str]
+    data: pd.DataFrame, group_column: str, exclude_cols: list[str]
 ) -> pd.DataFrame:
     """Create group totals as 'country'"""
 
@@ -111,12 +111,12 @@ def summarise_by_country(data: pd.DataFrame) -> pd.DataFrame:
                 c
                 for c in data.columns
                 if c
-                   not in [
-                       "value",
-                       "counterpart_area",
-                       "counterpart_type",
-                       "indicator",
-                   ]
+                not in [
+                    "value",
+                    "counterpart_area",
+                    "counterpart_type",
+                    "indicator",
+                ]
             ],
             observed=True,
             dropna=False,
