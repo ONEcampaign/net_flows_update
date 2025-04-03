@@ -43,6 +43,25 @@ def get_latest_inflows(
     return latest_inflows
 
 
+def extent_2023_data_to_2024(
+    data: pd.DataFrame,
+) -> pd.DataFrame:
+    """
+    Extend the 2023 data to 2024 by duplicating the 2023 data.
+    This is done to ensure that the data is available for the next year
+    for projections and scenarios.
+
+    Args:
+        data (pd.DataFrame): Input data
+    Returns:
+        pd.DataFrame: The extended DataFrame with 2024 data.
+    """
+    # Create 2024 data based on 2023
+    data24 = data.loc[lambda d: d.year == 2023].copy()
+    data24.year = 2024
+    return pd.concat([data, data24], ignore_index=True)
+
+
 def projected_scenarios(
     data: pd.DataFrame,
     version: Literal["grants", "concessional_finance"],
@@ -62,6 +81,11 @@ def projected_scenarios(
     Returns:
         pd.DataFrame: The projected DataFrame.
     """
+
+    # TODO: Remove this once the data is updated
+    # Extend 2023 data to 2024
+    data = extent_2023_data_to_2024(data)
+
     latest_year = data["year"].max()
 
     # Extend data to target_year by duplicating latest known year
@@ -130,7 +154,7 @@ def projected_inflows_scenario2(
         pd.DataFrame: The projected inflows DataFrame.
     """
     return (
-        projected_scenarios(data, version=version, reduce_by=30, target_year=2027)
+        projected_scenarios(data, version=version, reduce_by=20, target_year=2027)
         .groupby(OUTPUT_GROUPER, observed=True, dropna=False)["value"]
         .sum()
         .reset_index()
@@ -152,7 +176,7 @@ def projected_inflows_scenario3(
         pd.DataFrame: The projected inflows DataFrame.
     """
     return (
-        projected_scenarios(data, version=version, reduce_by=50, target_year=2027)
+        projected_scenarios(data, version=version, reduce_by=30, target_year=2027)
         .groupby(OUTPUT_GROUPER, observed=True, dropna=False)["value"]
         .sum()
         .reset_index()
