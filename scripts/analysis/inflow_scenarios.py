@@ -58,7 +58,7 @@ def extent_2023_data_to_2024(
     """
     # Create 2024 data based on 2023
     data24 = data.loc[lambda d: d.year == 2023].copy()
-    data24.year = 2024
+    data24.loc[:, 'year'] = 2024
     return pd.concat([data, data24], ignore_index=True)
 
 
