@@ -87,3 +87,21 @@ if __name__ == "__main__":
     net_flows_excluding_concessional = all_flows_excluding_concessional.pipe(
         convert_to_net_flows
     )
+
+    # Combine all flows
+    df = pd.concat(
+        [
+            inflows.assign(flow_type="all"),
+            outflows.assign(flow_type="all"),
+            net_flows.assign(flow_type="all"),
+            # inflows_excluding_grants.assign(flow_type="excluding_grants"),
+            # outflows_excluding_grants.assign(flow_type="excluding_grants"),
+            # net_flows_excluding_grants.assign(flow_type="excluding_grants"),
+            inflows_excluding_concessional.assign(flow_type="excluding_concessional"),
+            outflows_excluding_concessional.assign(flow_type="excluding_concessional"),
+            net_flows_excluding_concessional.assign(flow_type="excluding_concessional"),
+        ],
+        ignore_index=True,
+    )
+
+    df.to_csv(Paths.raw_data / "net_flows.csv", index=False)
