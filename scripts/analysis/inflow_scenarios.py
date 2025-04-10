@@ -1,6 +1,7 @@
 from typing import Literal, TypeAlias
 
 import pandas as pd
+from bblocks import add_iso_codes_column
 
 from scripts.analysis.common import (
     mask_grant_indicators,
@@ -9,6 +10,7 @@ from scripts.analysis.common import (
     OUTPUT_GROUPER,
     create_dev_countries_total,
 )
+from scripts.models.seek import extract_decreases, apply_linear_reduction
 
 Percent: TypeAlias = int
 
@@ -117,6 +119,65 @@ def projected_scenarios(
     return data
 
 
+def projected_scenarios_with_multiplier(
+    data: pd.DataFrame,
+    multipliers: pd.DataFrame,
+    version: Literal["grants", "concessional_finance"],
+    multiplier_col: str = "realistic_multiplier",
+    target_year: int = 2027,
+) -> pd.DataFrame:
+    """
+    Project values forward to the target year using a precomputed multiplier column.
+
+    Args:
+        data (pd.DataFrame): Input data with 'year', 'value', 'indicator' columns.
+        multipliers (pd.DataFrame): DataFrame with 'year', 'iso_code', and the multiplier column.
+        version (Literal["grants", "concessional_finance"]): Which type of flows to reduce.
+        multiplier_col (str): The name of the multiplier column to apply.
+        target_year (int): The year to project to.
+
+    Returns:
+        pd.DataFrame: Projected DataFrame with values scaled by the multiplier.
+    """
+
+    # Extend 2023 data to 2024 (temporary fix)
+    data = extent_2023_data_to_2024(data)
+
+    latest_year = data["year"].max()
+
+    # Extend data to target_year by duplicating latest known year
+    future_years = range(latest_year + 1, target_year + 1)
+    projected_rows = []
+
+    for year in future_years:
+        projected = data[data["year"] == latest_year].copy()
+        projected["year"] = year
+        projected_rows.append(projected)
+
+    if projected_rows:
+        data = pd.concat([data] + projected_rows, ignore_index=True)
+
+    # Join the multipliers to the data
+    data = data.merge(
+        multipliers[["iso_code", "year", multiplier_col]],
+        on=["iso_code", "year"],
+        how="left",
+    )
+
+    # Define mask for rows where multiplier should apply
+    if version == "grants":
+        apply_mask = ~mask_grant_indicators(data)
+    else:
+        apply_mask = ~mask_grant_and_concessional_indicators(data)
+
+    # Apply multiplier to value (default to 1 if no multiplier present)
+    data["value"] = data["value"] * data[multiplier_col].where(apply_mask, 1.0).fillna(
+        1.0
+    )
+
+    return data
+
+
 def projected_inflows_scenario1(
     data: pd.DataFrame,
     version: Literal["grants", "concessional_finance"],
@@ -140,44 +201,67 @@ def projected_inflows_scenario1(
     )
 
 
-def projected_inflows_scenario2(
+from typing import Literal
+
+
+def projected_inflows_scenario(
     data: pd.DataFrame,
     version: Literal["grants", "concessional_finance"],
+    *,
+    scenario: Literal[2, 3],
 ) -> pd.DataFrame:
     """
-    SCENARIO 2: [version] flows decline by 30% in nominal terms by 2027.
+    Projected inflows scenarios.
 
     Args:
         data (pd.DataFrame): Input inflows data.
-        version (Literal["grants", "concessional_finance"]): Which type of flows to reduce.
+        version (Literal["grants", "concessional_finance"]): Type of flows to reduce.
+        scenario (Literal[2, 3]): Scenario version.
+
     Returns:
         pd.DataFrame: The projected inflows DataFrame.
     """
-    return (
-        projected_scenarios(data, version=version, reduce_by=20, target_year=2027)
-        .groupby(OUTPUT_GROUPER, observed=True, dropna=False)["value"]
-        .sum()
-        .reset_index()
+    data = add_iso_codes_column(data, id_column="counterpart_area", id_type="regex")
+
+    # Prepare decreasing countries and projection parameters based on scenario
+    if scenario == 2:
+        seek_scenarios = extract_decreases()
+        multiplier_col = "realistic_multiplier"
+        reductions = {"USA": 60, "rest": 0}
+    elif scenario == 3:
+        seek_scenarios = extract_decreases().pipe(
+            apply_linear_reduction, reduction=0.1, start_year=2025, end_year=2027
+        )
+        multiplier_col = "realistic_multiplier_reduced"
+        reductions = {"USA": 80, "rest": 10}
+    else:
+        raise ValueError(f"Unsupported scenario: {scenario}")
+
+    is_seek = data["iso_code"].isin(seek_scenarios["iso_code"])
+    data_seek = data[is_seek]
+    data_other = data[~is_seek]
+
+    data_us = data_other[data_other["iso_code"] == "USA"]
+    data_rest = data_other[data_other["iso_code"] != "USA"]
+
+    projection_args = dict(version=version, target_year=2027)
+
+    data_seek = projected_scenarios_with_multiplier(
+        data_seek,
+        multipliers=seek_scenarios,
+        multiplier_col=multiplier_col,
+        **projection_args,
+    )
+    data_us = projected_scenarios(
+        data_us, reduce_by=reductions["USA"], **projection_args
+    )
+    data_rest = projected_scenarios(
+        data_rest, reduce_by=reductions["rest"], **projection_args
     )
 
-
-def projected_inflows_scenario3(
-    data: pd.DataFrame,
-    version: Literal["grants", "concessional_finance"],
-) -> pd.DataFrame:
-    """
-    SCENARIO 3: [version] flows decline by 50% in nominal terms by 2027.
-
-    Args:
-        data (pd.DataFrame): Input inflows data.
-        version (Literal["grants", "concessional_finance"]): Which type of flows to reduce.
-
-    Returns:
-        pd.DataFrame: The projected inflows DataFrame.
-    """
+    projected = pd.concat([data_seek, data_us, data_rest], ignore_index=True)
     return (
-        projected_scenarios(data, version=version, reduce_by=30, target_year=2027)
-        .groupby(OUTPUT_GROUPER, observed=True, dropna=False)["value"]
+        projected.groupby(OUTPUT_GROUPER, observed=True, dropna=False)["value"]
         .sum()
         .reset_index()
     )
@@ -189,23 +273,14 @@ if __name__ == "__main__":
 
     # --- Scenarios ---
 
-    scenario1_reduced_grants = projected_inflows_scenario1(
-        latest_inflows_data, version="grants"
-    )
     scenario1_reduced_concessional = projected_inflows_scenario1(
         latest_inflows_data, version="concessional_finance"
     )
 
-    scenario2_reduced_grants = projected_inflows_scenario2(
-        latest_inflows_data, version="grants"
-    )
-    scenario2_reduced_concessional = projected_inflows_scenario2(
-        latest_inflows_data, version="concessional_finance"
+    scenario2_reduced_concessional = projected_inflows_scenario(
+        latest_inflows_data, version="concessional_finance", scenario=2
     )
 
-    scenario3_reduced_grants = projected_inflows_scenario3(
-        latest_inflows_data, version="grants"
-    )
-    scenario3_reduced_concessional = projected_inflows_scenario3(
-        latest_inflows_data, version="concessional_finance"
+    scenario3_reduced_concessional = projected_inflows_scenario(
+        latest_inflows_data, version="concessional_finance", scenario=3
     )
