@@ -104,3 +104,21 @@ def add_gni(df):
 
     # Merge the GNI data with the original DataFrame
     return df.merge(gni, how='left', on=["year", "entity_code"])
+
+@lru_cache
+def get_gni_pc():
+    """Get a dataframe with GNI per capita values"""
+
+    wb = bbdata.WorldBank()
+
+    # Get GNI per capita data from World Bank
+    return wb.get_data("NY.GNP.PCAP.CD").loc[:, ['year', 'entity_code', 'value']].rename(columns = {"value":'gni_pc'})
+
+def add_gni_pc(df):
+    """ """
+
+    # Get GNI per capita data
+    gni_pc = get_gni_pc()
+
+    # Merge the GNI per capita data with the original DataFrame
+    return df.merge(gni_pc, how='left', on=["year", "entity_code"])
