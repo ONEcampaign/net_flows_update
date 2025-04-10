@@ -267,7 +267,7 @@ def mask_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.Series:
     is_grant = data.indicator.str.contains("grant", case=False)
     is_concessional = data.indicator.str.contains("concessional", case=False)
     is_non_concessional = data.indicator.str.contains(
-        "non[- ]?concessional", case=False
+        "non[-_ ]?concessional", case=False
     )
 
     return ~(is_grant | (is_concessional & ~is_non_concessional))
@@ -301,16 +301,16 @@ def exclude_grant_and_concessional_indicators(data: pd.DataFrame) -> pd.DataFram
     return data.loc[mask_grant_and_concessional_indicators(data)]
 
 
-def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
+def prep_flows(data: pd.DataFrame) -> pd.DataFrame:
     """
-    Prepare the inflow data for further processing.
+    Prepare the data for further processing.
 
     This function drops rows with NaN in 'iso_code', zero in 'value', or 'World' in
     'counterpart_area'. Then, it groups the DataFrame by all columns except
     'value', and sums up 'value' within each group.
 
     Args:
-        inflows (pd.DataFrame): The input DataFrame containing inflow data. It is expected to
+        data (pd.DataFrame): The input DataFrame containing data. It is expected to
          have columns including 'iso_code', 'value', and 'counterpart_area'.
 
     Returns:
@@ -318,7 +318,7 @@ def prep_flows(inflows: pd.DataFrame) -> pd.DataFrame:
 
     """
     # Drop rows with NaN in 'iso_code'
-    df = inflows.dropna(subset=["iso_code"])
+    df = data.dropna(subset=["iso_code"])
 
     # Further drop rows with zero 'value' or 'World' in 'counterpart_area'
     df = df.loc[lambda d: d.value != 0].loc[lambda d: d.counterpart_area != "World"]

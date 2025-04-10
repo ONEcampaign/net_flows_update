@@ -8,6 +8,7 @@ class Paths:
     raw_data = project / "raw_data"
     output = project / "output"
     scripts = project / "scripts"
+    models = scripts / "models"
 
 
 CONSTANT_BASE_YEAR = 2023
