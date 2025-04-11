@@ -65,6 +65,8 @@ def inflows_by_period(
 
     """
 
+    inflows_data = inflows_data.copy(deep=True)
+
     for period, settings in AVERAGE_PERIODS.items():
         start_year, end_year = settings["years"]
         inflows_data.loc[
