@@ -7,7 +7,7 @@ from scripts.analysis.common import (
     all_flows_pipeline,
     exclude_grant_and_concessional_indicators,
     create_dev_countries_total,
-    OUTPUT_GROUPER,
+    AVERAGE_PERIODS,
 )
 
 LAST_ANALYSIS_YEAR: int = 2027
@@ -69,7 +69,7 @@ def get_debt_service(
 
 def debt_service_by_period(debt_service_data: pd.DataFrame) -> pd.DataFrame:
     """
-    Group debt service data by specified periods and calculate average values.
+    Group debt service data by specified AVERAGE_PERIODS and calculate average values.
 
     Args:
         debt_service_data (pd.DataFrame): The debt service data to group.
@@ -78,13 +78,7 @@ def debt_service_by_period(debt_service_data: pd.DataFrame) -> pd.DataFrame:
 
     """
 
-    periods = {
-        "2010-2014": {"length": 5, "years": (2010, 2014)},
-        "2018-2022": {"length": 5, "years": (2018, 2022)},
-        "2024-2025 (projected)": {"length": 2, "years": (2024, 2025)},
-    }
-
-    for period, settings in periods.items():
+    for period, settings in AVERAGE_PERIODS.items():
         start_year, end_year = settings["years"]
         debt_service_data.loc[
             (debt_service_data.year >= start_year)
@@ -114,7 +108,7 @@ def debt_service_by_period(debt_service_data: pd.DataFrame) -> pd.DataFrame:
     )
 
     debt_service_data["length"] = debt_service_data["period"].map(
-        lambda x: periods[x]["length"] if x in periods else None
+        lambda x: AVERAGE_PERIODS[x]["length"] if x in AVERAGE_PERIODS else None
     )
 
     debt_service_data["value"] = (

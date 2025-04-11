@@ -32,6 +32,12 @@ GROUPS = {
     "Oceania": 11,
 }
 
+AVERAGE_PERIODS = {
+    "2010-2014": {"length": 5, "years": (2010, 2014)},
+    "2018-2022": {"length": 5, "years": (2018, 2022)},
+    "2024-2025 (projected)": {"length": 2, "years": (2024, 2025)},
+}
+
 
 def create_grouping_totals(
     data: pd.DataFrame, group_column: str, exclude_cols: list[str]
