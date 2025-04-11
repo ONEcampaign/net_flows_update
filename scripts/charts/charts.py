@@ -2,6 +2,7 @@
 
 import pandas as pd
 import country_converter as coco
+import numpy as np
 
 from scripts.config import Paths
 from scripts.utils import custom_sort, add_gni, add_gni_pc
@@ -10,6 +11,7 @@ from scripts.utils import custom_sort, add_gni, add_gni_pc
 net_flows_data = pd.read_csv(Paths.raw_data / "net_flows.csv")
 inflows_data = pd.read_csv(Paths.raw_data / "total_inflows.csv")
 outflows_avg_data = pd.read_csv(Paths.raw_data / "debt_service_by_period.csv")
+net_flows_scenarios_data = pd.read_csv(Paths.raw_data / "net_flows_scenarios.csv")
 
 def chart_1():
     """ Create data for chart 1: net flows comparison with/without concessional finance """
@@ -107,6 +109,58 @@ def chart_4():
     outflows_avg_data.loc[:, ['period', 'country', 'counterpart_type', 'prices', 'value']].to_csv(Paths.output / "chart_4_download.csv", index=False)
 
 
+def chart_5():
+    """Scenarios line chart"""
+
+    # get average of 2022-23 net flows
+
+    net_flows = net_flows_data.loc[lambda d: (d.indicator_type == "net_flow")&(d.flow_type == "all"), ['year', 'country', 'value']]
+
+    avg_scen = (net_flows
+                .loc[lambda d: d.year.isin([2022, 2023])]
+                .groupby(['country'])
+                .agg({"value": "mean"})
+                .reset_index()
+                .rename(columns = {'value': "2022-2023 average net flow"})
+                )
+
+    net_flows_scenarios = net_flows_scenarios_data.loc[:, ['year', 'country', 'scenario', 'net_flows']].rename(columns = {"net_flows": 'value'})
+
+    # chart data
+    (pd.concat([
+        net_flows.loc[lambda d: d.year == 2023].assign(scenario = "scenario 1"),
+        net_flows.loc[lambda d: d.year == 2023].assign(scenario = "scenario 2"),
+        net_flows.loc[lambda d: d.year == 2023].assign(scenario = "scenario 3"),
+        net_flows_scenarios,
+
+    ])
+     .pivot(index=['year', 'country'], columns = 'scenario', values='value')
+     .reset_index()
+     .merge(avg_scen, how='left')
+     .melt(id_vars=['year', 'country'])
+     .assign(show = lambda d: np.where(d.variable != "2022-2023 average net flow", True, None))
+     .pivot(index=['year', 'country', 'show'], columns='variable', values='value')
+     .reset_index()
+
+     .rename(columns = {"scenario 1": "constant aid ratios",
+                        "scenario 2": "20% decrease in concessional finance",
+                        "scenario 3": "30% decrease in concessional finance"})
+
+     .pipe(custom_sort, "country", ['Developing countries', "Africa", "Low income", "Lower middle income", "Upper middle income"])
+     .to_csv(Paths.output / "chart_5.csv", index=False)
+     )
+
+    # download data
+    (net_flows_scenarios
+     .pivot(index=['year', 'country'], columns = 'scenario', values='value')
+     .reset_index()
+     .merge(avg_scen, how='left')
+     .melt(id_vars=['year', 'country'])
+     .assign(notes = lambda d: d.variable.map({"scenario 1": "constant aid ratios",
+                                               "scenario 2": "20% decrease in concessional finance",
+                                               "scenario 3": "30% decrease in concessional finance"}))
+     .to_csv(Paths.output / "chart_5_download.csv", index=False)
+     )
 
 
 if __name__ == "__main__":
@@ -114,4 +168,5 @@ if __name__ == "__main__":
     chart_2()
     chart_3()
     chart_4()
+    chart_5()
 
