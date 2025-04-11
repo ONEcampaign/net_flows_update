@@ -6,7 +6,6 @@ from scripts.analysis.common import (
     all_flows_pipeline,
     exclude_grant_and_concessional_indicators,
     create_dev_countries_total,
-    OUTPUT_GROUPER,
     AVERAGE_PERIODS,
 )
 
@@ -108,7 +107,7 @@ def debt_service_by_period(debt_service_data: pd.DataFrame) -> pd.DataFrame:
     )
 
     debt_service_data["length"] = debt_service_data["period"].map(
-        lambda x: periods[x]["length"] if x in periods else None
+        lambda x: AVERAGE_PERIODS[x]["length"] if x in AVERAGE_PERIODS else None
     )
 
     debt_service_data["value"] = (
