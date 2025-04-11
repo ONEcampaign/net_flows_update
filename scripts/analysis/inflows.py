@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 from scripts.analysis.common import (
     all_flows_pipeline,
@@ -6,6 +7,7 @@ from scripts.analysis.common import (
     create_dev_countries_total,
     AVERAGE_PERIODS,
 )
+from scripts.config import Paths
 
 
 def historical_inflows(
@@ -97,6 +99,44 @@ def inflows_by_period(
     return data.drop(columns=["length"])
 
 
+def add_income_aggs(df):
+    """" """
+
+    return pd.concat([(df
+                       .loc[lambda d: (d.country != 'Developing countries')&(d.income_level != "High income")]
+                       .groupby(by=['year', 'income_level', 'counterpart_type'])
+                       .agg({"value": "sum"})
+                       .reset_index()
+                       .rename(columns = {"income_level": "country"})
+                       .assign(income_level = None,
+                               continent = None,
+                               prices="current",
+                               period=np.nan
+                               )
+                       ), df], ignore_index=True)
+
+
+def add_africa_agg(df):
+    """ """
+
+    return pd.concat([(df.loc[lambda d: (d.continent == 'Africa')]
+                       .groupby(by=['year', 'continent', 'counterpart_type'])
+                       .agg({"value": "sum"})
+                       .reset_index()
+                       .rename(columns = {"continent": "country"})
+                       .assign(income_level = None,
+                               continent = None,
+                               prices="current",
+                               period=np.nan
+                               )
+                       ), df], ignore_index=True)
+
+
+
 if __name__ == "__main__":
     total_inflows = historical_inflows(debt_only=True, china_as_counterpart_type=True)
-    total_inflows_avg = inflows_by_period(total_inflows, china_as_counterpart_type=True)
+
+    total_inflows = total_inflows.pipe(add_income_aggs).pipe(add_africa_agg)
+    total_inflows.to_csv(Paths.raw_data / "total_inflows.csv", index=False)
+
+    # total_inflows_avg = inflows_by_period(total_inflows, china_as_counterpart_type=True)

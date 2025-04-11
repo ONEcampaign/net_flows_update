@@ -8,6 +8,8 @@ from scripts.utils import custom_sort, add_gni, add_gni_pc
 
 
 net_flows_data = pd.read_csv(Paths.raw_data / "net_flows.csv")
+inflows_data = pd.read_csv(Paths.raw_data / "total_inflows.csv")
+outflows_avg_data = pd.read_csv(Paths.raw_data / "debt_service_by_period.csv")
 
 def chart_1():
     """ Create data for chart 1: net flows comparison with/without concessional finance """
@@ -69,6 +71,47 @@ def chart_2():
      )
 
 
+def chart_3():
+    """Line chart new debt inflows"""
+
+    df = (inflows_data.pivot(index=['year', 'country'], columns='counterpart_type', values='value')
+     .reset_index()
+     .pipe(custom_sort, "country", ['Developing countries', "Africa", "Low income", "Lower middle income", "Upper middle income"])
+     )
+
+    df.to_csv(Paths.output / "chart_3.csv", index=False)
+    df.assign(prices = "current").to_csv(Paths.output / "chart_3_data.csv", index=False)
+
+
+def chart_4():
+    """ """
+
+    o1 = (outflows_avg_data
+          .loc[lambda d: d.period.isin(['2010-2014', '2018-2022'])]
+          .assign(code = lambda d: d.counterpart_type + " " + "data")
+          )
+
+    o2 = (outflows_avg_data
+          .loc[lambda d: d.period.isin(['2018-2022', "2024-2025 (projected)"])]
+          .assign(code = lambda d: d.counterpart_type)
+          )
+
+    df = (pd.concat([o1, o2])
+     .pivot(index=['country', 'period', 'counterpart_type'], columns = 'code', values='value')
+     .reset_index()
+     .pipe(custom_sort, "country", ['Developing countries', "Africa", "Low income", "Lower middle income", "Upper middle income"])
+     )
+    df.to_csv(Paths.output / "chart_4.csv", index=False)
+
+    # download data
+    outflows_avg_data.loc[:, ['period', 'country', 'counterpart_type', 'prices', 'value']].to_csv(Paths.output / "chart_4_download.csv", index=False)
+
+
+
+
 if __name__ == "__main__":
     chart_1()
     chart_2()
+    chart_3()
+    chart_4()
+

@@ -9,6 +9,7 @@ from scripts.analysis.common import (
     create_dev_countries_total,
     AVERAGE_PERIODS,
 )
+from scripts.config import Paths
 
 LAST_ANALYSIS_YEAR: int = 2027
 
@@ -167,3 +168,6 @@ if __name__ == "__main__":
 
     # To recreate chart data
     ds_by_period = debt_service_by_period(debt_service)
+
+    # Save to CSV
+    ds_by_period.to_csv(Paths.raw_data / "debt_service_by_period.csv", index=False)
