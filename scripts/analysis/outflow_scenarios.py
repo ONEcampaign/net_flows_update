@@ -10,6 +10,8 @@ from scripts.analysis.common import (
     exclude_grant_and_concessional_indicators,
 )
 
+from scripts.config import Paths
+
 Percent: TypeAlias = int
 
 
@@ -67,3 +69,5 @@ if __name__ == "__main__":
         remove_countries_wo_outflows=True,
         china_as_counterpart_type=False,
     )
+
+    scenario_total_outflows.to_csv(Paths.raw_data / "outflows_scenarios.csv", index=False)
