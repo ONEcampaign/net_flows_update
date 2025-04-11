@@ -51,4 +51,4 @@ if __name__ == "__main__":
                  .assign(net_flows = lambda d: d.inflows + d.outflows)
                  )
 
-    scenarios.to_csv(Paths.raw_data / "net_flows_scenarios.csv")
+    scenarios.to_csv(Paths.raw_data / "net_flows_scenarios.csv", index=False)
