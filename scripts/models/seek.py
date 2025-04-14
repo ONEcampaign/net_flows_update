@@ -3,7 +3,7 @@ from bblocks import add_iso_codes_column
 
 from scripts.config import Paths
 
-SEEK_FILE = "202502_seek_emeea.xlsx"
+SEEK_FILE = "202504_seek.xlsx"
 IDX = ["year", "donor"]
 
 indicators = {
@@ -80,9 +80,14 @@ def extract_decreases():
         get_seek_indicator("oda")
         .pipe(add_iso_codes_column, id_column="donor", id_type="regex")
         .merge(load_deflators(), how="left", on=["year", "iso_code"])
+        .sort_values(["donor", "year"])
     )
 
-    scenarios = ["downside", "realistic", "upside"]
+    scenarios = [
+        # "downside",
+        "realistic",
+        # "upside",
+    ]
 
     for col in scenarios:
         data[col] = data[col] * data["usd_usd_deflator"]
@@ -101,6 +106,8 @@ def extract_decreases():
         )
         # Compute multiplicative factor
         data[f"{scenario}_multiplier"] = data[scenario] / data[f"{scenario}_2023"]
+
+    data = data.dropna(subset=[f"{scenario}_multiplier" for scenario in scenarios])
 
     return data.filter(["year", "iso_code", "donor", "realistic_multiplier"])
 
