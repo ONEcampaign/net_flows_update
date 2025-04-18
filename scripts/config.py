@@ -11,5 +11,5 @@ class Paths:
     models = scripts / "models"
 
 
-CONSTANT_BASE_YEAR = 2023
-ANALYSIS_YEARS: tuple = (2000, 2023)
+CONSTANT_BASE_YEAR = 2024
+ANALYSIS_YEARS: tuple = (2000, 2024)
