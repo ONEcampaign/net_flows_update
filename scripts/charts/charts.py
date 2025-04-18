@@ -175,10 +175,10 @@ def chart_6():
 
 
 if __name__ == "__main__":
-    # chart_1()
-    # chart_2()
-    # chart_3()
-    # chart_4()
+    chart_1()
+    chart_2()
+    chart_3()
+    chart_4()
     chart_5()
-    # chart_6()
+    chart_6()
 
