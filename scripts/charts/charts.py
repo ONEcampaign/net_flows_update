@@ -163,10 +163,40 @@ def chart_5():
      )
 
 
+def chart_6():
+    """Scatter plot of net flows as % of GNI"""
+
+    df = (net_flows_data
+          .loc[lambda d: (d.income_level.isin(['Upper middle income', 'Lower middle income', 'Low income']))&(d.year == 2023)&(d.indicator_type == "net_flow")]
+          .assign(entity_code = lambda d: coco.CountryConverter().pandas_convert(d.country))
+          .pipe(add_gni)
+          .assign(value_pct_gni = lambda d: (d.value/d.gni)*100)
+          .assign(flow_type = lambda d: d.flow_type.map({'all': 'all flows', 'excluding_concessional': "excluding concessional finance"}))
+          )
+
+    # download data
+    (df.rename(columns = {"value_pct_gni": "net flows as % of GNI",
+                          "gni": "GNI, Atlas method (current US$)",
+                          "value": "net flows (current US$)",
+                          })
+        .to_csv(Paths.output / "chart_6_download.csv", index=False)
+     )
+
+    #chart data
+    (df
+            .assign(color = lambda d: np.where(d.value<0, "highlight", ""))
+            .pipe(custom_sort, "income_level", ['Upper middle income', 'Lower middle income', 'Low income'])
+            .assign(value = lambda d: round(d.value/1e9, 2))
+     .to_csv(Paths.output / "chart_6.csv", index=False)
+     )
+
+
+
 if __name__ == "__main__":
     chart_1()
     chart_2()
     chart_3()
     chart_4()
     chart_5()
+    chart_6()
 

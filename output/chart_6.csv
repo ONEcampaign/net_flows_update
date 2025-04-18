@@ -1,0 +1,231 @@
+year,country,continent,income_level,prices,indicator_type,value,flow_type,entity_code,gni,value_pct_gni,color
+2023,Albania,Europe,Upper middle income,current,net_flow,0.83,all flows,ALB,21085728668.9891,3.9454871020109965,
+2023,Algeria,Africa,Upper middle income,current,net_flow,0.13,all flows,DZA,228481173657.541,0.058043271914724325,
+2023,Argentina,America,Upper middle income,current,net_flow,-2.09,all flows,ARG,586900838956.78,-0.35619311685017835,highlight
+2023,Armenia,Asia,Upper middle income,current,net_flow,-0.1,all flows,ARM,20271184637.3755,-0.4741935847339069,highlight
+2023,Azerbaijan,Asia,Upper middle income,current,net_flow,-1.22,all flows,AZE,67644748293.1306,-1.8084768458281508,highlight
+2023,Belarus,Europe,Upper middle income,current,net_flow,-2.35,all flows,BLR,71537964249.8465,-3.2919221056881742,highlight
+2023,Belize,America,Upper middle income,current,net_flow,0.02,all flows,BLZ,2833194956.38381,0.8073729324012402,
+2023,Bosnia and Herzegovina,Europe,Upper middle income,current,net_flow,0.09,all flows,BIH,26361981841.587,0.3381743843680347,
+2023,Botswana,Africa,Upper middle income,current,net_flow,-0.09,all flows,BWA,20694114857.1621,-0.42074408691061205,highlight
+2023,Brazil,America,Upper middle income,current,net_flow,-10.91,all flows,BRA,1959785256812.05,-0.5569170595024393,highlight
+2023,Colombia,America,Upper middle income,current,net_flow,1.13,all flows,COL,356116258547.67,0.3170012449877754,
+2023,Costa Rica,America,Upper middle income,current,net_flow,0.86,all flows,CRI,72788330406.7829,1.176479294983527,
+2023,Dominica,America,Upper middle income,current,net_flow,0.03,all flows,DMA,651217745.774612,4.748184551270174,
+2023,Dominican Republic,America,Upper middle income,current,net_flow,0.7,all flows,DOM,109970079310.192,0.6350042379530059,
+2023,Ecuador,America,Upper middle income,current,net_flow,0.17,all flows,ECU,118411862812.63,0.1454039284665621,
+2023,El Salvador,America,Upper middle income,current,net_flow,-0.01,all flows,SLV,31320391044.6757,-0.03900577353128857,highlight
+2023,Fiji,Oceania,Upper middle income,current,net_flow,0.12,all flows,FJI,5249619836.58254,2.240768965407167,
+2023,Gabon,Africa,Upper middle income,current,net_flow,-0.21,all flows,GAB,19697281550.0883,-1.0506239730277518,highlight
+2023,Georgia,Asia,Upper middle income,current,net_flow,0.5,all flows,GEO,24935292680.6087,1.9865550464752264,
+2023,Grenada,America,Upper middle income,current,net_flow,0.03,all flows,GRD,1225300822.9837,2.494064863645858,
+2023,Guatemala,America,Upper middle income,current,net_flow,1.19,all flows,GTM,99309065126.0951,1.2010409329556637,
+2023,Indonesia,Asia,Upper middle income,current,net_flow,0.63,all flows,IDN,1352588341753.92,0.046611178526237924,
+2023,Iran,Asia,Upper middle income,current,net_flow,0.21,all flows,IRN,421281139491.468,0.04936312471786116,
+2023,Iraq,Asia,Upper middle income,current,net_flow,-1.6,all flows,IRQ,254317762706.476,-0.6291647554114218,highlight
+2023,Jamaica,America,Upper middle income,current,net_flow,-0.89,all flows,JAM,17606151760.4622,-5.06263522788469,highlight
+2023,Kazakhstan,Asia,Upper middle income,current,net_flow,-2.6,all flows,KAZ,218067800983.059,-1.1910124151716324,highlight
+2023,Kosovo,Europe,Upper middle income,current,net_flow,0.37,all flows,XKX,10581386745.789,3.4820975062331136,
+2023,Maldives,Asia,Upper middle income,current,net_flow,0.34,all flows,MDV,5821045421.66288,5.860789072876571,
+2023,Mauritius,Africa,Upper middle income,current,net_flow,0.25,all flows,MUS,14614798552.7811,1.700453056554165,
+2023,Mexico,America,Upper middle income,current,net_flow,-0.02,all flows,MEX,1554141013602.26,-0.0011685874474095294,highlight
+2023,Moldova,Europe,Upper middle income,current,net_flow,1.05,all flows,MDA,15243840959.3158,6.889227396184644,
+2023,Mongolia,Asia,Upper middle income,current,net_flow,-0.03,all flows,MNG,16956242137.3992,-0.20248563403250822,highlight
+2023,Montenegro,Europe,Upper middle income,current,net_flow,-0.1,all flows,MNE,7142599446.54535,-1.4284484824267707,highlight
+2023,North Macedonia,Europe,Upper middle income,current,net_flow,0.48,all flows,MKD,14442937306.4335,3.336240457717441,
+2023,Paraguay,America,Upper middle income,current,net_flow,0.45,all flows,PRY,42537624853.6259,1.065168530351967,
+2023,Peru,America,Upper middle income,current,net_flow,-2.1,all flows,PER,239833568032.405,-0.8751401256793258,highlight
+2023,Serbia,Europe,Upper middle income,current,net_flow,2.95,all flows,SRB,71266837701.7708,4.134157025360468,
+2023,South Africa,Africa,Upper middle income,current,net_flow,-5.19,all flows,ZAF,409784434310.326,-1.2655239948359656,highlight
+2023,St. Lucia,America,Upper middle income,current,net_flow,0.1,all flows,LCA,2214529078.86671,4.544551785768509,
+2023,St. Vincent and the Grenadines,America,Upper middle income,current,net_flow,0.07,all flows,VCT,1043794149.97676,6.313611855504965,
+2023,Suriname,America,Upper middle income,current,net_flow,0.18,all flows,SUR,3269685965.70915,5.484664447312007,
+2023,Thailand,Asia,Upper middle income,current,net_flow,-4.61,all flows,THA,515977360270.255,-0.8934030701241491,highlight
+2023,Tonga,Oceania,Upper middle income,current,net_flow,0.12,all flows,TON,,,
+2023,Turkmenistan,Asia,Upper middle income,current,net_flow,-0.8,all flows,TKM,60768465830.514,-1.3211552600968621,highlight
+2023,Türkiye,Asia,Upper middle income,current,net_flow,2.23,all flows,TUR,1000795964008.77,0.22235672645863086,
+2023,Albania,Europe,Upper middle income,current,net_flow,0.56,excluding concessional finance,ALB,21085728668.9891,2.6640568031502174,
+2023,Algeria,Africa,Upper middle income,current,net_flow,-0.1,excluding concessional finance,DZA,228481173657.541,-0.04247052601604898,highlight
+2023,Argentina,America,Upper middle income,current,net_flow,-2.23,excluding concessional finance,ARG,586900838956.78,-0.3801154705563958,highlight
+2023,Armenia,Asia,Upper middle income,current,net_flow,-0.25,excluding concessional finance,ARM,20271184637.3755,-1.2245433182149645,highlight
+2023,Azerbaijan,Asia,Upper middle income,current,net_flow,-1.32,excluding concessional finance,AZE,67644748293.1306,-1.9532858126314872,highlight
+2023,Belarus,Europe,Upper middle income,current,net_flow,-2.51,excluding concessional finance,BLR,71537964249.8465,-3.5126552879304107,highlight
+2023,Belize,America,Upper middle income,current,net_flow,-0.02,excluding concessional finance,BLZ,2833194956.38381,-0.8787398743564369,highlight
+2023,Bosnia and Herzegovina,Europe,Upper middle income,current,net_flow,-0.13,excluding concessional finance,BIH,26361981841.587,-0.5081434726909582,highlight
+2023,Botswana,Africa,Upper middle income,current,net_flow,-0.17,excluding concessional finance,BWA,20694114857.1621,-0.8047051205109466,highlight
+2023,Brazil,America,Upper middle income,current,net_flow,-11.36,excluding concessional finance,BRA,1959785256812.05,-0.5799104688483704,highlight
+2023,Colombia,America,Upper middle income,current,net_flow,0.1,excluding concessional finance,COL,356116258547.67,0.02689547806399235,
+2023,Costa Rica,America,Upper middle income,current,net_flow,0.78,excluding concessional finance,CRI,72788330406.7829,1.068962290591973,
+2023,Dominica,America,Upper middle income,current,net_flow,-0.02,excluding concessional finance,DMA,651217745.774612,-2.579857844631693,highlight
+2023,Dominican Republic,America,Upper middle income,current,net_flow,0.58,excluding concessional finance,DOM,109970079310.192,0.5314428941635183,
+2023,Ecuador,America,Upper middle income,current,net_flow,-0.18,excluding concessional finance,ECU,118411862812.63,-0.14941731816174822,highlight
+2023,El Salvador,America,Upper middle income,current,net_flow,-0.37,excluding concessional finance,SLV,31320391044.6757,-1.1826070318587725,highlight
+2023,Fiji,Oceania,Upper middle income,current,net_flow,-0.07,excluding concessional finance,FJI,5249619836.58254,-1.2416258420425368,highlight
+2023,Gabon,Africa,Upper middle income,current,net_flow,-0.2,excluding concessional finance,GAB,19697281550.0883,-1.0313570630719309,highlight
+2023,Georgia,Asia,Upper middle income,current,net_flow,0.26,excluding concessional finance,GEO,24935292680.6087,1.0398934727630003,
+2023,Grenada,America,Upper middle income,current,net_flow,-0.01,excluding concessional finance,GRD,1225300822.9837,-0.5886640541410912,highlight
+2023,Guatemala,America,Upper middle income,current,net_flow,0.83,excluding concessional finance,GTM,99309065126.0951,0.8318317303169667,
+2023,Indonesia,Asia,Upper middle income,current,net_flow,-0.9,excluding concessional finance,IDN,1352588341753.92,-0.0665191107468299,highlight
+2023,Iran,Asia,Upper middle income,current,net_flow,-0.03,excluding concessional finance,IRN,421281139491.468,-0.007593797039814526,highlight
+2023,Iraq,Asia,Upper middle income,current,net_flow,-3.57,excluding concessional finance,IRQ,254317762706.476,-1.4034715890134366,highlight
+2023,Jamaica,America,Upper middle income,current,net_flow,-0.98,excluding concessional finance,JAM,17606151760.4622,-5.539322623528251,highlight
+2023,Kazakhstan,Asia,Upper middle income,current,net_flow,-2.7,excluding concessional finance,KAZ,218067800983.059,-1.2394759390039338,highlight
+2023,Kosovo,Europe,Upper middle income,current,net_flow,-0.01,excluding concessional finance,XKX,10581386745.789,-0.07669118986913001,highlight
+2023,Maldives,Asia,Upper middle income,current,net_flow,0.14,excluding concessional finance,MDV,5821045421.66288,2.380022667138423,
+2023,Mauritius,Africa,Upper middle income,current,net_flow,0.21,excluding concessional finance,MUS,14614798552.7811,1.4233694542468704,
+2023,Mexico,America,Upper middle income,current,net_flow,-0.38,excluding concessional finance,MEX,1554141013602.26,-0.024548008691676917,highlight
+2023,Moldova,Europe,Upper middle income,current,net_flow,0.16,excluding concessional finance,MDA,15243840959.3158,1.043740006371342,
+2023,Mongolia,Asia,Upper middle income,current,net_flow,-0.14,excluding concessional finance,MNG,16956242137.3992,-0.8179747256267584,highlight
+2023,Montenegro,Europe,Upper middle income,current,net_flow,-0.2,excluding concessional finance,MNE,7142599446.54535,-2.7554012411432294,highlight
+2023,North Macedonia,Europe,Upper middle income,current,net_flow,0.27,excluding concessional finance,MKD,14442937306.4335,1.8727138231052136,
+2023,Paraguay,America,Upper middle income,current,net_flow,0.39,excluding concessional finance,PRY,42537624853.6259,0.9190425256352232,
+2023,Peru,America,Upper middle income,current,net_flow,-2.64,excluding concessional finance,PER,239833568032.405,-1.1012238356238557,highlight
+2023,Serbia,Europe,Upper middle income,current,net_flow,2.4,excluding concessional finance,SRB,71266837701.7708,3.3700925179963788,
+2023,South Africa,Africa,Upper middle income,current,net_flow,-6.71,excluding concessional finance,ZAF,409784434310.326,-1.6385495322926675,highlight
+2023,St. Lucia,America,Upper middle income,current,net_flow,0.07,excluding concessional finance,LCA,2214529078.86671,3.131245647742232,
+2023,St. Vincent and the Grenadines,America,Upper middle income,current,net_flow,0.05,excluding concessional finance,VCT,1043794149.97676,4.456330695188861,
+2023,Suriname,America,Upper middle income,current,net_flow,0.12,excluding concessional finance,SUR,3269685965.70915,3.8155483434306534,
+2023,Thailand,Asia,Upper middle income,current,net_flow,-4.71,excluding concessional finance,THA,515977360270.255,-0.913239730195124,highlight
+2023,Tonga,Oceania,Upper middle income,current,net_flow,-0.01,excluding concessional finance,TON,,,highlight
+2023,Turkmenistan,Asia,Upper middle income,current,net_flow,-0.82,excluding concessional finance,TKM,60768465830.514,-1.3505871401938239,highlight
+2023,Türkiye,Asia,Upper middle income,current,net_flow,-0.18,excluding concessional finance,TUR,1000795964008.77,-0.01790191046358292,highlight
+2023,Angola,Africa,Lower middle income,current,net_flow,-6.58,all flows,AGO,78048984686.834,-8.42575298844257,highlight
+2023,Bangladesh,Asia,Lower middle income,current,net_flow,7.11,all flows,BGD,493931962471.176,1.4385395340789764,
+2023,Benin,Africa,Lower middle income,current,net_flow,1.46,all flows,BEN,19610877128.0441,7.465499611979965,
+2023,Bhutan,Asia,Lower middle income,current,net_flow,0.12,all flows,BTN,,,
+2023,Bolivia,America,Lower middle income,current,net_flow,-0.13,all flows,BOL,44317641753.2457,-0.2967654881825204,highlight
+2023,Cabo Verde,Africa,Lower middle income,current,net_flow,0.02,all flows,CPV,2496047164.26938,0.6473725068704712,
+2023,Cambodia,Asia,Lower middle income,current,net_flow,1.53,all flows,KHM,41658227478.8178,3.6801494933492704,
+2023,Cameroon,Africa,Lower middle income,current,net_flow,0.29,all flows,CMR,47905444552.8735,0.5959618489395173,
+2023,Comoros,Africa,Lower middle income,current,net_flow,0.14,all flows,COM,1366416849.96979,10.582783621498598,
+2023,Congo Republic,Africa,Lower middle income,current,net_flow,-0.22,all flows,COG,15144181834.2659,-1.4799416479065552,highlight
+2023,Cote d'Ivoire,Africa,Lower middle income,current,net_flow,2.12,all flows,CIV,76938116005.6078,2.757156250284819,
+2023,Djibouti,Africa,Lower middle income,current,net_flow,0.42,all flows,DJI,3921774065.18753,10.715376613106992,
+2023,Egypt,Africa,Lower middle income,current,net_flow,1.04,all flows,EGY,439283081783.312,0.23629127996147442,
+2023,Eswatini,Africa,Lower middle income,current,net_flow,0.1,all flows,SWZ,4538254139.26607,2.2959250165935057,
+2023,Ghana,Africa,Lower middle income,current,net_flow,1.26,all flows,GHA,79823496732.6041,1.5785181328511488,
+2023,Guinea,Africa,Lower middle income,current,net_flow,0.61,all flows,GIN,19380027113.6762,3.1381498350475487,
+2023,Haiti,America,Lower middle income,current,net_flow,1.02,all flows,HTI,20425676906.556,5.004108307773784,
+2023,Honduras,America,Lower middle income,current,net_flow,-0.15,all flows,HND,30718597488.6796,-0.48338847291033255,highlight
+2023,India,Asia,Lower middle income,current,net_flow,6.28,all flows,IND,3649300224484.68,0.17203159934276202,
+2023,Jordan,Asia,Lower middle income,current,net_flow,4.56,all flows,JOR,50617750160.5041,9.018322920171721,
+2023,Kenya,Africa,Lower middle income,current,net_flow,1.44,all flows,KEN,116961158793.37,1.2279372137012483,
+2023,Kyrgyz Republic,Asia,Lower middle income,current,net_flow,0.43,all flows,KGZ,12517407824.442,3.4711673790125888,
+2023,Laos,Asia,Lower middle income,current,net_flow,0.15,all flows,LAO,16195396090.5168,0.9522475877592371,
+2023,Lebanon,Asia,Lower middle income,current,net_flow,1.81,all flows,LBN,,,
+2023,Lesotho,Africa,Lower middle income,current,net_flow,0.16,all flows,LSO,2897894309.49996,5.658872018293056,
+2023,Mauritania,Africa,Lower middle income,current,net_flow,0.2,all flows,MRT,10690657303.943,1.8705472303021469,
+2023,Morocco,Africa,Lower middle income,current,net_flow,2.47,all flows,MAR,143921185426.809,1.7138603106867762,
+2023,Myanmar,Asia,Lower middle income,current,net_flow,0.57,all flows,MMR,66551891335.7264,0.8495016815495126,
+2023,Nepal,Asia,Lower middle income,current,net_flow,1.13,all flows,NPL,42332900721.6582,2.672562059800384,
+2023,Nicaragua,America,Lower middle income,current,net_flow,0.3,all flows,NIC,16015791685.007,1.8764399625735309,
+2023,Nigeria,Africa,Lower middle income,current,net_flow,4.14,all flows,NGA,429500770756.848,0.9634007102498376,
+2023,Pakistan,Asia,Lower middle income,current,net_flow,-0.1,all flows,PAK,360507993853.122,-0.02685948071915738,highlight
+2023,Papua New Guinea,Oceania,Lower middle income,current,net_flow,0.82,all flows,PNG,29306179272.9245,2.8040915673344764,
+2023,Philippines,Asia,Lower middle income,current,net_flow,4.7,all flows,PHL,496166217235.821,0.9477331225203198,
+2023,Samoa,Oceania,Lower middle income,current,net_flow,0.09,all flows,WSM,910987126.318047,10.286765925963618,
+2023,Sao Tome and Principe,Africa,Lower middle income,current,net_flow,0.1,all flows,STP,596230257.779722,17.049505652152984,
+2023,Senegal,Africa,Lower middle income,current,net_flow,2.31,all flows,SEN,29532140835.2309,7.829746107473218,
+2023,Solomon Islands,Oceania,Lower middle income,current,net_flow,0.26,all flows,SLB,1682105891.02191,15.275870441419972,
+2023,Sri Lanka,Asia,Lower middle income,current,net_flow,2.94,all flows,LKA,77922856754.9798,3.77466974606527,
+2023,Tajikistan,Asia,Lower middle income,current,net_flow,0.46,all flows,TJK,14584547608.9448,3.1417736812006063,
+2023,Tanzania,Africa,Lower middle income,current,net_flow,3.79,all flows,TZA,79088209745.4677,4.786374010719004,
+2023,Timor-Leste,Asia,Lower middle income,current,net_flow,0.26,all flows,TLS,2794350171.50329,9.323375908891283,
+2023,Tunisia,Africa,Lower middle income,current,net_flow,0.67,all flows,TUN,46797066430.0508,1.4325042865710937,
+2023,Uzbekistan,Asia,Lower middle income,current,net_flow,3.6,all flows,UZB,96089212409.0534,3.74922595438046,
+2023,Vanuatu,Oceania,Lower middle income,current,net_flow,0.16,all flows,VUT,1224681373.76549,12.843834091831308,
+2023,Vietnam,Asia,Lower middle income,current,net_flow,-2.28,all flows,VNM,412944119222.266,-0.5509765127749323,highlight
+2023,Zambia,Africa,Lower middle income,current,net_flow,1.05,all flows,ZMB,26731807415.2853,3.9275240898962416,
+2023,Zimbabwe,Africa,Lower middle income,current,net_flow,1.15,all flows,ZWE,33687156926.9187,3.4216988486164683,
+2023,Angola,Africa,Lower middle income,current,net_flow,-6.72,excluding concessional finance,AGO,78048984686.834,-8.612331538803348,highlight
+2023,Bangladesh,Asia,Lower middle income,current,net_flow,3.5,excluding concessional finance,BGD,493931962471.176,0.7079878298428743,
+2023,Benin,Africa,Lower middle income,current,net_flow,0.5,excluding concessional finance,BEN,19610877128.0441,2.544613203895842,
+2023,Bhutan,Asia,Lower middle income,current,net_flow,-0.02,excluding concessional finance,BTN,,,highlight
+2023,Bolivia,America,Lower middle income,current,net_flow,-0.31,excluding concessional finance,BOL,44317641753.2457,-0.7105880679603995,highlight
+2023,Cabo Verde,Africa,Lower middle income,current,net_flow,-0.08,excluding concessional finance,CPV,2496047164.26938,-3.096547293112708,highlight
+2023,Cambodia,Asia,Lower middle income,current,net_flow,0.35,excluding concessional finance,KHM,41658227478.8178,0.8313979834502281,
+2023,Cameroon,Africa,Lower middle income,current,net_flow,-0.5,excluding concessional finance,CMR,47905444552.8735,-1.0529979771782374,highlight
+2023,Comoros,Africa,Lower middle income,current,net_flow,0.0,excluding concessional finance,COM,1366416849.96979,0.03389822805611928,
+2023,Congo Republic,Africa,Lower middle income,current,net_flow,-0.41,excluding concessional finance,COG,15144181834.2659,-2.6930523494983487,highlight
+2023,Cote d'Ivoire,Africa,Lower middle income,current,net_flow,0.5,excluding concessional finance,CIV,76938116005.6078,0.6555113649562725,
+2023,Djibouti,Africa,Lower middle income,current,net_flow,0.2,excluding concessional finance,DJI,3921774065.18753,5.081417730535959,
+2023,Egypt,Africa,Lower middle income,current,net_flow,0.35,excluding concessional finance,EGY,439283081783.312,0.08068862357755034,
+2023,Eswatini,Africa,Lower middle income,current,net_flow,-0.02,excluding concessional finance,SWZ,4538254139.26607,-0.38038626683854615,highlight
+2023,Ghana,Africa,Lower middle income,current,net_flow,0.53,excluding concessional finance,GHA,79823496732.6041,0.6642159717408601,
+2023,Guinea,Africa,Lower middle income,current,net_flow,0.12,excluding concessional finance,GIN,19380027113.6762,0.6278229271110649,
+2023,Haiti,America,Lower middle income,current,net_flow,-0.01,excluding concessional finance,HTI,20425676906.556,-0.04178564088253317,highlight
+2023,Honduras,America,Lower middle income,current,net_flow,-0.43,excluding concessional finance,HND,30718597488.6796,-1.4146901275689705,highlight
+2023,India,Asia,Lower middle income,current,net_flow,3.4,excluding concessional finance,IND,3649300224484.68,0.09311002857485681,
+2023,Jordan,Asia,Lower middle income,current,net_flow,2.02,excluding concessional finance,JOR,50617750160.5041,3.9841743187028995,
+2023,Kenya,Africa,Lower middle income,current,net_flow,-0.43,excluding concessional finance,KEN,116961158793.37,-0.3706371745733537,highlight
+2023,Kyrgyz Republic,Asia,Lower middle income,current,net_flow,-0.1,excluding concessional finance,KGZ,12517407824.442,-0.761291385057577,highlight
+2023,Laos,Asia,Lower middle income,current,net_flow,-0.26,excluding concessional finance,LAO,16195396090.5168,-1.5797114264454892,highlight
+2023,Lebanon,Asia,Lower middle income,current,net_flow,0.09,excluding concessional finance,LBN,,,
+2023,Lesotho,Africa,Lower middle income,current,net_flow,0.03,excluding concessional finance,LSO,2897894309.49996,0.8872676175839102,
+2023,Mauritania,Africa,Lower middle income,current,net_flow,-0.12,excluding concessional finance,MRT,10690657303.943,-1.1233496237477023,highlight
+2023,Morocco,Africa,Lower middle income,current,net_flow,1.61,excluding concessional finance,MAR,143921185426.809,1.1175456012471097,
+2023,Myanmar,Asia,Lower middle income,current,net_flow,-0.58,excluding concessional finance,MMR,66551891335.7264,-0.8691127453946561,highlight
+2023,Nepal,Asia,Lower middle income,current,net_flow,-0.03,excluding concessional finance,NPL,42332900721.6582,-0.08205093227223441,highlight
+2023,Nicaragua,America,Lower middle income,current,net_flow,0.19,excluding concessional finance,NIC,16015791685.007,1.1824962488572557,
+2023,Nigeria,Africa,Lower middle income,current,net_flow,2.17,excluding concessional finance,NGA,429500770756.848,0.5063718005133112,
+2023,Pakistan,Asia,Lower middle income,current,net_flow,-0.34,excluding concessional finance,PAK,360507993853.122,-0.09515290460931046,highlight
+2023,Papua New Guinea,Oceania,Lower middle income,current,net_flow,0.22,excluding concessional finance,PNG,29306179272.9245,0.7368925204778138,
+2023,Philippines,Asia,Lower middle income,current,net_flow,3.09,excluding concessional finance,PHL,496166217235.821,0.6228398394425984,
+2023,Samoa,Oceania,Lower middle income,current,net_flow,-0.02,excluding concessional finance,WSM,910987126.318047,-2.0016259805666987,highlight
+2023,Sao Tome and Principe,Africa,Lower middle income,current,net_flow,0.02,excluding concessional finance,STP,596230257.779722,3.9798588029336064,
+2023,Senegal,Africa,Lower middle income,current,net_flow,1.19,excluding concessional finance,SEN,29532140835.2309,4.040385484605761,
+2023,Solomon Islands,Oceania,Lower middle income,current,net_flow,-0.0,excluding concessional finance,SLB,1682105891.02191,-0.12097930402964706,highlight
+2023,Sri Lanka,Asia,Lower middle income,current,net_flow,2.86,excluding concessional finance,LKA,77922856754.9798,3.667183124439777,
+2023,Tajikistan,Asia,Lower middle income,current,net_flow,-0.09,excluding concessional finance,TJK,14584547608.9448,-0.5895801625500078,highlight
+2023,Tanzania,Africa,Lower middle income,current,net_flow,0.91,excluding concessional finance,TZA,79088209745.4677,1.1489573337473027,
+2023,Timor-Leste,Asia,Lower middle income,current,net_flow,0.0,excluding concessional finance,TLS,2794350171.50329,0.13065649528225926,
+2023,Tunisia,Africa,Lower middle income,current,net_flow,-0.13,excluding concessional finance,TUN,46797066430.0508,-0.27341150452507373,highlight
+2023,Uzbekistan,Asia,Lower middle income,current,net_flow,3.1,excluding concessional finance,UZB,96089212409.0534,3.227724639262192,
+2023,Vanuatu,Oceania,Lower middle income,current,net_flow,-0.01,excluding concessional finance,VUT,1224681373.76549,-0.7979879264393351,highlight
+2023,Vietnam,Asia,Lower middle income,current,net_flow,-2.31,excluding concessional finance,VNM,412944119222.266,-0.5603915223343912,highlight
+2023,Zambia,Africa,Lower middle income,current,net_flow,0.0,excluding concessional finance,ZMB,26731807415.2853,0.012421108114453138,
+2023,Zimbabwe,Africa,Lower middle income,current,net_flow,0.36,excluding concessional finance,ZWE,33687156926.9187,1.0713805854349148,
+2023,Afghanistan,Asia,Low income,current,net_flow,3.1,all flows,AFG,15613673958.5595,19.87695144164729,
+2023,Burkina Faso,Africa,Low income,current,net_flow,1.59,all flows,BFA,19697494427.106,8.067431951716873,
+2023,Burundi,Africa,Low income,current,net_flow,0.6,all flows,BDI,3032580386.16075,19.861661924897525,
+2023,Central African Republic,Africa,Low income,current,net_flow,0.74,all flows,CAF,2710741791.49977,27.243147935215745,
+2023,Chad,Africa,Low income,current,net_flow,0.82,all flows,TCD,12999923870.1574,6.335059046696006,
+2023,DR Congo,Africa,Low income,current,net_flow,4.0,all flows,COD,67082242168.6331,5.967179785430188,
+2023,Eritrea,Africa,Low income,current,net_flow,0.11,all flows,ERI,,,
+2023,Ethiopia,Africa,Low income,current,net_flow,7.14,all flows,ETH,142605284059.216,5.008023339538,
+2023,Gambia,Africa,Low income,current,net_flow,0.38,all flows,GMB,2334485850.43137,16.239166505547644,
+2023,Guinea-Bissau,Africa,Low income,current,net_flow,0.17,all flows,GNB,2033194308.11786,8.128379094912352,
+2023,Liberia,Africa,Low income,current,net_flow,0.58,all flows,LBR,3917869127.2946,14.92669794214966,
+2023,Madagascar,Africa,Low income,current,net_flow,1.3,all flows,MDG,15755271015.8497,8.242047059004319,
+2023,Malawi,Africa,Low income,current,net_flow,1.73,all flows,MWI,12628307005.0329,13.726730049476526,
+2023,Mali,Africa,Low income,current,net_flow,1.34,all flows,MLI,19892455678.4441,6.72307739636801,
+2023,Mozambique,Africa,Low income,current,net_flow,3.02,all flows,MOZ,18203328644.0188,16.60934000383187,
+2023,Niger,Africa,Low income,current,net_flow,1.19,all flows,NER,16303272745.4944,7.279914998833617,
+2023,Rwanda,Africa,Low income,current,net_flow,1.69,all flows,RWA,13853020998.445,12.189865407621575,
+2023,Sierra Leone,Africa,Low income,current,net_flow,0.48,all flows,SLE,7336231335.06969,6.497566234332385,
+2023,Somalia,Africa,Low income,current,net_flow,2.39,all flows,SOM,10785743639.7134,22.157725037153806,
+2023,Sudan,Africa,Low income,current,net_flow,1.23,all flows,SDN,43787505279.7462,2.818743414393381,
+2023,Togo,Africa,Low income,current,net_flow,0.56,all flows,TGO,9323210954.7998,6.017620897134866,
+2023,Uganda,Africa,Low income,current,net_flow,2.61,all flows,UGA,47261072713.7974,5.5328293437923035,
+2023,Yemen,Asia,Low income,current,net_flow,2.67,all flows,YEM,,,
+2023,Afghanistan,Asia,Low income,current,net_flow,-0.0,excluding concessional finance,AFG,15613673958.5595,-0.014525729216707963,highlight
+2023,Burkina Faso,Africa,Low income,current,net_flow,0.06,excluding concessional finance,BFA,19697494427.106,0.3258650009397694,
+2023,Burundi,Africa,Low income,current,net_flow,0.02,excluding concessional finance,BDI,3032580386.16075,0.5062229799433337,
+2023,Central African Republic,Africa,Low income,current,net_flow,-0.0,excluding concessional finance,CAF,2710741791.49977,-0.028287068964091888,highlight
+2023,Chad,Africa,Low income,current,net_flow,-0.15,excluding concessional finance,TCD,12999923870.1574,-1.1371266668672435,highlight
+2023,DR Congo,Africa,Low income,current,net_flow,-0.2,excluding concessional finance,COD,67082242168.6331,-0.2915236349858352,highlight
+2023,Eritrea,Africa,Low income,current,net_flow,-0.01,excluding concessional finance,ERI,,,highlight
+2023,Ethiopia,Africa,Low income,current,net_flow,1.71,excluding concessional finance,ETH,142605284059.216,1.1971171812898007,
+2023,Gambia,Africa,Low income,current,net_flow,0.02,excluding concessional finance,GMB,2334485850.43137,0.6667311518347356,
+2023,Guinea-Bissau,Africa,Low income,current,net_flow,-0.01,excluding concessional finance,GNB,2033194308.11786,-0.6666952364502798,highlight
+2023,Liberia,Africa,Low income,current,net_flow,0.03,excluding concessional finance,LBR,3917869127.2946,0.8050196133472942,
+2023,Madagascar,Africa,Low income,current,net_flow,0.14,excluding concessional finance,MDG,15755271015.8497,0.901982865017291,
+2023,Malawi,Africa,Low income,current,net_flow,0.04,excluding concessional finance,MWI,12628307005.0329,0.33156856246298483,
+2023,Mali,Africa,Low income,current,net_flow,-0.03,excluding concessional finance,MLI,19892455678.4441,-0.12793925904069486,highlight
+2023,Mozambique,Africa,Low income,current,net_flow,-0.25,excluding concessional finance,MOZ,18203328644.0188,-1.376440133559461,highlight
+2023,Niger,Africa,Low income,current,net_flow,-0.05,excluding concessional finance,NER,16303272745.4944,-0.28662684069316235,highlight
+2023,Rwanda,Africa,Low income,current,net_flow,0.33,excluding concessional finance,RWA,13853020998.445,2.3501767941920058,
+2023,Sierra Leone,Africa,Low income,current,net_flow,-0.03,excluding concessional finance,SLE,7336231335.06969,-0.3413850975537986,highlight
+2023,Sudan,Africa,Low income,current,net_flow,-0.1,excluding concessional finance,SDN,43787505279.7462,-0.2371700407148702,highlight
+2023,Togo,Africa,Low income,current,net_flow,-0.02,excluding concessional finance,TGO,9323210954.7998,-0.22519286972897684,highlight
+2023,Uganda,Africa,Low income,current,net_flow,0.5,excluding concessional finance,UGA,47261072713.7974,1.0482030158307751,
