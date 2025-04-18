@@ -55,39 +55,36 @@ def net_flows_by_country_pipeline(
     return data
 
 
-
 def add_income_level_aggregates(df):
 
-    agg_df = (df
-              .loc[lambda d: d.country != "Developing countries"]
-              .groupby(['year', 'income_level', 'indicator_type', 'flow_type', "prices"], dropna=True)
-              .agg({"value": "sum"})
-              .reset_index()
-              .rename(columns = {"income_level": "country"})
-              .assign(income_level = None,
-                      continent = None
-                      )
+    agg_df = (
+        df.loc[lambda d: d.country != "Developing countries"]
+        .groupby(
+            ["year", "income_level", "indicator_type", "flow_type", "prices"],
+            dropna=True,
+        )
+        .agg({"value": "sum"})
+        .reset_index()
+        .rename(columns={"income_level": "country"})
+        .assign(income_level=None, continent=None)
+    )
 
-              )
-
-    return pd.concat([df, agg_df.loc[lambda d: d.country != "High income"]], ignore_index=True)
+    return pd.concat(
+        [df, agg_df.loc[lambda d: d.country != "High income"]], ignore_index=True
+    )
 
 
 def add_africa_aggregate(df):
 
-    afr_agg = (df
-               .loc[lambda d: d.continent == "Africa"]
-               .groupby(['year', 'indicator_type', 'flow_type', "prices"], dropna=True)
-               .agg({"value": "sum"})
-               .reset_index()
-               .assign(income_level = None,
-                       continent = None,
-                       country = "Africa"
-                       )
-               )
+    afr_agg = (
+        df.loc[lambda d: d.continent == "Africa"]
+        .groupby(["year", "indicator_type", "flow_type", "prices"], dropna=True)
+        .agg({"value": "sum"})
+        .reset_index()
+        .assign(income_level=None, continent=None, country="Africa")
+    )
 
     return pd.concat([df, afr_agg], ignore_index=True)
-
 
 
 if __name__ == "__main__":
@@ -124,19 +121,27 @@ if __name__ == "__main__":
     )
 
     # Combine all flows
-    df = (pd.concat(
-        [
-            inflows.assign(flow_type="all"),
-            outflows.assign(flow_type="all"),
-            net_flows.assign(flow_type="all"),
-            # inflows_excluding_grants.assign(flow_type="excluding_grants"),
-            # outflows_excluding_grants.assign(flow_type="excluding_grants"),
-            # net_flows_excluding_grants.assign(flow_type="excluding_grants"),
-            inflows_excluding_concessional.assign(flow_type="excluding_concessional"),
-            outflows_excluding_concessional.assign(flow_type="excluding_concessional"),
-            net_flows_excluding_concessional.assign(flow_type="excluding_concessional"),
-        ],
-        ignore_index=True)
+    df = (
+        pd.concat(
+            [
+                inflows.assign(flow_type="all"),
+                outflows.assign(flow_type="all"),
+                net_flows.assign(flow_type="all"),
+                # inflows_excluding_grants.assign(flow_type="excluding_grants"),
+                # outflows_excluding_grants.assign(flow_type="excluding_grants"),
+                # net_flows_excluding_grants.assign(flow_type="excluding_grants"),
+                inflows_excluding_concessional.assign(
+                    flow_type="excluding_concessional"
+                ),
+                outflows_excluding_concessional.assign(
+                    flow_type="excluding_concessional"
+                ),
+                net_flows_excluding_concessional.assign(
+                    flow_type="excluding_concessional"
+                ),
+            ],
+            ignore_index=True,
+        )
         .pipe(add_income_level_aggregates)
         .pipe(add_africa_aggregate)
     )

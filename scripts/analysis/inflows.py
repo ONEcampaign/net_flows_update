@@ -100,37 +100,48 @@ def inflows_by_period(
 
 
 def add_income_aggs(df):
-    """" """
+    """ " """
 
-    return pd.concat([(df
-                       .loc[lambda d: (d.country != 'Developing countries')&(d.income_level != "High income")]
-                       .groupby(by=['year', 'income_level', 'counterpart_type'])
-                       .agg({"value": "sum"})
-                       .reset_index()
-                       .rename(columns = {"income_level": "country"})
-                       .assign(income_level = None,
-                               continent = None,
-                               prices="current",
-                               period=np.nan
-                               )
-                       ), df], ignore_index=True)
+    return pd.concat(
+        [
+            (
+                df.loc[
+                    lambda d: (d.country != "Developing countries")
+                    & (d.income_level != "High income")
+                ]
+                .groupby(by=["year", "income_level", "counterpart_type"])
+                .agg({"value": "sum"})
+                .reset_index()
+                .rename(columns={"income_level": "country"})
+                .assign(
+                    income_level=None, continent=None, prices="current", period=np.nan
+                )
+            ),
+            df,
+        ],
+        ignore_index=True,
+    )
 
 
 def add_africa_agg(df):
     """ """
 
-    return pd.concat([(df.loc[lambda d: (d.continent == 'Africa')]
-                       .groupby(by=['year', 'continent', 'counterpart_type'])
-                       .agg({"value": "sum"})
-                       .reset_index()
-                       .rename(columns = {"continent": "country"})
-                       .assign(income_level = None,
-                               continent = None,
-                               prices="current",
-                               period=np.nan
-                               )
-                       ), df], ignore_index=True)
-
+    return pd.concat(
+        [
+            (
+                df.loc[lambda d: (d.continent == "Africa")]
+                .groupby(by=["year", "continent", "counterpart_type"])
+                .agg({"value": "sum"})
+                .reset_index()
+                .rename(columns={"continent": "country"})
+                .assign(
+                    income_level=None, continent=None, prices="current", period=np.nan
+                )
+            ),
+            df,
+        ],
+        ignore_index=True,
+    )
 
 
 if __name__ == "__main__":

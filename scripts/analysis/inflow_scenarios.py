@@ -280,14 +280,12 @@ if __name__ == "__main__":
         latest_inflows_data, version="concessional_finance", scenario=3
     )
 
-
     df = pd.concat(
         [
-            scenario1_reduced_concessional.assign(scenario = "scenario 1"),
-            scenario2_reduced_concessional.assign(scenario = "scenario 2"),
-            scenario3_reduced_concessional.assign(scenario = "scenario 3"),
-
+            scenario1_reduced_concessional.assign(scenario="scenario 1"),
+            scenario2_reduced_concessional.assign(scenario="scenario 2"),
+            scenario3_reduced_concessional.assign(scenario="scenario 3"),
         ],
         ignore_index=True,
-)
+    )
     df.to_csv(Paths.raw_data / "inflows_scenarios.csv", index=False)

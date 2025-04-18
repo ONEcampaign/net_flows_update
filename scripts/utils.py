@@ -81,13 +81,18 @@ def custom_sort(df: pd.DataFrame, col: str, custom_list: list) -> pd.DataFrame:
         The sorted DataFrame.
 
     """
+
     def sorting_key(value):
         # If the value is in the custom list, return its index, otherwise return a large number
-        return (custom_list.index(value) if value in custom_list else len(custom_list), str(value))
+        return (
+            custom_list.index(value) if value in custom_list else len(custom_list),
+            str(value),
+        )
 
     # Sort the DataFrame using the custom key
     df = df.loc[sorted(df.index, key=lambda x: sorting_key(df.loc[x, col]))]
     return df.reset_index(drop=True)
+
 
 @lru_cache
 def get_gni():
@@ -95,7 +100,12 @@ def get_gni():
 
     wb = bbdata.WorldBank()
 
-    return wb.get_data("NY.GNP.ATLS.CD").loc[:, ['year', 'entity_code', 'value']].rename(columns = {"value":'gni'})
+    return (
+        wb.get_data("NY.GNP.ATLS.CD")
+        .loc[:, ["year", "entity_code", "value"]]
+        .rename(columns={"value": "gni"})
+    )
+
 
 def add_gni(df):
     """ """
@@ -103,7 +113,8 @@ def add_gni(df):
     gni = get_gni()
 
     # Merge the GNI data with the original DataFrame
-    return df.merge(gni, how='left', on=["year", "entity_code"])
+    return df.merge(gni, how="left", on=["year", "entity_code"])
+
 
 @lru_cache
 def get_gni_pc():
@@ -112,7 +123,12 @@ def get_gni_pc():
     wb = bbdata.WorldBank()
 
     # Get GNI per capita data from World Bank
-    return wb.get_data("NY.GNP.PCAP.CD").loc[:, ['year', 'entity_code', 'value']].rename(columns = {"value":'gni_pc'})
+    return (
+        wb.get_data("NY.GNP.PCAP.CD")
+        .loc[:, ["year", "entity_code", "value"]]
+        .rename(columns={"value": "gni_pc"})
+    )
+
 
 def add_gni_pc(df):
     """ """
@@ -121,4 +137,4 @@ def add_gni_pc(df):
     gni_pc = get_gni_pc()
 
     # Merge the GNI per capita data with the original DataFrame
-    return df.merge(gni_pc, how='left', on=["year", "entity_code"])
+    return df.merge(gni_pc, how="left", on=["year", "entity_code"])
