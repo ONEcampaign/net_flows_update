@@ -1,0 +1,97 @@
+country,year,income_level,value,flow_type,entity_code,gni,value_pct_gni,gni_pc
+,,,,,,,,
+Burundi,2023.0,Low income,0.6,all flows,BDI,3032580386.16075,19.861661924897525,220.0
+Madagascar,2023.0,Low income,1.3,all flows,MDG,15755271015.8497,8.242047059004319,510.0
+Central African Republic,2023.0,Low income,0.74,all flows,CAF,2710741791.49977,27.243147935215745,530.0
+Mozambique,2023.0,Low income,3.02,all flows,MOZ,18203328644.0188,16.60934000383187,540.0
+Somalia,2023.0,Low income,2.39,all flows,SOM,10785743639.7134,22.157725037153806,590.0
+Malawi,2023.0,Low income,1.73,all flows,MWI,12628307005.0329,13.726730049476526,600.0
+Niger,2023.0,Low income,1.19,all flows,NER,16303272745.4944,7.279914998833617,620.0
+DR Congo,2023.0,Low income,4.0,all flows,COD,67082242168.6331,5.967179785430188,630.0
+Chad,2023.0,Low income,0.82,all flows,TCD,12999923870.1574,6.335059046696006,670.0
+Liberia,2023.0,Low income,0.58,all flows,LBR,3917869127.2946,14.92669794214966,710.0
+Mali,2023.0,Low income,1.34,all flows,MLI,19892455678.4441,6.72307739636801,840.0
+Burkina Faso,2023.0,Low income,1.59,all flows,BFA,19697494427.106,8.067431951716873,860.0
+Gambia,2023.0,Low income,0.38,all flows,GMB,2334485850.43137,16.239166505547644,870.0
+Sierra Leone,2023.0,Low income,0.48,all flows,SLE,7336231335.06969,6.497566234332385,870.0
+Sudan,2023.0,Low income,1.23,all flows,SDN,43787505279.7462,2.818743414393381,880.0
+Guinea-Bissau,2023.0,Low income,0.17,all flows,GNB,2033194308.11786,8.128379094912352,940.0
+Uganda,2023.0,Low income,2.61,all flows,UGA,47261072713.7974,5.5328293437923035,970.0
+Rwanda,2023.0,Low income,1.69,all flows,RWA,13853020998.445,12.189865407621575,990.0
+Togo,2023.0,Low income,0.56,all flows,TGO,9323210954.7998,6.017620897134866,1000.0
+Ethiopia,2023.0,Low income,7.14,all flows,ETH,142605284059.216,5.008023339538,1110.0
+Tanzania,2023.0,Lower middle income,3.79,all flows,TZA,79088209745.4677,4.786374010719004,1220.0
+Lesotho,2023.0,Lower middle income,0.16,all flows,LSO,2897894309.49996,5.658872018293056,1250.0
+Zambia,2023.0,Lower middle income,1.05,all flows,ZMB,26731807415.2853,3.9275240898962416,1290.0
+Guinea,2023.0,Lower middle income,0.61,all flows,GIN,19380027113.6762,3.1381498350475487,1350.0
+Benin,2023.0,Lower middle income,1.46,all flows,BEN,19610877128.0441,7.465499611979965,1390.0
+Comoros,2023.0,Lower middle income,0.14,all flows,COM,1366416849.96979,10.582783621498598,1610.0
+Senegal,2023.0,Lower middle income,2.31,all flows,SEN,29532140835.2309,7.829746107473218,1630.0
+Cameroon,2023.0,Lower middle income,0.29,all flows,CMR,47905444552.8735,0.5959618489395173,1690.0
+Nigeria,2023.0,Lower middle income,4.14,all flows,NGA,429500770756.848,0.9634007102498376,1880.0
+Zimbabwe,2023.0,Lower middle income,1.15,all flows,ZWE,33687156926.9187,3.4216988486164683,2060.0
+Kenya,2023.0,Lower middle income,1.44,all flows,KEN,116961158793.37,1.2279372137012483,2110.0
+Angola,2023.0,Lower middle income,-6.58,all flows,AGO,78048984686.834,-8.42575298844257,2120.0
+Mauritania,2023.0,Lower middle income,0.2,all flows,MRT,10690657303.943,1.8705472303021469,2130.0
+Ghana,2023.0,Lower middle income,1.26,all flows,GHA,79823496732.6041,1.5785181328511488,2360.0
+Congo Republic,2023.0,Lower middle income,-0.22,all flows,COG,15144181834.2659,-1.4799416479065552,2450.0
+Cote d'Ivoire,2023.0,Lower middle income,2.12,all flows,CIV,76938116005.6078,2.757156250284819,2470.0
+Sao Tome and Principe,2023.0,Lower middle income,0.1,all flows,STP,596230257.779722,17.049505652152984,2580.0
+Djibouti,2023.0,Lower middle income,0.42,all flows,DJI,3921774065.18753,10.715376613106992,3400.0
+Eswatini,2023.0,Lower middle income,0.1,all flows,SWZ,4538254139.26607,2.2959250165935057,3690.0
+Morocco,2023.0,Lower middle income,2.47,all flows,MAR,143921185426.809,1.7138603106867762,3760.0
+Egypt,2023.0,Lower middle income,1.04,all flows,EGY,439283081783.312,0.23629127996147442,3840.0
+Tunisia,2023.0,Lower middle income,0.67,all flows,TUN,46797066430.0508,1.4325042865710937,3840.0
+Cabo Verde,2023.0,Lower middle income,0.02,all flows,CPV,2496047164.26938,0.6473725068704712,4780.0
+Algeria,2023.0,Upper middle income,0.13,all flows,DZA,228481173657.541,0.058043271914724325,4950.0
+South Africa,2023.0,Upper middle income,-5.19,all flows,ZAF,409784434310.326,-1.2655239948359656,6480.0
+Gabon,2023.0,Upper middle income,-0.21,all flows,GAB,19697281550.0883,-1.0506239730277518,7930.0
+Botswana,2023.0,Upper middle income,-0.09,all flows,BWA,20694114857.1621,-0.42074408691061205,8340.0
+Mauritius,2023.0,Upper middle income,0.25,all flows,MUS,14614798552.7811,1.700453056554165,11590.0
+Burundi,2023.0,Low income,0.02,excluding concessional finance,BDI,3032580386.16075,0.5062229799433337,220.0
+Madagascar,2023.0,Low income,0.14,excluding concessional finance,MDG,15755271015.8497,0.901982865017291,510.0
+Central African Republic,2023.0,Low income,-0.0,excluding concessional finance,CAF,2710741791.49977,-0.028287068964091888,530.0
+Mozambique,2023.0,Low income,-0.25,excluding concessional finance,MOZ,18203328644.0188,-1.376440133559461,540.0
+Malawi,2023.0,Low income,0.04,excluding concessional finance,MWI,12628307005.0329,0.33156856246298483,600.0
+Niger,2023.0,Low income,-0.05,excluding concessional finance,NER,16303272745.4944,-0.28662684069316235,620.0
+DR Congo,2023.0,Low income,-0.2,excluding concessional finance,COD,67082242168.6331,-0.2915236349858352,630.0
+Chad,2023.0,Low income,-0.15,excluding concessional finance,TCD,12999923870.1574,-1.1371266668672435,670.0
+Liberia,2023.0,Low income,0.03,excluding concessional finance,LBR,3917869127.2946,0.8050196133472942,710.0
+Mali,2023.0,Low income,-0.03,excluding concessional finance,MLI,19892455678.4441,-0.12793925904069486,840.0
+Burkina Faso,2023.0,Low income,0.06,excluding concessional finance,BFA,19697494427.106,0.3258650009397694,860.0
+Gambia,2023.0,Low income,0.02,excluding concessional finance,GMB,2334485850.43137,0.6667311518347356,870.0
+Sierra Leone,2023.0,Low income,-0.03,excluding concessional finance,SLE,7336231335.06969,-0.3413850975537986,870.0
+Sudan,2023.0,Low income,-0.1,excluding concessional finance,SDN,43787505279.7462,-0.2371700407148702,880.0
+Guinea-Bissau,2023.0,Low income,-0.01,excluding concessional finance,GNB,2033194308.11786,-0.6666952364502798,940.0
+Uganda,2023.0,Low income,0.5,excluding concessional finance,UGA,47261072713.7974,1.0482030158307751,970.0
+Rwanda,2023.0,Low income,0.33,excluding concessional finance,RWA,13853020998.445,2.3501767941920058,990.0
+Togo,2023.0,Low income,-0.02,excluding concessional finance,TGO,9323210954.7998,-0.22519286972897684,1000.0
+Ethiopia,2023.0,Low income,1.71,excluding concessional finance,ETH,142605284059.216,1.1971171812898007,1110.0
+Tanzania,2023.0,Lower middle income,0.91,excluding concessional finance,TZA,79088209745.4677,1.1489573337473027,1220.0
+Lesotho,2023.0,Lower middle income,0.03,excluding concessional finance,LSO,2897894309.49996,0.8872676175839102,1250.0
+Zambia,2023.0,Lower middle income,0.0,excluding concessional finance,ZMB,26731807415.2853,0.012421108114453138,1290.0
+Guinea,2023.0,Lower middle income,0.12,excluding concessional finance,GIN,19380027113.6762,0.6278229271110649,1350.0
+Benin,2023.0,Lower middle income,0.5,excluding concessional finance,BEN,19610877128.0441,2.544613203895842,1390.0
+Comoros,2023.0,Lower middle income,0.0,excluding concessional finance,COM,1366416849.96979,0.03389822805611928,1610.0
+Senegal,2023.0,Lower middle income,1.19,excluding concessional finance,SEN,29532140835.2309,4.040385484605761,1630.0
+Cameroon,2023.0,Lower middle income,-0.5,excluding concessional finance,CMR,47905444552.8735,-1.0529979771782374,1690.0
+Nigeria,2023.0,Lower middle income,2.17,excluding concessional finance,NGA,429500770756.848,0.5063718005133112,1880.0
+Zimbabwe,2023.0,Lower middle income,0.36,excluding concessional finance,ZWE,33687156926.9187,1.0713805854349148,2060.0
+Kenya,2023.0,Lower middle income,-0.43,excluding concessional finance,KEN,116961158793.37,-0.3706371745733537,2110.0
+Angola,2023.0,Lower middle income,-6.72,excluding concessional finance,AGO,78048984686.834,-8.612331538803348,2120.0
+Mauritania,2023.0,Lower middle income,-0.12,excluding concessional finance,MRT,10690657303.943,-1.1233496237477023,2130.0
+Ghana,2023.0,Lower middle income,0.53,excluding concessional finance,GHA,79823496732.6041,0.6642159717408601,2360.0
+Congo Republic,2023.0,Lower middle income,-0.41,excluding concessional finance,COG,15144181834.2659,-2.6930523494983487,2450.0
+Cote d'Ivoire,2023.0,Lower middle income,0.5,excluding concessional finance,CIV,76938116005.6078,0.6555113649562725,2470.0
+Sao Tome and Principe,2023.0,Lower middle income,0.02,excluding concessional finance,STP,596230257.779722,3.9798588029336064,2580.0
+Djibouti,2023.0,Lower middle income,0.2,excluding concessional finance,DJI,3921774065.18753,5.081417730535959,3400.0
+Eswatini,2023.0,Lower middle income,-0.02,excluding concessional finance,SWZ,4538254139.26607,-0.38038626683854615,3690.0
+Morocco,2023.0,Lower middle income,1.61,excluding concessional finance,MAR,143921185426.809,1.1175456012471097,3760.0
+Egypt,2023.0,Lower middle income,0.35,excluding concessional finance,EGY,439283081783.312,0.08068862357755034,3840.0
+Tunisia,2023.0,Lower middle income,-0.13,excluding concessional finance,TUN,46797066430.0508,-0.27341150452507373,3840.0
+Cabo Verde,2023.0,Lower middle income,-0.08,excluding concessional finance,CPV,2496047164.26938,-3.096547293112708,4780.0
+Algeria,2023.0,Upper middle income,-0.1,excluding concessional finance,DZA,228481173657.541,-0.04247052601604898,4950.0
+South Africa,2023.0,Upper middle income,-6.71,excluding concessional finance,ZAF,409784434310.326,-1.6385495322926675,6480.0
+Gabon,2023.0,Upper middle income,-0.2,excluding concessional finance,GAB,19697281550.0883,-1.0313570630719309,7930.0
+Botswana,2023.0,Upper middle income,-0.17,excluding concessional finance,BWA,20694114857.1621,-0.8047051205109466,8340.0
+Mauritius,2023.0,Upper middle income,0.21,excluding concessional finance,MUS,14614798552.7811,1.4233694542468704,11590.0

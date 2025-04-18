@@ -12,6 +12,8 @@ from scripts.analysis.common import (
 )
 from scripts.models.seek import extract_decreases, apply_linear_reduction
 
+from scripts.config import Paths
+
 Percent: TypeAlias = int
 
 
@@ -277,3 +279,13 @@ if __name__ == "__main__":
     scenario3_reduced_concessional = projected_inflows_scenario(
         latest_inflows_data, version="concessional_finance", scenario=3
     )
+
+    df = pd.concat(
+        [
+            scenario1_reduced_concessional.assign(scenario="scenario 1"),
+            scenario2_reduced_concessional.assign(scenario="scenario 2"),
+            scenario3_reduced_concessional.assign(scenario="scenario 3"),
+        ],
+        ignore_index=True,
+    )
+    df.to_csv(Paths.raw_data / "inflows_scenarios.csv", index=False)

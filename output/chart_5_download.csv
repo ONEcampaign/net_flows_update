@@ -1,0 +1,1953 @@
+year,country,variable,value,notes
+2024,Afghanistan,scenario 1,2986713276.7,constant aid ratios
+2024,Africa,scenario 1,12349105856.59999,constant aid ratios
+2024,Albania,scenario 1,571028262.6999999,constant aid ratios
+2024,Algeria,scenario 1,147071003.9,constant aid ratios
+2024,Angola,scenario 1,-8661302954.0,constant aid ratios
+2024,Argentina,scenario 1,-21065773578.1,constant aid ratios
+2024,Armenia,scenario 1,28093484.30000007,constant aid ratios
+2024,Azerbaijan,scenario 1,-3168421563.7,constant aid ratios
+2024,Bangladesh,scenario 1,5157385412.700001,constant aid ratios
+2024,Belarus,scenario 1,-1753462856.8000002,constant aid ratios
+2024,Belize,scenario 1,-52907349.2,constant aid ratios
+2024,Benin,scenario 1,1333125747.8,constant aid ratios
+2024,Bhutan,scenario 1,-116557913.3000001,constant aid ratios
+2024,Bolivia,scenario 1,50834797.39999986,constant aid ratios
+2024,Bosnia and Herzegovina,scenario 1,226167262.4,constant aid ratios
+2024,Botswana,scenario 1,-115262394.4,constant aid ratios
+2024,Brazil,scenario 1,-5765106601.400002,constant aid ratios
+2024,Burkina Faso,scenario 1,1422948574.1,constant aid ratios
+2024,Burundi,scenario 1,566744459.6,constant aid ratios
+2024,Cabo Verde,scenario 1,-10515555.800000012,constant aid ratios
+2024,Cambodia,scenario 1,1209487218.6,constant aid ratios
+2024,Cameroon,scenario 1,14979876.299999952,constant aid ratios
+2024,Central African Republic,scenario 1,721819415.6,constant aid ratios
+2024,Chad,scenario 1,795136851.1,constant aid ratios
+2024,Colombia,scenario 1,4969560897.099998,constant aid ratios
+2024,Comoros,scenario 1,117393871.9,constant aid ratios
+2024,Congo Republic,scenario 1,-358028768.29999995,constant aid ratios
+2024,Costa Rica,scenario 1,1924597652.0,constant aid ratios
+2024,Cote d'Ivoire,scenario 1,1281530648.0000005,constant aid ratios
+2024,DR Congo,scenario 1,3545915487.0999994,constant aid ratios
+2024,Developing countries,scenario 1,-29163276471.900024,constant aid ratios
+2024,Djibouti,scenario 1,243722059.8,constant aid ratios
+2024,Dominica,scenario 1,12361168.700000005,constant aid ratios
+2024,Dominican Republic,scenario 1,1459994310.0000005,constant aid ratios
+2024,Ecuador,scenario 1,-1008730902.5000004,constant aid ratios
+2024,Egypt,scenario 1,-4470968048.1,constant aid ratios
+2024,El Salvador,scenario 1,422556124.6999998,constant aid ratios
+2024,Eritrea,scenario 1,89330486.6,constant aid ratios
+2024,Eswatini,scenario 1,83755879.3,constant aid ratios
+2024,Ethiopia,scenario 1,-608813139.8999996,constant aid ratios
+2024,Fiji,scenario 1,105123924.9,constant aid ratios
+2024,Gabon,scenario 1,-109515669.10000002,constant aid ratios
+2024,Gambia,scenario 1,297951235.6,constant aid ratios
+2024,Georgia,scenario 1,322245789.9999999,constant aid ratios
+2024,Ghana,scenario 1,-1347389086.1,constant aid ratios
+2024,Grenada,scenario 1,21697007.799999997,constant aid ratios
+2024,Guatemala,scenario 1,1046126626.1,constant aid ratios
+2024,Guinea,scenario 1,222770563.0999999,constant aid ratios
+2024,Guinea-Bissau,scenario 1,134020970.1,constant aid ratios
+2024,Guyana,scenario 1,153516599.60000002,constant aid ratios
+2024,Haiti,scenario 1,890805222.4,constant aid ratios
+2024,Honduras,scenario 1,-243108910.29999995,constant aid ratios
+2024,India,scenario 1,-7508872382.499996,constant aid ratios
+2024,Indonesia,scenario 1,-13984338528.599998,constant aid ratios
+2024,Iran,scenario 1,235588021.9,constant aid ratios
+2024,Iraq,scenario 1,-721953257.7999997,constant aid ratios
+2024,Jamaica,scenario 1,-473760778.7,constant aid ratios
+2024,Jordan,scenario 1,4834981018.200001,constant aid ratios
+2024,Kazakhstan,scenario 1,-3124123372.7999997,constant aid ratios
+2024,Kenya,scenario 1,-933797550.1000004,constant aid ratios
+2024,Kosovo,scenario 1,311004085.59999996,constant aid ratios
+2024,Kyrgyz Republic,scenario 1,387298840.0,constant aid ratios
+2024,Laos,scenario 1,-1137146067.1,constant aid ratios
+2024,Lebanon,scenario 1,-1277209875.8000002,constant aid ratios
+2024,Lesotho,scenario 1,144532564.4,constant aid ratios
+2024,Liberia,scenario 1,572826464.5,constant aid ratios
+2024,Low income,scenario 1,28630741982.5,constant aid ratios
+2024,Lower middle income,scenario 1,-6846886511.200012,constant aid ratios
+2024,Madagascar,scenario 1,1196692751.5,constant aid ratios
+2024,Malawi,scenario 1,1695598733.0,constant aid ratios
+2024,Maldives,scenario 1,220214127.6,constant aid ratios
+2024,Mali,scenario 1,1182628413.4,constant aid ratios
+2024,Mauritania,scenario 1,29242681.699999988,constant aid ratios
+2024,Mauritius,scenario 1,457860391.0,constant aid ratios
+2024,Mexico,scenario 1,-7016877672.599998,constant aid ratios
+2024,Moldova,scenario 1,1245502836.6,constant aid ratios
+2024,Mongolia,scenario 1,1027163161.4,constant aid ratios
+2024,Montenegro,scenario 1,-91930392.59999996,constant aid ratios
+2024,Morocco,scenario 1,-847274910.0,constant aid ratios
+2024,Mozambique,scenario 1,2688793081.5,constant aid ratios
+2024,Myanmar,scenario 1,250922478.79999995,constant aid ratios
+2024,Nepal,scenario 1,972675745.2,constant aid ratios
+2024,Nicaragua,scenario 1,102816572.80000009,constant aid ratios
+2024,Niger,scenario 1,984170346.1,constant aid ratios
+2024,Nigeria,scenario 1,4054980465.4000006,constant aid ratios
+2024,North Macedonia,scenario 1,379707625.6999999,constant aid ratios
+2024,Pakistan,scenario 1,-6545923775.300001,constant aid ratios
+2024,Papua New Guinea,scenario 1,555125409.5,constant aid ratios
+2024,Paraguay,scenario 1,369297157.10000014,constant aid ratios
+2024,Peru,scenario 1,-89551981.0999999,constant aid ratios
+2024,Philippines,scenario 1,3975676121.8,constant aid ratios
+2024,Rwanda,scenario 1,1709656884.6999998,constant aid ratios
+2024,Samoa,scenario 1,95325042.0,constant aid ratios
+2024,Sao Tome and Principe,scenario 1,77944045.10000001,constant aid ratios
+2024,Senegal,scenario 1,1634300423.6999998,constant aid ratios
+2024,Serbia,scenario 1,2047199905.9999995,constant aid ratios
+2024,Sierra Leone,scenario 1,463585192.6,constant aid ratios
+2024,Solomon Islands,scenario 1,255048408.5,constant aid ratios
+2024,Somalia,scenario 1,2348997748.8,constant aid ratios
+2024,South Africa,scenario 1,-6164796783.200002,constant aid ratios
+2024,Sri Lanka,scenario 1,-3298263410.0,constant aid ratios
+2024,St. Lucia,scenario 1,91865989.9,constant aid ratios
+2024,St. Vincent and the Grenadines,scenario 1,51648743.5,constant aid ratios
+2024,Sudan,scenario 1,808955981.3,constant aid ratios
+2024,Suriname,scenario 1,1677054.800000012,constant aid ratios
+2024,Tajikistan,scenario 1,373379928.0,constant aid ratios
+2024,Tanzania,scenario 1,3167394451.7000003,constant aid ratios
+2024,Thailand,scenario 1,-2678609338.7000003,constant aid ratios
+2024,Timor-Leste,scenario 1,252073654.7,constant aid ratios
+2024,Togo,scenario 1,463620291.6,constant aid ratios
+2024,Tonga,scenario 1,110787721.4,constant aid ratios
+2024,Tunisia,scenario 1,-888322140.5999999,constant aid ratios
+2024,Turkmenistan,scenario 1,-662316785.4,constant aid ratios
+2024,Türkiye,scenario 1,-796267223.2000008,constant aid ratios
+2024,Uganda,scenario 1,2370978581.6,constant aid ratios
+2024,Upper middle income,scenario 1,-51037566692.80002,constant aid ratios
+2024,Uzbekistan,scenario 1,2738396217.3,constant aid ratios
+2024,Vanuatu,scenario 1,156758105.0,constant aid ratios
+2024,Vietnam,scenario 1,-3660984867.7,constant aid ratios
+2024,Yemen,scenario 1,2192469895.3,constant aid ratios
+2024,Zambia,scenario 1,-1188751320.1,constant aid ratios
+2024,Zimbabwe,scenario 1,982867552.8,constant aid ratios
+2025,Afghanistan,scenario 1,2993681508.6,constant aid ratios
+2025,Africa,scenario 1,26344276946.600006,constant aid ratios
+2025,Albania,scenario 1,4171780.200000048,constant aid ratios
+2025,Algeria,scenario 1,161734494.60000002,constant aid ratios
+2025,Angola,scenario 1,-8404897732.2,constant aid ratios
+2025,Argentina,scenario 1,317950214.0,constant aid ratios
+2025,Armenia,scenario 1,-298383071.5999999,constant aid ratios
+2025,Azerbaijan,scenario 1,-1281118872.1,constant aid ratios
+2025,Bangladesh,scenario 1,4509495955.1,constant aid ratios
+2025,Belarus,scenario 1,-1251045981.5,constant aid ratios
+2025,Belize,scenario 1,-2336090.399999991,constant aid ratios
+2025,Benin,scenario 1,1261907714.5,constant aid ratios
+2025,Bhutan,scenario 1,-106180407.39999996,constant aid ratios
+2025,Bolivia,scenario 1,14439359.299999952,constant aid ratios
+2025,Bosnia and Herzegovina,scenario 1,251289558.70000005,constant aid ratios
+2025,Botswana,scenario 1,-127671173.9,constant aid ratios
+2025,Brazil,scenario 1,-5364626793.700001,constant aid ratios
+2025,Burkina Faso,scenario 1,1395131556.3,constant aid ratios
+2025,Burundi,scenario 1,560346665.3,constant aid ratios
+2025,Cabo Verde,scenario 1,-6545456.5,constant aid ratios
+2025,Cambodia,scenario 1,1166224646.6,constant aid ratios
+2025,Cameroon,scenario 1,-60615191.0,constant aid ratios
+2025,Central African Republic,scenario 1,718801158.5,constant aid ratios
+2025,Chad,scenario 1,801897695.6,constant aid ratios
+2025,Colombia,scenario 1,3574520999.8999996,constant aid ratios
+2025,Comoros,scenario 1,114504665.29999998,constant aid ratios
+2025,Congo Republic,scenario 1,-297730636.9,constant aid ratios
+2025,Costa Rica,scenario 1,964946366.1999998,constant aid ratios
+2025,Cote d'Ivoire,scenario 1,1015270728.4000006,constant aid ratios
+2025,DR Congo,scenario 1,3870671808.4,constant aid ratios
+2025,Developing countries,scenario 1,26927989633.099976,constant aid ratios
+2025,Djibouti,scenario 1,202226407.40000004,constant aid ratios
+2025,Dominica,scenario 1,37223050.0,constant aid ratios
+2025,Dominican Republic,scenario 1,313073887.20000076,constant aid ratios
+2025,Ecuador,scenario 1,-349841861.5,constant aid ratios
+2025,Egypt,scenario 1,2737707667.5,constant aid ratios
+2025,El Salvador,scenario 1,119548955.29999997,constant aid ratios
+2025,Eritrea,scenario 1,92368415.5,constant aid ratios
+2025,Eswatini,scenario 1,67558751.89999999,constant aid ratios
+2025,Ethiopia,scenario 1,4992941891.700001,constant aid ratios
+2025,Fiji,scenario 1,101078879.1,constant aid ratios
+2025,Gabon,scenario 1,-36240935.0,constant aid ratios
+2025,Gambia,scenario 1,326920299.70000005,constant aid ratios
+2025,Georgia,scenario 1,272904611.39999986,constant aid ratios
+2025,Ghana,scenario 1,-1913561487.1,constant aid ratios
+2025,Grenada,scenario 1,21931323.499999993,constant aid ratios
+2025,Guatemala,scenario 1,1045987783.5000002,constant aid ratios
+2025,Guinea,scenario 1,168487179.5999999,constant aid ratios
+2025,Guinea-Bissau,scenario 1,136316144.5,constant aid ratios
+2025,Guyana,scenario 1,112889945.20000002,constant aid ratios
+2025,Haiti,scenario 1,896350650.5,constant aid ratios
+2025,Honduras,scenario 1,-413323617.0,constant aid ratios
+2025,India,scenario 1,-1363354726.4000015,constant aid ratios
+2025,Indonesia,scenario 1,1955523183.7000008,constant aid ratios
+2025,Iran,scenario 1,222554021.3,constant aid ratios
+2025,Iraq,scenario 1,148310.40000009537,constant aid ratios
+2025,Jamaica,scenario 1,-614310390.1000001,constant aid ratios
+2025,Jordan,scenario 1,3866158030.500001,constant aid ratios
+2025,Kazakhstan,scenario 1,-3905386220.9,constant aid ratios
+2025,Kenya,scenario 1,519511963.2000008,constant aid ratios
+2025,Kosovo,scenario 1,339324434.2,constant aid ratios
+2025,Kyrgyz Republic,scenario 1,283453438.2,constant aid ratios
+2025,Laos,scenario 1,-1304637167.6,constant aid ratios
+2025,Lebanon,scenario 1,-1653632406.8000002,constant aid ratios
+2025,Lesotho,scenario 1,139533590.9,constant aid ratios
+2025,Liberia,scenario 1,569604540.8,constant aid ratios
+2025,Low income,scenario 1,34505967294.7,constant aid ratios
+2025,Lower middle income,scenario 1,8563206051.199982,constant aid ratios
+2025,Madagascar,scenario 1,1176748887.4,constant aid ratios
+2025,Malawi,scenario 1,1689525675.4,constant aid ratios
+2025,Maldives,scenario 1,75820919.39999998,constant aid ratios
+2025,Mali,scenario 1,1185256276.9,constant aid ratios
+2025,Mauritania,scenario 1,84627557.80000001,constant aid ratios
+2025,Mauritius,scenario 1,871300739.7,constant aid ratios
+2025,Mexico,scenario 1,-4497444914.799999,constant aid ratios
+2025,Moldova,scenario 1,1258597365.3,constant aid ratios
+2025,Mongolia,scenario 1,957367277.5,constant aid ratios
+2025,Montenegro,scenario 1,-630752461.7,constant aid ratios
+2025,Morocco,scenario 1,350340867.4000006,constant aid ratios
+2025,Mozambique,scenario 1,2729882115.0,constant aid ratios
+2025,Myanmar,scenario 1,356079920.3000001,constant aid ratios
+2025,Nepal,scenario 1,901995369.8,constant aid ratios
+2025,Nicaragua,scenario 1,23027822.399999976,constant aid ratios
+2025,Niger,scenario 1,947161682.1,constant aid ratios
+2025,Nigeria,scenario 1,2656012658.8,constant aid ratios
+2025,North Macedonia,scenario 1,-171316744.79999995,constant aid ratios
+2025,Pakistan,scenario 1,-4346900484.699999,constant aid ratios
+2025,Papua New Guinea,scenario 1,502196633.5,constant aid ratios
+2025,Paraguay,scenario 1,286891656.0,constant aid ratios
+2025,Peru,scenario 1,-1252521817.1,constant aid ratios
+2025,Philippines,scenario 1,4204174045.8,constant aid ratios
+2025,Rwanda,scenario 1,1590818749.5,constant aid ratios
+2025,Samoa,scenario 1,99014194.5,constant aid ratios
+2025,Sao Tome and Principe,scenario 1,78806813.80000001,constant aid ratios
+2025,Senegal,scenario 1,1483083515.7999997,constant aid ratios
+2025,Serbia,scenario 1,2959196861.2999997,constant aid ratios
+2025,Sierra Leone,scenario 1,463056704.6,constant aid ratios
+2025,Solomon Islands,scenario 1,252463362.8,constant aid ratios
+2025,Somalia,scenario 1,2346517661.6,constant aid ratios
+2025,South Africa,scenario 1,-6691021748.599999,constant aid ratios
+2025,Sri Lanka,scenario 1,-2646493520.9000006,constant aid ratios
+2025,St. Lucia,scenario 1,84618778.0,constant aid ratios
+2025,St. Vincent and the Grenadines,scenario 1,48594427.900000006,constant aid ratios
+2025,Sudan,scenario 1,819188241.8,constant aid ratios
+2025,Suriname,scenario 1,-9151981.199999988,constant aid ratios
+2025,Tajikistan,scenario 1,200842513.6,constant aid ratios
+2025,Tanzania,scenario 1,2933270691.9000006,constant aid ratios
+2025,Thailand,scenario 1,-2235287806.0,constant aid ratios
+2025,Timor-Leste,scenario 1,248007088.0,constant aid ratios
+2025,Togo,scenario 1,445098885.2999999,constant aid ratios
+2025,Tonga,scenario 1,110990815.5,constant aid ratios
+2025,Tunisia,scenario 1,-627422274.0,constant aid ratios
+2025,Turkmenistan,scenario 1,-406150273.0,constant aid ratios
+2025,Türkiye,scenario 1,-3441711753.7000046,constant aid ratios
+2025,Uganda,scenario 1,2332898250.1,constant aid ratios
+2025,Upper middle income,scenario 1,-16209030197.800018,constant aid ratios
+2025,Uzbekistan,scenario 1,2144770335.3,constant aid ratios
+2025,Vanuatu,scenario 1,155739710.3,constant aid ratios
+2025,Vietnam,scenario 1,-2401726958.3,constant aid ratios
+2025,Yemen,scenario 1,2321132480.1,constant aid ratios
+2025,Zambia,scenario 1,-487387679.89999986,constant aid ratios
+2025,Zimbabwe,scenario 1,960331947.2,constant aid ratios
+2026,Afghanistan,scenario 1,2998413162.5,constant aid ratios
+2026,Africa,scenario 1,31166200313.59999,constant aid ratios
+2026,Albania,scenario 1,688773119.9,constant aid ratios
+2026,Algeria,scenario 1,161705945.5,constant aid ratios
+2026,Angola,scenario 1,-5724265962.2,constant aid ratios
+2026,Argentina,scenario 1,183165274.00000095,constant aid ratios
+2026,Armenia,scenario 1,-73851514.19999993,constant aid ratios
+2026,Azerbaijan,scenario 1,-3410653838.6,constant aid ratios
+2026,Bangladesh,scenario 1,4306650861.200001,constant aid ratios
+2026,Belarus,scenario 1,-1398202572.5,constant aid ratios
+2026,Belize,scenario 1,-256495.20000000295,constant aid ratios
+2026,Benin,scenario 1,1250298728.1,constant aid ratios
+2026,Bhutan,scenario 1,-244967951.99999997,constant aid ratios
+2026,Bolivia,scenario 1,2808281.5999999046,constant aid ratios
+2026,Bosnia and Herzegovina,scenario 1,-393143666.9,constant aid ratios
+2026,Botswana,scenario 1,-133397951.20000002,constant aid ratios
+2026,Brazil,scenario 1,306142158.3999977,constant aid ratios
+2026,Burkina Faso,scenario 1,1381935736.6,constant aid ratios
+2026,Burundi,scenario 1,557345184.4,constant aid ratios
+2026,Cabo Verde,scenario 1,1415671.599999994,constant aid ratios
+2026,Cambodia,scenario 1,1290017571.9,constant aid ratios
+2026,Cameroon,scenario 1,105195812.79999997,constant aid ratios
+2026,Central African Republic,scenario 1,716352994.9,constant aid ratios
+2026,Chad,scenario 1,871286591.8,constant aid ratios
+2026,Colombia,scenario 1,1288206271.5,constant aid ratios
+2026,Comoros,scenario 1,113296814.1,constant aid ratios
+2026,Congo Republic,scenario 1,-245606119.0,constant aid ratios
+2026,Costa Rica,scenario 1,2177955479.7999997,constant aid ratios
+2026,Cote d'Ivoire,scenario 1,1358757274.9000006,constant aid ratios
+2026,DR Congo,scenario 1,3832271292.8,constant aid ratios
+2026,Developing countries,scenario 1,26372586287.899963,constant aid ratios
+2026,Djibouti,scenario 1,206113402.1,constant aid ratios
+2026,Dominica,scenario 1,29272855.0,constant aid ratios
+2026,Dominican Republic,scenario 1,-549205257.5999994,constant aid ratios
+2026,Ecuador,scenario 1,-741924078.1999998,constant aid ratios
+2026,Egypt,scenario 1,-1670372500.3000011,constant aid ratios
+2026,El Salvador,scenario 1,453575887.39999986,constant aid ratios
+2026,Eritrea,scenario 1,94132452.3,constant aid ratios
+2026,Eswatini,scenario 1,58266520.599999994,constant aid ratios
+2026,Ethiopia,scenario 1,5972689781.200001,constant aid ratios
+2026,Fiji,scenario 1,96282828.3,constant aid ratios
+2026,Gabon,scenario 1,25833230.799999952,constant aid ratios
+2026,Gambia,scenario 1,324750635.3,constant aid ratios
+2026,Georgia,scenario 1,-243107275.5,constant aid ratios
+2026,Ghana,scenario 1,-2341145811.3,constant aid ratios
+2026,Grenada,scenario 1,22424182.39999999,constant aid ratios
+2026,Guatemala,scenario 1,329670963.2000003,constant aid ratios
+2026,Guinea,scenario 1,162945540.0,constant aid ratios
+2026,Guinea-Bissau,scenario 1,134399910.39999998,constant aid ratios
+2026,Guyana,scenario 1,80579071.60000002,constant aid ratios
+2026,Haiti,scenario 1,893936745.1,constant aid ratios
+2026,Honduras,scenario 1,-99846810.89999998,constant aid ratios
+2026,India,scenario 1,-6066550582.000004,constant aid ratios
+2026,Indonesia,scenario 1,4264364555.5999985,constant aid ratios
+2026,Iran,scenario 1,238813782.1,constant aid ratios
+2026,Iraq,scenario 1,-26772440.69999981,constant aid ratios
+2026,Jamaica,scenario 1,-689648752.3,constant aid ratios
+2026,Jordan,scenario 1,2139588282.6000004,constant aid ratios
+2026,Kazakhstan,scenario 1,-2321620511.7999997,constant aid ratios
+2026,Kenya,scenario 1,1107062319.3000002,constant aid ratios
+2026,Kosovo,scenario 1,338663142.5,constant aid ratios
+2026,Kyrgyz Republic,scenario 1,278769654.4,constant aid ratios
+2026,Laos,scenario 1,-887670494.5999997,constant aid ratios
+2026,Lebanon,scenario 1,-1576667534.1999998,constant aid ratios
+2026,Lesotho,scenario 1,136709297.60000002,constant aid ratios
+2026,Liberia,scenario 1,567310732.6,constant aid ratios
+2026,Low income,scenario 1,35390616016.2,constant aid ratios
+2026,Lower middle income,scenario 1,7052576246.899994,constant aid ratios
+2026,Madagascar,scenario 1,1186846424.5,constant aid ratios
+2026,Malawi,scenario 1,1679080749.9,constant aid ratios
+2026,Maldives,scenario 1,-369991430.8000001,constant aid ratios
+2026,Mali,scenario 1,1156779519.5,constant aid ratios
+2026,Mauritania,scenario 1,90088531.7,constant aid ratios
+2026,Mauritius,scenario 1,1110020584.1,constant aid ratios
+2026,Mexico,scenario 1,-12772944790.600006,constant aid ratios
+2026,Moldova,scenario 1,1268520881.5,constant aid ratios
+2026,Mongolia,scenario 1,-563549958.4000001,constant aid ratios
+2026,Montenegro,scenario 1,-70856051.19999999,constant aid ratios
+2026,Morocco,scenario 1,1522385288.8000002,constant aid ratios
+2026,Mozambique,scenario 1,2748057912.7000003,constant aid ratios
+2026,Myanmar,scenario 1,342670563.8000001,constant aid ratios
+2026,Nepal,scenario 1,857892363.3999999,constant aid ratios
+2026,Nicaragua,scenario 1,-35303846.399999976,constant aid ratios
+2026,Niger,scenario 1,917802552.8,constant aid ratios
+2026,Nigeria,scenario 1,3706998451.1,constant aid ratios
+2026,North Macedonia,scenario 1,547604878.0,constant aid ratios
+2026,Pakistan,scenario 1,-3603179692.1,constant aid ratios
+2026,Papua New Guinea,scenario 1,455081700.1,constant aid ratios
+2026,Paraguay,scenario 1,-218876172.89999983,constant aid ratios
+2026,Peru,scenario 1,-1940338086.7000003,constant aid ratios
+2026,Philippines,scenario 1,4848601023.299999,constant aid ratios
+2026,Rwanda,scenario 1,1478489389.0,constant aid ratios
+2026,Samoa,scenario 1,99205564.2,constant aid ratios
+2026,Sao Tome and Principe,scenario 1,79854612.4,constant aid ratios
+2026,Senegal,scenario 1,-2780676.4000000954,constant aid ratios
+2026,Serbia,scenario 1,2451977754.4999995,constant aid ratios
+2026,Sierra Leone,scenario 1,460029360.3,constant aid ratios
+2026,Solomon Islands,scenario 1,253105984.2,constant aid ratios
+2026,Somalia,scenario 1,2348368240.9,constant aid ratios
+2026,South Africa,scenario 1,-4646131866.3,constant aid ratios
+2026,Sri Lanka,scenario 1,-1110949149.5,constant aid ratios
+2026,St. Lucia,scenario 1,75879009.8,constant aid ratios
+2026,St. Vincent and the Grenadines,scenario 1,43105822.30000001,constant aid ratios
+2026,Sudan,scenario 1,855025549.5,constant aid ratios
+2026,Suriname,scenario 1,-8578471.800000012,constant aid ratios
+2026,Tajikistan,scenario 1,210550296.5,constant aid ratios
+2026,Tanzania,scenario 1,3715501041.7,constant aid ratios
+2026,Thailand,scenario 1,-1736881821.9999998,constant aid ratios
+2026,Timor-Leste,scenario 1,243469996.2,constant aid ratios
+2026,Togo,scenario 1,407618394.9,constant aid ratios
+2026,Tonga,scenario 1,111588572.9,constant aid ratios
+2026,Tunisia,scenario 1,336230093.0,constant aid ratios
+2026,Turkmenistan,scenario 1,-332279686.5,constant aid ratios
+2026,Türkiye,scenario 1,301503230.6000023,constant aid ratios
+2026,Uganda,scenario 1,2339201733.2,constant aid ratios
+2026,Upper middle income,scenario 1,-16127162281.800018,constant aid ratios
+2026,Uzbekistan,scenario 1,1899877826.0,constant aid ratios
+2026,Vanuatu,scenario 1,150507853.60000002,constant aid ratios
+2026,Vietnam,scenario 1,-2213417490.7,constant aid ratios
+2026,Yemen,scenario 1,2362427714.2,constant aid ratios
+2026,Zambia,scenario 1,-275246800.89999986,constant aid ratios
+2026,Zimbabwe,scenario 1,926693701.5,constant aid ratios
+2027,Afghanistan,scenario 1,3002217872.3,constant aid ratios
+2027,Africa,scenario 1,38288115041.600006,constant aid ratios
+2027,Albania,scenario 1,228099609.29999995,constant aid ratios
+2027,Algeria,scenario 1,163258881.5,constant aid ratios
+2027,Angola,scenario 1,-4827287889.899999,constant aid ratios
+2027,Argentina,scenario 1,815167367.6000004,constant aid ratios
+2027,Armenia,scenario 1,29285943.100000024,constant aid ratios
+2027,Azerbaijan,scenario 1,-877822511.9,constant aid ratios
+2027,Bangladesh,scenario 1,3464311359.700001,constant aid ratios
+2027,Belarus,scenario 1,-2156394995.4,constant aid ratios
+2027,Belize,scenario 1,-4649515.5,constant aid ratios
+2027,Benin,scenario 1,1288633177.9,constant aid ratios
+2027,Bhutan,scenario 1,-164241020.20000002,constant aid ratios
+2027,Bolivia,scenario 1,29927400.200000048,constant aid ratios
+2027,Bosnia and Herzegovina,scenario 1,347189291.9,constant aid ratios
+2027,Botswana,scenario 1,-151142561.29999998,constant aid ratios
+2027,Brazil,scenario 1,4152257249.199999,constant aid ratios
+2027,Burkina Faso,scenario 1,1357700298.9,constant aid ratios
+2027,Burundi,scenario 1,557290643.6999999,constant aid ratios
+2027,Cabo Verde,scenario 1,4307577.400000006,constant aid ratios
+2027,Cambodia,scenario 1,1257758332.7,constant aid ratios
+2027,Cameroon,scenario 1,277758873.10000014,constant aid ratios
+2027,Central African Republic,scenario 1,716463800.7,constant aid ratios
+2027,Chad,scenario 1,822229087.4,constant aid ratios
+2027,Colombia,scenario 1,863173088.0,constant aid ratios
+2027,Comoros,scenario 1,121622308.7,constant aid ratios
+2027,Congo Republic,scenario 1,-218914878.9,constant aid ratios
+2027,Costa Rica,scenario 1,1995926527.0,constant aid ratios
+2027,Cote d'Ivoire,scenario 1,1318911617.3000002,constant aid ratios
+2027,DR Congo,scenario 1,3806029022.9,constant aid ratios
+2027,Developing countries,scenario 1,49187642778.099976,constant aid ratios
+2027,Djibouti,scenario 1,221520484.2,constant aid ratios
+2027,Dominica,scenario 1,40477378.8,constant aid ratios
+2027,Dominican Republic,scenario 1,-173888871.69999886,constant aid ratios
+2027,Ecuador,scenario 1,-766828011.5,constant aid ratios
+2027,Egypt,scenario 1,2794864397.8999996,constant aid ratios
+2027,El Salvador,scenario 1,-151230271.0,constant aid ratios
+2027,Eritrea,scenario 1,94454909.79999998,constant aid ratios
+2027,Eswatini,scenario 1,52265266.3,constant aid ratios
+2027,Ethiopia,scenario 1,6078583768.400001,constant aid ratios
+2027,Fiji,scenario 1,99555763.5,constant aid ratios
+2027,Gabon,scenario 1,80323664.39999998,constant aid ratios
+2027,Gambia,scenario 1,315168983.9,constant aid ratios
+2027,Georgia,scenario 1,244879635.29999995,constant aid ratios
+2027,Ghana,scenario 1,-972545501.2,constant aid ratios
+2027,Grenada,scenario 1,27013532.999999993,constant aid ratios
+2027,Guatemala,scenario 1,611869886.6000001,constant aid ratios
+2027,Guinea,scenario 1,174381077.0999999,constant aid ratios
+2027,Guinea-Bissau,scenario 1,136292617.29999998,constant aid ratios
+2027,Guyana,scenario 1,76642441.4,constant aid ratios
+2027,Haiti,scenario 1,897431327.2,constant aid ratios
+2027,Honduras,scenario 1,-853094570.4000001,constant aid ratios
+2027,India,scenario 1,-5072335940.100002,constant aid ratios
+2027,Indonesia,scenario 1,3558775628.200001,constant aid ratios
+2027,Iran,scenario 1,255245428.3,constant aid ratios
+2027,Iraq,scenario 1,319857930.0,constant aid ratios
+2027,Jamaica,scenario 1,-650704935.8,constant aid ratios
+2027,Jordan,scenario 1,3522469978.1000004,constant aid ratios
+2027,Kazakhstan,scenario 1,-1166594816.4,constant aid ratios
+2027,Kenya,scenario 1,1347963946.5000005,constant aid ratios
+2027,Kosovo,scenario 1,317668119.0,constant aid ratios
+2027,Kyrgyz Republic,scenario 1,243609457.1,constant aid ratios
+2027,Laos,scenario 1,-519990989.5999999,constant aid ratios
+2027,Lebanon,scenario 1,-2048847649.4,constant aid ratios
+2027,Lesotho,scenario 1,135476416.60000002,constant aid ratios
+2027,Liberia,scenario 1,564184089.2,constant aid ratios
+2027,Low income,scenario 1,35381321680.4,constant aid ratios
+2027,Lower middle income,scenario 1,21176524744.099976,constant aid ratios
+2027,Madagascar,scenario 1,1188609888.7,constant aid ratios
+2027,Malawi,scenario 1,1660640280.0,constant aid ratios
+2027,Maldives,scenario 1,272199420.0,constant aid ratios
+2027,Mali,scenario 1,1153757257.0,constant aid ratios
+2027,Mauritania,scenario 1,82541310.60000002,constant aid ratios
+2027,Mauritius,scenario 1,1337513692.7,constant aid ratios
+2027,Mexico,scenario 1,-15183097393.599998,constant aid ratios
+2027,Moldova,scenario 1,1285770021.1,constant aid ratios
+2027,Mongolia,scenario 1,463124711.2999999,constant aid ratios
+2027,Montenegro,scenario 1,-851015905.4000001,constant aid ratios
+2027,Morocco,scenario 1,1510167337.3000002,constant aid ratios
+2027,Mozambique,scenario 1,2765112372.6000004,constant aid ratios
+2027,Myanmar,scenario 1,536910053.4,constant aid ratios
+2027,Nepal,scenario 1,825943946.4999999,constant aid ratios
+2027,Nicaragua,scenario 1,-51135888.899999976,constant aid ratios
+2027,Niger,scenario 1,896331250.3999999,constant aid ratios
+2027,Nigeria,scenario 1,1380022762.6999998,constant aid ratios
+2027,North Macedonia,scenario 1,254958000.29999995,constant aid ratios
+2027,Pakistan,scenario 1,2672946381.8999996,constant aid ratios
+2027,Papua New Guinea,scenario 1,446024431.9,constant aid ratios
+2027,Paraguay,scenario 1,-280876055.39999986,constant aid ratios
+2027,Peru,scenario 1,-1360301667.5,constant aid ratios
+2027,Philippines,scenario 1,3439252360.1000004,constant aid ratios
+2027,Rwanda,scenario 1,1429216701.0,constant aid ratios
+2027,Samoa,scenario 1,99529204.6,constant aid ratios
+2027,Sao Tome and Principe,scenario 1,80250301.7,constant aid ratios
+2027,Senegal,scenario 1,1330860061.6999998,constant aid ratios
+2027,Serbia,scenario 1,646017014.0999994,constant aid ratios
+2027,Sierra Leone,scenario 1,462788149.1,constant aid ratios
+2027,Solomon Islands,scenario 1,252395652.3,constant aid ratios
+2027,Somalia,scenario 1,2313210269.2,constant aid ratios
+2027,South Africa,scenario 1,-4617382021.500001,constant aid ratios
+2027,Sri Lanka,scenario 1,-152244567.60000038,constant aid ratios
+2027,St. Lucia,scenario 1,74839792.5,constant aid ratios
+2027,St. Vincent and the Grenadines,scenario 1,43351296.60000001,constant aid ratios
+2027,Sudan,scenario 1,908079166.7,constant aid ratios
+2027,Suriname,scenario 1,-80654655.69999999,constant aid ratios
+2027,Tajikistan,scenario 1,277337013.5,constant aid ratios
+2027,Tanzania,scenario 1,3869216250.1,constant aid ratios
+2027,Thailand,scenario 1,-1962586022.5,constant aid ratios
+2027,Timor-Leste,scenario 1,231547812.0,constant aid ratios
+2027,Togo,scenario 1,397436282.99999994,constant aid ratios
+2027,Tonga,scenario 1,112393691.6,constant aid ratios
+2027,Tunisia,scenario 1,868352252.3000002,constant aid ratios
+2027,Turkmenistan,scenario 1,-264824243.0999999,constant aid ratios
+2027,Türkiye,scenario 1,4633169653.400002,constant aid ratios
+2027,Uganda,scenario 1,2378107503.7999997,constant aid ratios
+2027,Upper middle income,scenario 1,-7426632236.899994,constant aid ratios
+2027,Uzbekistan,scenario 1,2221348036.9,constant aid ratios
+2027,Vanuatu,scenario 1,150125986.3,constant aid ratios
+2027,Vietnam,scenario 1,-2004310406.2,constant aid ratios
+2027,Yemen,scenario 1,2377417464.4,constant aid ratios
+2027,Zambia,scenario 1,-175801022.29999995,constant aid ratios
+2027,Zimbabwe,scenario 1,809290915.0,constant aid ratios
+2024,Afghanistan,scenario 2,2933937074.05488,20% decrease in concessional finance
+2024,Africa,scenario 2,11796019366.607971,20% decrease in concessional finance
+2024,Albania,scenario 2,555498341.7676963,20% decrease in concessional finance
+2024,Algeria,scenario 2,134854977.87735572,20% decrease in concessional finance
+2024,Angola,scenario 2,-8656096249.66294,20% decrease in concessional finance
+2024,Argentina,scenario 2,-21067542645.552708,20% decrease in concessional finance
+2024,Armenia,scenario 2,20182603.817698956,20% decrease in concessional finance
+2024,Azerbaijan,scenario 2,-3171197482.767525,20% decrease in concessional finance
+2024,Bangladesh,scenario 2,5562740183.617796,20% decrease in concessional finance
+2024,Belarus,scenario 2,-1755826556.1954508,20% decrease in concessional finance
+2024,Belize,scenario 2,-53251824.12772769,20% decrease in concessional finance
+2024,Benin,scenario 2,1309400908.8973458,20% decrease in concessional finance
+2024,Bhutan,scenario 2,-102844136.07563964,20% decrease in concessional finance
+2024,Bolivia,scenario 2,49252521.20855641,20% decrease in concessional finance
+2024,Bosnia and Herzegovina,scenario 2,217353033.93467355,20% decrease in concessional finance
+2024,Botswana,scenario 2,-113714461.40919656,20% decrease in concessional finance
+2024,Brazil,scenario 2,-5794631634.156208,20% decrease in concessional finance
+2024,Burkina Faso,scenario 2,1394777520.1735337,20% decrease in concessional finance
+2024,Burundi,scenario 2,565141229.3896313,20% decrease in concessional finance
+2024,Cabo Verde,scenario 2,-5582408.962002784,20% decrease in concessional finance
+2024,Cambodia,scenario 2,1322380517.191948,20% decrease in concessional finance
+2024,Cameroon,scenario 2,-12491863.547022345,20% decrease in concessional finance
+2024,Central African Republic,scenario 2,706244043.7629418,20% decrease in concessional finance
+2024,Chad,scenario 2,776133138.9166654,20% decrease in concessional finance
+2024,Colombia,scenario 2,4941800994.671371,20% decrease in concessional finance
+2024,Comoros,scenario 2,116475008.0697665,20% decrease in concessional finance
+2024,Congo Republic,scenario 2,-362427990.5393171,20% decrease in concessional finance
+2024,Costa Rica,scenario 2,1926402445.9755056,20% decrease in concessional finance
+2024,Cote d'Ivoire,scenario 2,1282723319.2450645,20% decrease in concessional finance
+2024,DR Congo,scenario 2,3498512570.6098137,20% decrease in concessional finance
+2024,Developing countries,scenario 2,-27710485316.86621,20% decrease in concessional finance
+2024,Djibouti,scenario 2,251603220.2131033,20% decrease in concessional finance
+2024,Dominica,scenario 2,11183439.88146434,20% decrease in concessional finance
+2024,Dominican Republic,scenario 2,1463947348.332254,20% decrease in concessional finance
+2024,Ecuador,scenario 2,-978132430.31035,20% decrease in concessional finance
+2024,Egypt,scenario 2,-4403440860.559357,20% decrease in concessional finance
+2024,El Salvador,scenario 2,436285931.0044,20% decrease in concessional finance
+2024,Eritrea,scenario 2,88643123.3200109,20% decrease in concessional finance
+2024,Eswatini,scenario 2,83238409.75239511,20% decrease in concessional finance
+2024,Ethiopia,scenario 2,-612167246.4699821,20% decrease in concessional finance
+2024,Fiji,scenario 2,113209314.99462412,20% decrease in concessional finance
+2024,Gabon,scenario 2,-110831122.35820104,20% decrease in concessional finance
+2024,Gambia,scenario 2,296946252.0502872,20% decrease in concessional finance
+2024,Georgia,scenario 2,303254593.14623964,20% decrease in concessional finance
+2024,Ghana,scenario 2,-1362519890.956067,20% decrease in concessional finance
+2024,Grenada,scenario 2,20889652.882739544,20% decrease in concessional finance
+2024,Guatemala,scenario 2,1044089311.7078798,20% decrease in concessional finance
+2024,Guinea,scenario 2,218019256.251256,20% decrease in concessional finance
+2024,Guinea-Bissau,scenario 2,133621778.81145972,20% decrease in concessional finance
+2024,Guyana,scenario 2,151053894.05492347,20% decrease in concessional finance
+2024,Haiti,scenario 2,864147395.5874808,20% decrease in concessional finance
+2024,Honduras,scenario 2,-245495447.55550337,20% decrease in concessional finance
+2024,India,scenario 2,-6886674022.332272,20% decrease in concessional finance
+2024,Indonesia,scenario 2,-13735876512.5461,20% decrease in concessional finance
+2024,Iran,scenario 2,214270694.97724688,20% decrease in concessional finance
+2024,Iraq,scenario 2,-536746151.50928354,20% decrease in concessional finance
+2024,Jamaica,scenario 2,-473318342.67783856,20% decrease in concessional finance
+2024,Jordan,scenario 2,4777902823.087793,20% decrease in concessional finance
+2024,Kazakhstan,scenario 2,-3125650950.01303,20% decrease in concessional finance
+2024,Kenya,scenario 2,-934376108.1749372,20% decrease in concessional finance
+2024,Kosovo,scenario 2,302751049.72903264,20% decrease in concessional finance
+2024,Kyrgyz Republic,scenario 2,395410627.9197738,20% decrease in concessional finance
+2024,Laos,scenario 2,-1085874953.2049346,20% decrease in concessional finance
+2024,Lebanon,scenario 2,-1360342583.343285,20% decrease in concessional finance
+2024,Lesotho,scenario 2,145644791.7108554,20% decrease in concessional finance
+2024,Liberia,scenario 2,564561768.9380337,20% decrease in concessional finance
+2024,Low income,scenario 2,28122648418.505074,20% decrease in concessional finance
+2024,Lower middle income,scenario 2,-5194147637.750305,20% decrease in concessional finance
+2024,Madagascar,scenario 2,1204417452.2131362,20% decrease in concessional finance
+2024,Malawi,scenario 2,1677955332.6656773,20% decrease in concessional finance
+2024,Maldives,scenario 2,222743821.26913393,20% decrease in concessional finance
+2024,Mali,scenario 2,1138863170.9807923,20% decrease in concessional finance
+2024,Mauritania,scenario 2,24283530.557285488,20% decrease in concessional finance
+2024,Mauritius,scenario 2,457536256.6398883,20% decrease in concessional finance
+2024,Mexico,scenario 2,-7033944256.273754,20% decrease in concessional finance
+2024,Moldova,scenario 2,1249946055.5929384,20% decrease in concessional finance
+2024,Mongolia,scenario 2,1076256611.8164716,20% decrease in concessional finance
+2024,Montenegro,scenario 2,-91799536.45259868,20% decrease in concessional finance
+2024,Morocco,scenario 2,-866003711.3501358,20% decrease in concessional finance
+2024,Mozambique,scenario 2,2663976820.0596075,20% decrease in concessional finance
+2024,Myanmar,scenario 2,347034240.8264122,20% decrease in concessional finance
+2024,Nepal,scenario 2,989513684.652203,20% decrease in concessional finance
+2024,Nicaragua,scenario 2,105865192.77359603,20% decrease in concessional finance
+2024,Niger,scenario 2,958002682.0912364,20% decrease in concessional finance
+2024,Nigeria,scenario 2,4008678806.227002,20% decrease in concessional finance
+2024,North Macedonia,scenario 2,373261132.4065336,20% decrease in concessional finance
+2024,Pakistan,scenario 2,-6555264688.666157,20% decrease in concessional finance
+2024,Papua New Guinea,scenario 2,578448639.4678953,20% decrease in concessional finance
+2024,Paraguay,scenario 2,382710755.08747053,20% decrease in concessional finance
+2024,Peru,scenario 2,-118424479.79333591,20% decrease in concessional finance
+2024,Philippines,scenario 2,4284064766.40973,20% decrease in concessional finance
+2024,Rwanda,scenario 2,1704769883.4541192,20% decrease in concessional finance
+2024,Samoa,scenario 2,98080460.3757105,20% decrease in concessional finance
+2024,Sao Tome and Principe,scenario 2,78453830.7207236,20% decrease in concessional finance
+2024,Senegal,scenario 2,1608325044.240015,20% decrease in concessional finance
+2024,Serbia,scenario 2,2035640265.969977,20% decrease in concessional finance
+2024,Sierra Leone,scenario 2,451358490.24160826,20% decrease in concessional finance
+2024,Solomon Islands,scenario 2,264431474.3858883,20% decrease in concessional finance
+2024,Somalia,scenario 2,2289177219.739368,20% decrease in concessional finance
+2024,South Africa,scenario 2,-6192295941.274968,20% decrease in concessional finance
+2024,Sri Lanka,scenario 2,-3284630311.6053085,20% decrease in concessional finance
+2024,St. Lucia,scenario 2,91489236.7132398,20% decrease in concessional finance
+2024,St. Vincent and the Grenadines,scenario 2,50989135.610239774,20% decrease in concessional finance
+2024,Sudan,scenario 2,770674520.597745,20% decrease in concessional finance
+2024,Suriname,scenario 2,1986637.4522498848,20% decrease in concessional finance
+2024,Tajikistan,scenario 2,372936282.22684467,20% decrease in concessional finance
+2024,Tanzania,scenario 2,3144600254.878425,20% decrease in concessional finance
+2024,Thailand,scenario 2,-2657333658.1850576,20% decrease in concessional finance
+2024,Timor-Leste,scenario 2,268436910.5402951,20% decrease in concessional finance
+2024,Togo,scenario 2,451522747.2977558,20% decrease in concessional finance
+2024,Tonga,scenario 2,115395400.50130084,20% decrease in concessional finance
+2024,Tunisia,scenario 2,-902278172.6561928,20% decrease in concessional finance
+2024,Turkmenistan,scenario 2,-662065490.8323312,20% decrease in concessional finance
+2024,Türkiye,scenario 2,-818303708.9998093,20% decrease in concessional finance
+2024,Uganda,scenario 2,2363267676.670669,20% decrease in concessional finance
+2024,Upper middle income,scenario 2,-50726958141.67587,20% decrease in concessional finance
+2024,Uzbekistan,scenario 2,2807875773.6098843,20% decrease in concessional finance
+2024,Vanuatu,scenario 2,163148264.71358874,20% decrease in concessional finance
+2024,Vietnam,scenario 2,-3458760735.181586,20% decrease in concessional finance
+2024,Yemen,scenario 2,2102311168.9360795,20% decrease in concessional finance
+2024,Zambia,scenario 2,-1202400164.0439692,20% decrease in concessional finance
+2024,Zimbabwe,scenario 2,970240521.307696,20% decrease in concessional finance
+2025,Afghanistan,scenario 2,2696946010.6964817,20% decrease in concessional finance
+2025,Africa,scenario 2,22891664479.290897,20% decrease in concessional finance
+2025,Albania,scenario 2,-17431926.899496317,20% decrease in concessional finance
+2025,Algeria,scenario 2,134774434.28332615,20% decrease in concessional finance
+2025,Angola,scenario 2,-8412983848.165146,20% decrease in concessional finance
+2025,Argentina,scenario 2,314238835.11769676,20% decrease in concessional finance
+2025,Armenia,scenario 2,-320202389.936651,20% decrease in concessional finance
+2025,Azerbaijan,scenario 2,-1290958654.5813026,20% decrease in concessional finance
+2025,Bangladesh,scenario 2,4888660095.886543,20% decrease in concessional finance
+2025,Belarus,scenario 2,-1259796485.9086783,20% decrease in concessional finance
+2025,Belize,scenario 2,-3967437.9487588704,20% decrease in concessional finance
+2025,Benin,scenario 2,1194799948.640883,20% decrease in concessional finance
+2025,Bhutan,scenario 2,-90198145.2664541,20% decrease in concessional finance
+2025,Bolivia,scenario 2,11227645.24172163,20% decrease in concessional finance
+2025,Bosnia and Herzegovina,scenario 2,231132344.07835364,20% decrease in concessional finance
+2025,Botswana,scenario 2,-137003941.95264447,20% decrease in concessional finance
+2025,Brazil,scenario 2,-5407829360.1992,20% decrease in concessional finance
+2025,Burkina Faso,scenario 2,1314428655.5731812,20% decrease in concessional finance
+2025,Burundi,scenario 2,537975543.0991064,20% decrease in concessional finance
+2025,Cabo Verde,scenario 2,-1287936.3760971427,20% decrease in concessional finance
+2025,Cambodia,scenario 2,1266576102.891521,20% decrease in concessional finance
+2025,Cameroon,scenario 2,-139148638.35654163,20% decrease in concessional finance
+2025,Central African Republic,scenario 2,674791281.7246333,20% decrease in concessional finance
+2025,Chad,scenario 2,757887296.7310694,20% decrease in concessional finance
+2025,Colombia,scenario 2,3416446227.0286465,20% decrease in concessional finance
+2025,Comoros,scenario 2,109786438.89515108,20% decrease in concessional finance
+2025,Congo Republic,scenario 2,-311891775.5626401,20% decrease in concessional finance
+2025,Costa Rica,scenario 2,957773866.961964,20% decrease in concessional finance
+2025,Cote d'Ivoire,scenario 2,941587102.9816446,20% decrease in concessional finance
+2025,DR Congo,scenario 2,3562185188.0963736,20% decrease in concessional finance
+2025,Developing countries,scenario 2,23838097942.272583,20% decrease in concessional finance
+2025,Djibouti,scenario 2,204446808.3054586,20% decrease in concessional finance
+2025,Dominica,scenario 2,36110960.62088599,20% decrease in concessional finance
+2025,Dominican Republic,scenario 2,300747477.85760784,20% decrease in concessional finance
+2025,Ecuador,scenario 2,-330484500.5029931,20% decrease in concessional finance
+2025,Egypt,scenario 2,2769900126.700672,20% decrease in concessional finance
+2025,El Salvador,scenario 2,104231140.33853196,20% decrease in concessional finance
+2025,Eritrea,scenario 2,91690991.78856955,20% decrease in concessional finance
+2025,Eswatini,scenario 2,53876063.2803901,20% decrease in concessional finance
+2025,Ethiopia,scenario 2,4680680467.065908,20% decrease in concessional finance
+2025,Fiji,scenario 2,108547943.01851168,20% decrease in concessional finance
+2025,Gabon,scenario 2,-40906278.817869544,20% decrease in concessional finance
+2025,Gambia,scenario 2,323846335.4698992,20% decrease in concessional finance
+2025,Georgia,scenario 2,229118606.7978303,20% decrease in concessional finance
+2025,Ghana,scenario 2,-1968267283.208145,20% decrease in concessional finance
+2025,Grenada,scenario 2,21270381.488324605,20% decrease in concessional finance
+2025,Guatemala,scenario 2,997073129.3496248,20% decrease in concessional finance
+2025,Guinea,scenario 2,146491336.4585812,20% decrease in concessional finance
+2025,Guinea-Bissau,scenario 2,134764465.58728802,20% decrease in concessional finance
+2025,Guyana,scenario 2,110189250.49884196,20% decrease in concessional finance
+2025,Haiti,scenario 2,797752897.1120564,20% decrease in concessional finance
+2025,Honduras,scenario 2,-458428660.88268256,20% decrease in concessional finance
+2025,India,scenario 2,-677407575.7426529,20% decrease in concessional finance
+2025,Indonesia,scenario 2,2209383285.175812,20% decrease in concessional finance
+2025,Iran,scenario 2,200224064.06400907,20% decrease in concessional finance
+2025,Iraq,scenario 2,162000022.60106754,20% decrease in concessional finance
+2025,Jamaica,scenario 2,-622218087.1698015,20% decrease in concessional finance
+2025,Jordan,scenario 2,3547399249.2708516,20% decrease in concessional finance
+2025,Kazakhstan,scenario 2,-3910137394.044837,20% decrease in concessional finance
+2025,Kenya,scenario 2,348492783.44478893,20% decrease in concessional finance
+2025,Kosovo,scenario 2,314920716.01936746,20% decrease in concessional finance
+2025,Kyrgyz Republic,scenario 2,280457419.22507447,20% decrease in concessional finance
+2025,Laos,scenario 2,-1270449571.170375,20% decrease in concessional finance
+2025,Lebanon,scenario 2,-1834803747.3081985,20% decrease in concessional finance
+2025,Lesotho,scenario 2,123247587.4828086,20% decrease in concessional finance
+2025,Liberia,scenario 2,529205111.0458037,20% decrease in concessional finance
+2025,Low income,scenario 2,31985168454.58159,20% decrease in concessional finance
+2025,Lower middle income,scenario 2,8431278101.660095,20% decrease in concessional finance
+2025,Madagascar,scenario 2,1145769407.5669243,20% decrease in concessional finance
+2025,Malawi,scenario 2,1586253554.111595,20% decrease in concessional finance
+2025,Maldives,scenario 2,78149307.3433199,20% decrease in concessional finance
+2025,Mali,scenario 2,1087945587.6278932,20% decrease in concessional finance
+2025,Mauritania,scenario 2,70288287.34481329,20% decrease in concessional finance
+2025,Mauritius,scenario 2,870167676.5253685,20% decrease in concessional finance
+2025,Mexico,scenario 2,-4564430633.458981,20% decrease in concessional finance
+2025,Moldova,scenario 2,1228484474.1978066,20% decrease in concessional finance
+2025,Mongolia,scenario 2,996722151.5457224,20% decrease in concessional finance
+2025,Montenegro,scenario 2,-631664146.3645006,20% decrease in concessional finance
+2025,Morocco,scenario 2,282860953.37467575,20% decrease in concessional finance
+2025,Mozambique,scenario 2,2576825671.317029,20% decrease in concessional finance
+2025,Myanmar,scenario 2,420996395.8776597,20% decrease in concessional finance
+2025,Nepal,scenario 2,894869878.4710901,20% decrease in concessional finance
+2025,Nicaragua,scenario 2,19444880.892878413,20% decrease in concessional finance
+2025,Niger,scenario 2,847178560.3945763,20% decrease in concessional finance
+2025,Nigeria,scenario 2,2411518306.319702,20% decrease in concessional finance
+2025,North Macedonia,scenario 2,-183836132.6129763,20% decrease in concessional finance
+2025,Pakistan,scenario 2,-4406474567.107302,20% decrease in concessional finance
+2025,Papua New Guinea,scenario 2,520089871.1622472,20% decrease in concessional finance
+2025,Paraguay,scenario 2,298509382.51490784,20% decrease in concessional finance
+2025,Peru,scenario 2,-1326463762.2314043,20% decrease in concessional finance
+2025,Philippines,scenario 2,4518570850.671357,20% decrease in concessional finance
+2025,Rwanda,scenario 2,1542069197.2868755,20% decrease in concessional finance
+2025,Samoa,scenario 2,101783920.72442408,20% decrease in concessional finance
+2025,Sao Tome and Principe,scenario 2,79392317.96703005,20% decrease in concessional finance
+2025,Senegal,scenario 2,1393433781.5350456,20% decrease in concessional finance
+2025,Serbia,scenario 2,2936415355.1190047,20% decrease in concessional finance
+2025,Sierra Leone,scenario 2,439955048.13256,20% decrease in concessional finance
+2025,Solomon Islands,scenario 2,261762704.32327884,20% decrease in concessional finance
+2025,Somalia,scenario 2,2087435945.0038896,20% decrease in concessional finance
+2025,South Africa,scenario 2,-6845585855.811044,20% decrease in concessional finance
+2025,Sri Lanka,scenario 2,-2649922609.55048,20% decrease in concessional finance
+2025,St. Lucia,scenario 2,84395965.35520595,20% decrease in concessional finance
+2025,St. Vincent and the Grenadines,scenario 2,47995163.576394126,20% decrease in concessional finance
+2025,Sudan,scenario 2,690800399.3142602,20% decrease in concessional finance
+2025,Suriname,scenario 2,-8517766.15364921,20% decrease in concessional finance
+2025,Tajikistan,scenario 2,184766314.77426335,20% decrease in concessional finance
+2025,Tanzania,scenario 2,2772993424.3025293,20% decrease in concessional finance
+2025,Thailand,scenario 2,-2231134728.9877954,20% decrease in concessional finance
+2025,Timor-Leste,scenario 2,257837814.49417365,20% decrease in concessional finance
+2025,Togo,scenario 2,422373530.4749504,20% decrease in concessional finance
+2025,Tonga,scenario 2,115459296.76933353,20% decrease in concessional finance
+2025,Tunisia,scenario 2,-676609267.9378791,20% decrease in concessional finance
+2025,Turkmenistan,scenario 2,-406764013.1619165,20% decrease in concessional finance
+2025,Türkiye,scenario 2,-3498453115.272049,20% decrease in concessional finance
+2025,Uganda,scenario 2,2188516662.495182,20% decrease in concessional finance
+2025,Upper middle income,scenario 2,-16643494404.267944,20% decrease in concessional finance
+2025,Uzbekistan,scenario 2,2213760258.800296,20% decrease in concessional finance
+2025,Vanuatu,scenario 2,161706112.99602506,20% decrease in concessional finance
+2025,Vietnam,scenario 2,-2216338979.283389,20% decrease in concessional finance
+2025,Yemen,scenario 2,2065643543.977538,20% decrease in concessional finance
+2025,Zambia,scenario 2,-589768629.1892579,20% decrease in concessional finance
+2025,Zimbabwe,scenario 2,884481656.9177148,20% decrease in concessional finance
+2026,Afghanistan,scenario 2,2442462119.469465,20% decrease in concessional finance
+2026,Africa,scenario 2,25024810531.045807,20% decrease in concessional finance
+2026,Albania,scenario 2,660421695.605842,20% decrease in concessional finance
+2026,Algeria,scenario 2,133883476.04930627,20% decrease in concessional finance
+2026,Angola,scenario 2,-5743730933.943069,20% decrease in concessional finance
+2026,Argentina,scenario 2,178614919.0955782,20% decrease in concessional finance
+2026,Armenia,scenario 2,-109142289.13850725,20% decrease in concessional finance
+2026,Azerbaijan,scenario 2,-3424575239.447666,20% decrease in concessional finance
+2026,Bangladesh,scenario 2,4725534269.877377,20% decrease in concessional finance
+2026,Belarus,scenario 2,-1413392791.4084694,20% decrease in concessional finance
+2026,Belize,scenario 2,-3122859.1177925617,20% decrease in concessional finance
+2026,Benin,scenario 2,1151525206.0356474,20% decrease in concessional finance
+2026,Bhutan,scenario 2,-224630828.83888945,20% decrease in concessional finance
+2026,Bolivia,scenario 2,2172814.385454178,20% decrease in concessional finance
+2026,Bosnia and Herzegovina,scenario 2,-425960597.6505264,20% decrease in concessional finance
+2026,Botswana,scenario 2,-153423083.14413285,20% decrease in concessional finance
+2026,Brazil,scenario 2,243269697.91442108,20% decrease in concessional finance
+2026,Burkina Faso,scenario 2,1265702934.0304754,20% decrease in concessional finance
+2026,Burundi,scenario 2,518181766.5767529,20% decrease in concessional finance
+2026,Cabo Verde,scenario 2,7901232.287388772,20% decrease in concessional finance
+2026,Cambodia,scenario 2,1400579794.039679,20% decrease in concessional finance
+2026,Cameroon,scenario 2,-5509555.367515087,20% decrease in concessional finance
+2026,Central African Republic,scenario 2,645820684.7860674,20% decrease in concessional finance
+2026,Chad,scenario 2,811521695.5955055,20% decrease in concessional finance
+2026,Colombia,scenario 2,1004390356.864664,20% decrease in concessional finance
+2026,Comoros,scenario 2,108677733.79360518,20% decrease in concessional finance
+2026,Congo Republic,scenario 2,-262429973.70040596,20% decrease in concessional finance
+2026,Costa Rica,scenario 2,2163118489.4238048,20% decrease in concessional finance
+2026,Cote d'Ivoire,scenario 2,1242096050.6288729,20% decrease in concessional finance
+2026,DR Congo,scenario 2,3266567711.2945175,20% decrease in concessional finance
+2026,Developing countries,scenario 2,19446282122.242676,20% decrease in concessional finance
+2026,Djibouti,scenario 2,206249837.73094025,20% decrease in concessional finance
+2026,Dominica,scenario 2,28213649.248797514,20% decrease in concessional finance
+2026,Dominican Republic,scenario 2,-576399173.2854967,20% decrease in concessional finance
+2026,Ecuador,scenario 2,-726049442.6475816,20% decrease in concessional finance
+2026,Egypt,scenario 2,-1658052816.9500463,20% decrease in concessional finance
+2026,El Salvador,scenario 2,412472185.2624819,20% decrease in concessional finance
+2026,Eritrea,scenario 2,93358896.98323564,20% decrease in concessional finance
+2026,Eswatini,scenario 2,32141986.29938093,20% decrease in concessional finance
+2026,Ethiopia,scenario 2,5338696241.406149,20% decrease in concessional finance
+2026,Fiji,scenario 2,107080406.24862522,20% decrease in concessional finance
+2026,Gabon,scenario 2,20834347.544538617,20% decrease in concessional finance
+2026,Gambia,scenario 2,317594993.151396,20% decrease in concessional finance
+2026,Georgia,scenario 2,-310594199.3767679,20% decrease in concessional finance
+2026,Ghana,scenario 2,-2432360904.908574,20% decrease in concessional finance
+2026,Grenada,scenario 2,21950452.39910321,20% decrease in concessional finance
+2026,Guatemala,scenario 2,236428680.12910247,20% decrease in concessional finance
+2026,Guinea,scenario 2,131549969.91429923,20% decrease in concessional finance
+2026,Guinea-Bissau,scenario 2,132017461.4375573,20% decrease in concessional finance
+2026,Guyana,scenario 2,77763891.06999457,20% decrease in concessional finance
+2026,Haiti,scenario 2,730036345.8232743,20% decrease in concessional finance
+2026,Honduras,scenario 2,-185041669.0733328,20% decrease in concessional finance
+2026,India,scenario 2,-5195577040.282993,20% decrease in concessional finance
+2026,Indonesia,scenario 2,4567313278.3573265,20% decrease in concessional finance
+2026,Iran,scenario 2,216863021.30119985,20% decrease in concessional finance
+2026,Iraq,scenario 2,141134849.50975466,20% decrease in concessional finance
+2026,Jamaica,scenario 2,-706173112.4546084,20% decrease in concessional finance
+2026,Jordan,scenario 2,1564284981.053543,20% decrease in concessional finance
+2026,Kazakhstan,scenario 2,-2329471946.017979,20% decrease in concessional finance
+2026,Kenya,scenario 2,768962537.0853968,20% decrease in concessional finance
+2026,Kosovo,scenario 2,300051551.3005017,20% decrease in concessional finance
+2026,Kyrgyz Republic,scenario 2,266808977.3282793,20% decrease in concessional finance
+2026,Laos,scenario 2,-860636832.0743928,20% decrease in concessional finance
+2026,Lebanon,scenario 2,-1841372975.334097,20% decrease in concessional finance
+2026,Lesotho,scenario 2,103225378.970229,20% decrease in concessional finance
+2026,Liberia,scenario 2,493619639.92988384,20% decrease in concessional finance
+2026,Low income,scenario 2,30847670874.70222,20% decrease in concessional finance
+2026,Lower middle income,scenario 2,5704775550.188995,20% decrease in concessional finance
+2026,Madagascar,scenario 2,1128029228.7286308,20% decrease in concessional finance
+2026,Malawi,scenario 2,1485686747.0590725,20% decrease in concessional finance
+2026,Maldives,scenario 2,-367737827.4738703,20% decrease in concessional finance
+2026,Mali,scenario 2,1011026367.276628,20% decrease in concessional finance
+2026,Mauritania,scenario 2,70849102.36115438,20% decrease in concessional finance
+2026,Mauritius,scenario 2,1109066775.021329,20% decrease in concessional finance
+2026,Mexico,scenario 2,-12887669461.758144,20% decrease in concessional finance
+2026,Moldova,scenario 2,1203330234.963406,20% decrease in concessional finance
+2026,Mongolia,scenario 2,-525276965.1920984,20% decrease in concessional finance
+2026,Montenegro,scenario 2,-73083603.87961978,20% decrease in concessional finance
+2026,Morocco,scenario 2,1433522133.7688875,20% decrease in concessional finance
+2026,Mozambique,scenario 2,2461163810.772987,20% decrease in concessional finance
+2026,Myanmar,scenario 2,395263297.1722976,20% decrease in concessional finance
+2026,Nepal,scenario 2,825988170.9784579,20% decrease in concessional finance
+2026,Nicaragua,scenario 2,-43715339.62238085,20% decrease in concessional finance
+2026,Niger,scenario 2,755307021.8257565,20% decrease in concessional finance
+2026,Nigeria,scenario 2,3251744790.13157,20% decrease in concessional finance
+2026,North Macedonia,scenario 2,528288875.5108578,20% decrease in concessional finance
+2026,Pakistan,scenario 2,-3718030058.532543,20% decrease in concessional finance
+2026,Papua New Guinea,scenario 2,481822130.0608703,20% decrease in concessional finance
+2026,Paraguay,scenario 2,-206871508.12382007,20% decrease in concessional finance
+2026,Peru,scenario 2,-2054193330.3973649,20% decrease in concessional finance
+2026,Philippines,scenario 2,5213424422.055683,20% decrease in concessional finance
+2026,Rwanda,scenario 2,1391965391.8241782,20% decrease in concessional finance
+2026,Samoa,scenario 2,103539682.39049973,20% decrease in concessional finance
+2026,Sao Tome and Principe,scenario 2,80574637.50241104,20% decrease in concessional finance
+2026,Senegal,scenario 2,-134781699.87103748,20% decrease in concessional finance
+2026,Serbia,scenario 2,2418614265.8561625,20% decrease in concessional finance
+2026,Sierra Leone,scenario 2,419885901.87468016,20% decrease in concessional finance
+2026,Solomon Islands,scenario 2,266348297.92694744,20% decrease in concessional finance
+2026,Somalia,scenario 2,1873519997.9528673,20% decrease in concessional finance
+2026,South Africa,scenario 2,-4924896313.933058,20% decrease in concessional finance
+2026,Sri Lanka,scenario 2,-1128317029.6962335,20% decrease in concessional finance
+2026,St. Lucia,scenario 2,76043000.7313687,20% decrease in concessional finance
+2026,St. Vincent and the Grenadines,scenario 2,42586339.499388605,20% decrease in concessional finance
+2026,Sudan,scenario 2,629078034.6415496,20% decrease in concessional finance
+2026,Suriname,scenario 2,-7519033.426222324,20% decrease in concessional finance
+2026,Tajikistan,scenario 2,180550026.75856557,20% decrease in concessional finance
+2026,Tanzania,scenario 2,3429126686.332893,20% decrease in concessional finance
+2026,Thailand,scenario 2,-1745089953.0173934,20% decrease in concessional finance
+2026,Timor-Leste,scenario 2,251418720.62023568,20% decrease in concessional finance
+2026,Togo,scenario 2,380063021.7772831,20% decrease in concessional finance
+2026,Tonga,scenario 2,118219602.6621092,20% decrease in concessional finance
+2026,Tunisia,scenario 2,269285631.2717929,20% decrease in concessional finance
+2026,Turkmenistan,scenario 2,-333684362.78401524,20% decrease in concessional finance
+2026,Türkiye,scenario 2,212231514.4569511,20% decrease in concessional finance
+2026,Uganda,scenario 2,2059720447.4342256,20% decrease in concessional finance
+2026,Upper middle income,scenario 2,-17159905428.718506,20% decrease in concessional finance
+2026,Uzbekistan,scenario 2,1979597655.9278364,20% decrease in concessional finance
+2026,Vanuatu,scenario 2,159462063.40959567,20% decrease in concessional finance
+2026,Vietnam,scenario 2,-2005551659.3131824,20% decrease in concessional finance
+2026,Yemen,scenario 2,1926680758.8733585,20% decrease in concessional finance
+2026,Zambia,scenario 2,-471204774.6588669,20% decrease in concessional finance
+2026,Zimbabwe,scenario 2,781455078.4334755,20% decrease in concessional finance
+2027,Afghanistan,scenario 2,2188237384.1145935,20% decrease in concessional finance
+2027,Africa,scenario 2,29359425506.80632,20% decrease in concessional finance
+2027,Albania,scenario 2,193872940.7542205,20% decrease in concessional finance
+2027,Algeria,scenario 2,135137224.776684,20% decrease in concessional finance
+2027,Angola,scenario 2,-4858700034.164598,20% decrease in concessional finance
+2027,Argentina,scenario 2,809847614.6044445,20% decrease in concessional finance
+2027,Armenia,scenario 2,-18838102.644153476,20% decrease in concessional finance
+2027,Azerbaijan,scenario 2,-895972559.2867063,20% decrease in concessional finance
+2027,Bangladesh,scenario 2,3930482953.330372,20% decrease in concessional finance
+2027,Belarus,scenario 2,-2178097406.6330423,20% decrease in concessional finance
+2027,Belize,scenario 2,-8798872.11566256,20% decrease in concessional finance
+2027,Benin,scenario 2,1147633373.9695182,20% decrease in concessional finance
+2027,Bhutan,scenario 2,-139007836.26091576,20% decrease in concessional finance
+2027,Bolivia,scenario 2,32200760.781044006,20% decrease in concessional finance
+2027,Bosnia and Herzegovina,scenario 2,302760428.9117458,20% decrease in concessional finance
+2027,Botswana,scenario 2,-181849731.56219852,20% decrease in concessional finance
+2027,Brazil,scenario 2,4069926307.4583454,20% decrease in concessional finance
+2027,Burkina Faso,scenario 2,1200805375.8925946,20% decrease in concessional finance
+2027,Burundi,scenario 2,492470388.6967233,20% decrease in concessional finance
+2027,Cabo Verde,scenario 2,12213546.308397532,20% decrease in concessional finance
+2027,Cambodia,scenario 2,1375420715.4157984,20% decrease in concessional finance
+2027,Cameroon,scenario 2,136317330.5401566,20% decrease in concessional finance
+2027,Central African Republic,scenario 2,620320691.2504344,20% decrease in concessional finance
+2027,Chad,scenario 2,747277656.0446204,20% decrease in concessional finance
+2027,Colombia,scenario 2,453561025.529644,20% decrease in concessional finance
+2027,Comoros,scenario 2,117237057.89410444,20% decrease in concessional finance
+2027,Congo Republic,scenario 2,-238289559.3641141,20% decrease in concessional finance
+2027,Costa Rica,scenario 2,1973377652.5980525,20% decrease in concessional finance
+2027,Cote d'Ivoire,scenario 2,1162337104.3598204,20% decrease in concessional finance
+2027,DR Congo,scenario 2,2981581772.723262,20% decrease in concessional finance
+2027,Developing countries,scenario 2,38370873701.30548,20% decrease in concessional finance
+2027,Djibouti,scenario 2,220163771.5410091,20% decrease in concessional finance
+2027,Dominica,scenario 2,39453731.64682867,20% decrease in concessional finance
+2027,Dominican Republic,scenario 2,-216227097.6652918,20% decrease in concessional finance
+2027,Ecuador,scenario 2,-753090916.9679503,20% decrease in concessional finance
+2027,Egypt,scenario 2,2784989765.151373,20% decrease in concessional finance
+2027,El Salvador,scenario 2,-217717145.64938545,20% decrease in concessional finance
+2027,Eritrea,scenario 2,93614059.75727826,20% decrease in concessional finance
+2027,Eswatini,scenario 2,13749318.88956283,20% decrease in concessional finance
+2027,Ethiopia,scenario 2,5076205365.646611,20% decrease in concessional finance
+2027,Fiji,scenario 2,113818863.09271169,20% decrease in concessional finance
+2027,Gabon,scenario 2,75138848.72058463,20% decrease in concessional finance
+2027,Gambia,scenario 2,303929256.72313905,20% decrease in concessional finance
+2027,Georgia,scenario 2,154883207.17903662,20% decrease in concessional finance
+2027,Ghana,scenario 2,-1101197698.6902306,20% decrease in concessional finance
+2027,Grenada,scenario 2,26686392.85695604,20% decrease in concessional finance
+2027,Guatemala,scenario 2,474431745.7367563,20% decrease in concessional finance
+2027,Guinea,scenario 2,134089205.38641834,20% decrease in concessional finance
+2027,Guinea-Bissau,scenario 2,133108495.0679627,20% decrease in concessional finance
+2027,Guyana,scenario 2,73653157.3708876,20% decrease in concessional finance
+2027,Haiti,scenario 2,668663733.1889379,20% decrease in concessional finance
+2027,Honduras,scenario 2,-978068759.0444232,20% decrease in concessional finance
+2027,India,scenario 2,-3978359615.9686966,20% decrease in concessional finance
+2027,Indonesia,scenario 2,3912028017.8846626,20% decrease in concessional finance
+2027,Iran,scenario 2,234166266.30767885,20% decrease in concessional finance
+2027,Iraq,scenario 2,502734607.182724,20% decrease in concessional finance
+2027,Jamaica,scenario 2,-675870715.9275589,20% decrease in concessional finance
+2027,Jordan,scenario 2,2687269494.8936415,20% decrease in concessional finance
+2027,Kazakhstan,scenario 2,-1177676229.7044036,20% decrease in concessional finance
+2027,Kenya,scenario 2,840756957.6143279,20% decrease in concessional finance
+2027,Kosovo,scenario 2,265706608.5270975,20% decrease in concessional finance
+2027,Kyrgyz Republic,scenario 2,221776579.26949537,20% decrease in concessional finance
+2027,Laos,scenario 2,-504164083.7912569,20% decrease in concessional finance
+2027,Lebanon,scenario 2,-2397370158.664879,20% decrease in concessional finance
+2027,Lesotho,scenario 2,84725585.19037472,20% decrease in concessional finance
+2027,Liberia,scenario 2,458926149.27956176,20% decrease in concessional finance
+2027,Low income,scenario 2,28714522010.947296,20% decrease in concessional finance
+2027,Lower middle income,scenario 2,18643769390.02829,20% decrease in concessional finance
+2027,Madagascar,scenario 2,1103110673.0201485,20% decrease in concessional finance
+2027,Malawi,scenario 2,1376838825.906242,20% decrease in concessional finance
+2027,Maldives,scenario 2,274483189.4903991,20% decrease in concessional finance
+2027,Mali,scenario 2,948589423.1447335,20% decrease in concessional finance
+2027,Mauritania,scenario 2,58976865.70483208,20% decrease in concessional finance
+2027,Mauritius,scenario 2,1336827877.4547508,20% decrease in concessional finance
+2027,Mexico,scenario 2,-15345252800.620094,20% decrease in concessional finance
+2027,Moldova,scenario 2,1185643899.305863,20% decrease in concessional finance
+2027,Mongolia,scenario 2,495738894.37364054,20% decrease in concessional finance
+2027,Montenegro,scenario 2,-854540086.2995515,20% decrease in concessional finance
+2027,Morocco,scenario 2,1401658038.9631567,20% decrease in concessional finance
+2027,Mozambique,scenario 2,2338798876.440626,20% decrease in concessional finance
+2027,Myanmar,scenario 2,580092819.7204591,20% decrease in concessional finance
+2027,Nepal,scenario 2,769341151.4911143,20% decrease in concessional finance
+2027,Nicaragua,scenario 2,-64661079.084091425,20% decrease in concessional finance
+2027,Niger,scenario 2,667826928.8787816,20% decrease in concessional finance
+2027,Nigeria,scenario 2,711396560.1858416,20% decrease in concessional finance
+2027,North Macedonia,scenario 2,229256837.9988563,20% decrease in concessional finance
+2027,Pakistan,scenario 2,2494295338.2761135,20% decrease in concessional finance
+2027,Papua New Guinea,scenario 2,483741239.0897604,20% decrease in concessional finance
+2027,Paraguay,scenario 2,-269646805.9062786,20% decrease in concessional finance
+2027,Peru,scenario 2,-1514035721.57718,20% decrease in concessional finance
+2027,Philippines,scenario 2,3862831520.8773,20% decrease in concessional finance
+2027,Rwanda,scenario 2,1304638993.9061017,20% decrease in concessional finance
+2027,Samoa,scenario 2,105610586.53219716,20% decrease in concessional finance
+2027,Sao Tome and Principe,scenario 2,81111474.777043,20% decrease in concessional finance
+2027,Senegal,scenario 2,1156743327.4870024,20% decrease in concessional finance
+2027,Serbia,scenario 2,602890573.4856787,20% decrease in concessional finance
+2027,Sierra Leone,scenario 2,405342864.24128664,20% decrease in concessional finance
+2027,Solomon Islands,scenario 2,270024629.93161315,20% decrease in concessional finance
+2027,Somalia,scenario 2,1620478051.312363,20% decrease in concessional finance
+2027,South Africa,scenario 2,-5018988500.476718,20% decrease in concessional finance
+2027,Sri Lanka,scenario 2,-183817239.37715912,20% decrease in concessional finance
+2027,St. Lucia,scenario 2,75410766.9069289,20% decrease in concessional finance
+2027,St. Vincent and the Grenadines,scenario 2,42906343.39667365,20% decrease in concessional finance
+2027,Sudan,scenario 2,585240599.0776365,20% decrease in concessional finance
+2027,Suriname,scenario 2,-80637126.89677227,20% decrease in concessional finance
+2027,Tajikistan,scenario 2,233445418.45116815,20% decrease in concessional finance
+2027,Tanzania,scenario 2,3457443024.3536873,20% decrease in concessional finance
+2027,Thailand,scenario 2,-1982236591.827419,20% decrease in concessional finance
+2027,Timor-Leste,scenario 2,237407908.02180895,20% decrease in concessional finance
+2027,Togo,scenario 2,365752577.7640174,20% decrease in concessional finance
+2027,Tonga,scenario 2,121566595.20753708,20% decrease in concessional finance
+2027,Tunisia,scenario 2,780334752.7889562,20% decrease in concessional finance
+2027,Turkmenistan,scenario 2,-267053377.70489463,20% decrease in concessional finance
+2027,Türkiye,scenario 2,4513416321.935757,20% decrease in concessional finance
+2027,Uganda,scenario 2,1952531485.108439,20% decrease in concessional finance
+2027,Upper middle income,scenario 2,-9040857006.140991,20% decrease in concessional finance
+2027,Uzbekistan,scenario 2,2312134723.692179,20% decrease in concessional finance
+2027,Vanuatu,scenario 2,162571006.86663434,20% decrease in concessional finance
+2027,Vietnam,scenario 2,-1773863695.6205606,20% decrease in concessional finance
+2027,Yemen,scenario 2,1748896116.9501383,20% decrease in concessional finance
+2027,Zambia,scenario 2,-463346134.59840894,20% decrease in concessional finance
+2027,Zimbabwe,scenario 2,595427643.7224252,20% decrease in concessional finance
+2024,Afghanistan,scenario 3,2933937074.05488,30% decrease in concessional finance
+2024,Africa,scenario 3,11796019366.607971,30% decrease in concessional finance
+2024,Albania,scenario 3,555498341.7676963,30% decrease in concessional finance
+2024,Algeria,scenario 3,134854977.87735572,30% decrease in concessional finance
+2024,Angola,scenario 3,-8656096249.66294,30% decrease in concessional finance
+2024,Argentina,scenario 3,-21067542645.552708,30% decrease in concessional finance
+2024,Armenia,scenario 3,20182603.817698956,30% decrease in concessional finance
+2024,Azerbaijan,scenario 3,-3171197482.767525,30% decrease in concessional finance
+2024,Bangladesh,scenario 3,5562740183.617796,30% decrease in concessional finance
+2024,Belarus,scenario 3,-1755826556.1954508,30% decrease in concessional finance
+2024,Belize,scenario 3,-53251824.12772769,30% decrease in concessional finance
+2024,Benin,scenario 3,1309400908.8973458,30% decrease in concessional finance
+2024,Bhutan,scenario 3,-102844136.07563964,30% decrease in concessional finance
+2024,Bolivia,scenario 3,49252521.20855641,30% decrease in concessional finance
+2024,Bosnia and Herzegovina,scenario 3,217353033.93467355,30% decrease in concessional finance
+2024,Botswana,scenario 3,-113714461.40919656,30% decrease in concessional finance
+2024,Brazil,scenario 3,-5794631634.156208,30% decrease in concessional finance
+2024,Burkina Faso,scenario 3,1394777520.1735337,30% decrease in concessional finance
+2024,Burundi,scenario 3,565141229.3896313,30% decrease in concessional finance
+2024,Cabo Verde,scenario 3,-5582408.962002784,30% decrease in concessional finance
+2024,Cambodia,scenario 3,1322380517.191948,30% decrease in concessional finance
+2024,Cameroon,scenario 3,-12491863.547022345,30% decrease in concessional finance
+2024,Central African Republic,scenario 3,706244043.7629418,30% decrease in concessional finance
+2024,Chad,scenario 3,776133138.9166654,30% decrease in concessional finance
+2024,Colombia,scenario 3,4941800994.671371,30% decrease in concessional finance
+2024,Comoros,scenario 3,116475008.0697665,30% decrease in concessional finance
+2024,Congo Republic,scenario 3,-362427990.5393171,30% decrease in concessional finance
+2024,Costa Rica,scenario 3,1926402445.9755056,30% decrease in concessional finance
+2024,Cote d'Ivoire,scenario 3,1282723319.2450645,30% decrease in concessional finance
+2024,DR Congo,scenario 3,3498512570.6098137,30% decrease in concessional finance
+2024,Developing countries,scenario 3,-27710485316.86621,30% decrease in concessional finance
+2024,Djibouti,scenario 3,251603220.2131033,30% decrease in concessional finance
+2024,Dominica,scenario 3,11183439.88146434,30% decrease in concessional finance
+2024,Dominican Republic,scenario 3,1463947348.332254,30% decrease in concessional finance
+2024,Ecuador,scenario 3,-978132430.31035,30% decrease in concessional finance
+2024,Egypt,scenario 3,-4403440860.559357,30% decrease in concessional finance
+2024,El Salvador,scenario 3,436285931.0044,30% decrease in concessional finance
+2024,Eritrea,scenario 3,88643123.3200109,30% decrease in concessional finance
+2024,Eswatini,scenario 3,83238409.75239511,30% decrease in concessional finance
+2024,Ethiopia,scenario 3,-612167246.4699821,30% decrease in concessional finance
+2024,Fiji,scenario 3,113209314.99462412,30% decrease in concessional finance
+2024,Gabon,scenario 3,-110831122.35820104,30% decrease in concessional finance
+2024,Gambia,scenario 3,296946252.0502872,30% decrease in concessional finance
+2024,Georgia,scenario 3,303254593.14623964,30% decrease in concessional finance
+2024,Ghana,scenario 3,-1362519890.956067,30% decrease in concessional finance
+2024,Grenada,scenario 3,20889652.882739544,30% decrease in concessional finance
+2024,Guatemala,scenario 3,1044089311.7078798,30% decrease in concessional finance
+2024,Guinea,scenario 3,218019256.251256,30% decrease in concessional finance
+2024,Guinea-Bissau,scenario 3,133621778.81145972,30% decrease in concessional finance
+2024,Guyana,scenario 3,151053894.05492347,30% decrease in concessional finance
+2024,Haiti,scenario 3,864147395.5874808,30% decrease in concessional finance
+2024,Honduras,scenario 3,-245495447.55550337,30% decrease in concessional finance
+2024,India,scenario 3,-6886674022.332272,30% decrease in concessional finance
+2024,Indonesia,scenario 3,-13735876512.5461,30% decrease in concessional finance
+2024,Iran,scenario 3,214270694.97724688,30% decrease in concessional finance
+2024,Iraq,scenario 3,-536746151.50928354,30% decrease in concessional finance
+2024,Jamaica,scenario 3,-473318342.67783856,30% decrease in concessional finance
+2024,Jordan,scenario 3,4777902823.087793,30% decrease in concessional finance
+2024,Kazakhstan,scenario 3,-3125650950.01303,30% decrease in concessional finance
+2024,Kenya,scenario 3,-934376108.1749372,30% decrease in concessional finance
+2024,Kosovo,scenario 3,302751049.72903264,30% decrease in concessional finance
+2024,Kyrgyz Republic,scenario 3,395410627.9197738,30% decrease in concessional finance
+2024,Laos,scenario 3,-1085874953.2049346,30% decrease in concessional finance
+2024,Lebanon,scenario 3,-1360342583.343285,30% decrease in concessional finance
+2024,Lesotho,scenario 3,145644791.7108554,30% decrease in concessional finance
+2024,Liberia,scenario 3,564561768.9380337,30% decrease in concessional finance
+2024,Low income,scenario 3,28122648418.505074,30% decrease in concessional finance
+2024,Lower middle income,scenario 3,-5194147637.750305,30% decrease in concessional finance
+2024,Madagascar,scenario 3,1204417452.2131362,30% decrease in concessional finance
+2024,Malawi,scenario 3,1677955332.6656773,30% decrease in concessional finance
+2024,Maldives,scenario 3,222743821.26913393,30% decrease in concessional finance
+2024,Mali,scenario 3,1138863170.9807923,30% decrease in concessional finance
+2024,Mauritania,scenario 3,24283530.557285488,30% decrease in concessional finance
+2024,Mauritius,scenario 3,457536256.6398883,30% decrease in concessional finance
+2024,Mexico,scenario 3,-7033944256.273754,30% decrease in concessional finance
+2024,Moldova,scenario 3,1249946055.5929384,30% decrease in concessional finance
+2024,Mongolia,scenario 3,1076256611.8164716,30% decrease in concessional finance
+2024,Montenegro,scenario 3,-91799536.45259868,30% decrease in concessional finance
+2024,Morocco,scenario 3,-866003711.3501358,30% decrease in concessional finance
+2024,Mozambique,scenario 3,2663976820.0596075,30% decrease in concessional finance
+2024,Myanmar,scenario 3,347034240.8264122,30% decrease in concessional finance
+2024,Nepal,scenario 3,989513684.652203,30% decrease in concessional finance
+2024,Nicaragua,scenario 3,105865192.77359603,30% decrease in concessional finance
+2024,Niger,scenario 3,958002682.0912364,30% decrease in concessional finance
+2024,Nigeria,scenario 3,4008678806.227002,30% decrease in concessional finance
+2024,North Macedonia,scenario 3,373261132.4065336,30% decrease in concessional finance
+2024,Pakistan,scenario 3,-6555264688.666157,30% decrease in concessional finance
+2024,Papua New Guinea,scenario 3,578448639.4678953,30% decrease in concessional finance
+2024,Paraguay,scenario 3,382710755.08747053,30% decrease in concessional finance
+2024,Peru,scenario 3,-118424479.79333591,30% decrease in concessional finance
+2024,Philippines,scenario 3,4284064766.40973,30% decrease in concessional finance
+2024,Rwanda,scenario 3,1704769883.4541192,30% decrease in concessional finance
+2024,Samoa,scenario 3,98080460.3757105,30% decrease in concessional finance
+2024,Sao Tome and Principe,scenario 3,78453830.7207236,30% decrease in concessional finance
+2024,Senegal,scenario 3,1608325044.240015,30% decrease in concessional finance
+2024,Serbia,scenario 3,2035640265.969977,30% decrease in concessional finance
+2024,Sierra Leone,scenario 3,451358490.24160826,30% decrease in concessional finance
+2024,Solomon Islands,scenario 3,264431474.3858883,30% decrease in concessional finance
+2024,Somalia,scenario 3,2289177219.739368,30% decrease in concessional finance
+2024,South Africa,scenario 3,-6192295941.274968,30% decrease in concessional finance
+2024,Sri Lanka,scenario 3,-3284630311.6053085,30% decrease in concessional finance
+2024,St. Lucia,scenario 3,91489236.7132398,30% decrease in concessional finance
+2024,St. Vincent and the Grenadines,scenario 3,50989135.610239774,30% decrease in concessional finance
+2024,Sudan,scenario 3,770674520.597745,30% decrease in concessional finance
+2024,Suriname,scenario 3,1986637.4522498848,30% decrease in concessional finance
+2024,Tajikistan,scenario 3,372936282.22684467,30% decrease in concessional finance
+2024,Tanzania,scenario 3,3144600254.878425,30% decrease in concessional finance
+2024,Thailand,scenario 3,-2657333658.1850576,30% decrease in concessional finance
+2024,Timor-Leste,scenario 3,268436910.5402951,30% decrease in concessional finance
+2024,Togo,scenario 3,451522747.2977558,30% decrease in concessional finance
+2024,Tonga,scenario 3,115395400.50130084,30% decrease in concessional finance
+2024,Tunisia,scenario 3,-902278172.6561928,30% decrease in concessional finance
+2024,Turkmenistan,scenario 3,-662065490.8323312,30% decrease in concessional finance
+2024,Türkiye,scenario 3,-818303708.9998093,30% decrease in concessional finance
+2024,Uganda,scenario 3,2363267676.670669,30% decrease in concessional finance
+2024,Upper middle income,scenario 3,-50726958141.67587,30% decrease in concessional finance
+2024,Uzbekistan,scenario 3,2807875773.6098843,30% decrease in concessional finance
+2024,Vanuatu,scenario 3,163148264.71358874,30% decrease in concessional finance
+2024,Vietnam,scenario 3,-3458760735.181586,30% decrease in concessional finance
+2024,Yemen,scenario 3,2102311168.9360795,30% decrease in concessional finance
+2024,Zambia,scenario 3,-1202400164.0439692,30% decrease in concessional finance
+2024,Zimbabwe,scenario 3,970240521.307696,30% decrease in concessional finance
+2025,Afghanistan,scenario 3,2551970021.863148,30% decrease in concessional finance
+2025,Africa,scenario 3,20548874000.200897,30% decrease in concessional finance
+2025,Albania,scenario 3,-30450247.68616295,30% decrease in concessional finance
+2025,Algeria,scenario 3,126401999.7166595,30% decrease in concessional finance
+2025,Angola,scenario 3,-8423277742.751813,30% decrease in concessional finance
+2025,Argentina,scenario 3,308877737.15103054,30% decrease in concessional finance
+2025,Armenia,scenario 3,-331132829.86998427,30% decrease in concessional finance
+2025,Azerbaijan,scenario 3,-1297072197.0379694,30% decrease in concessional finance
+2025,Bangladesh,scenario 3,4710079063.556543,30% decrease in concessional finance
+2025,Belarus,scenario 3,-1266112965.9086783,30% decrease in concessional finance
+2025,Belize,scenario 3,-5856094.548758879,30% decrease in concessional finance
+2025,Benin,scenario 3,1152559727.7842164,30% decrease in concessional finance
+2025,Bhutan,scenario 3,-95853323.08978744,30% decrease in concessional finance
+2025,Bolivia,scenario 3,2294104.5283885,30% decrease in concessional finance
+2025,Bosnia and Herzegovina,scenario 3,216910081.41168705,30% decrease in concessional finance
+2025,Botswana,scenario 3,-141708732.2059778,30% decrease in concessional finance
+2025,Brazil,scenario 3,-5429086426.702538,30% decrease in concessional finance
+2025,Burkina Faso,scenario 3,1253863207.9731812,30% decrease in concessional finance
+2025,Burundi,scenario 3,515077376.0957731,30% decrease in concessional finance
+2025,Cabo Verde,scenario 3,-5809107.55943048,30% decrease in concessional finance
+2025,Cambodia,scenario 3,1215256164.1881876,30% decrease in concessional finance
+2025,Cameroon,scenario 3,-181561522.18320823,30% decrease in concessional finance
+2025,Central African Republic,scenario 3,645789261.2246333,30% decrease in concessional finance
+2025,Chad,scenario 3,722480630.887736,30% decrease in concessional finance
+2025,Colombia,scenario 3,3357277800.061981,30% decrease in concessional finance
+2025,Comoros,scenario 3,104741007.14515108,30% decrease in concessional finance
+2025,Congo Republic,scenario 3,-320725110.7293067,30% decrease in concessional finance
+2025,Costa Rica,scenario 3,953064855.431964,30% decrease in concessional finance
+2025,Cote d'Ivoire,scenario 3,874375676.458312,30% decrease in concessional finance
+2025,DR Congo,scenario 3,3377409364.01304,30% decrease in concessional finance
+2025,Developing countries,scenario 3,19328900796.28925,30% decrease in concessional finance
+2025,Djibouti,scenario 3,195787928.9121253,30% decrease in concessional finance
+2025,Dominica,scenario 3,34350253.420885995,30% decrease in concessional finance
+2025,Dominican Republic,scenario 3,293075954.42427444,30% decrease in concessional finance
+2025,Ecuador,scenario 3,-346244789.45966005,30% decrease in concessional finance
+2025,Egypt,scenario 3,2722493462.2506733,30% decrease in concessional finance
+2025,El Salvador,scenario 3,85952067.86853194,30% decrease in concessional finance
+2025,Eritrea,scenario 3,87376750.53523624,30% decrease in concessional finance
+2025,Eswatini,scenario 3,47604598.51372345,30% decrease in concessional finance
+2025,Ethiopia,scenario 3,4433268478.752577,30% decrease in concessional finance
+2025,Fiji,scenario 3,101986032.65184496,30% decrease in concessional finance
+2025,Gabon,scenario 3,-42571963.1512028,30% decrease in concessional finance
+2025,Gambia,scenario 3,310611216.28323245,30% decrease in concessional finance
+2025,Georgia,scenario 3,211139127.89783025,30% decrease in concessional finance
+2025,Ghana,scenario 3,-2004665767.0314784,30% decrease in concessional finance
+2025,Grenada,scenario 3,19680505.121657945,30% decrease in concessional finance
+2025,Guatemala,scenario 3,974577246.0629584,30% decrease in concessional finance
+2025,Guinea,scenario 3,126853411.99524784,30% decrease in concessional finance
+2025,Guinea-Bissau,scenario 3,128354681.61728804,30% decrease in concessional finance
+2025,Guyana,scenario 3,108100366.19884196,30% decrease in concessional finance
+2025,Haiti,scenario 3,750948969.2787228,30% decrease in concessional finance
+2025,Honduras,scenario 3,-479953387.0160159,30% decrease in concessional finance
+2025,India,scenario 3,-893177508.2359886,30% decrease in concessional finance
+2025,Indonesia,scenario 3,2126159538.145813,30% decrease in concessional finance
+2025,Iran,scenario 3,192225771.76400903,30% decrease in concessional finance
+2025,Iraq,scenario 3,80366536.31440067,30% decrease in concessional finance
+2025,Jamaica,scenario 3,-626753307.2698015,30% decrease in concessional finance
+2025,Jordan,scenario 3,3416682828.164185,30% decrease in concessional finance
+2025,Kazakhstan,scenario 3,-3914540346.311504,30% decrease in concessional finance
+2025,Kenya,scenario 3,239876234.37478828,30% decrease in concessional finance
+2025,Kosovo,scenario 3,300030601.51936746,30% decrease in concessional finance
+2025,Kyrgyz Republic,scenario 3,256942555.5884077,30% decrease in concessional finance
+2025,Laos,scenario 3,-1292531618.8303752,30% decrease in concessional finance
+2025,Lebanon,scenario 3,-1905697867.1381984,30% decrease in concessional finance
+2025,Lesotho,scenario 3,114872677.0694753,30% decrease in concessional finance
+2025,Liberia,scenario 3,504653297.329137,30% decrease in concessional finance
+2025,Low income,scenario 3,30351299266.461582,30% decrease in concessional finance
+2025,Lower middle income,scenario 3,6346741757.393433,30% decrease in concessional finance
+2025,Madagascar,scenario 3,1098256663.383591,30% decrease in concessional finance
+2025,Malawi,scenario 3,1512953645.3249283,30% decrease in concessional finance
+2025,Maldives,scenario 3,70404569.47665322,30% decrease in concessional finance
+2025,Mali,scenario 3,1029405080.5212266,30% decrease in concessional finance
+2025,Mauritania,scenario 3,56740334.6981467,30% decrease in concessional finance
+2025,Mauritius,scenario 3,868587265.1353683,30% decrease in concessional finance
+2025,Mexico,scenario 3,-4586253261.092312,30% decrease in concessional finance
+2025,Moldova,scenario 3,1191572492.0144734,30% decrease in concessional finance
+2025,Mongolia,scenario 3,977208098.5157228,30% decrease in concessional finance
+2025,Montenegro,scenario 3,-635407331.407834,30% decrease in concessional finance
+2025,Morocco,scenario 3,245120194.12134263,30% decrease in concessional finance
+2025,Mozambique,scenario 3,2439039075.0936956,30% decrease in concessional finance
+2025,Myanmar,scenario 3,368744012.1043264,30% decrease in concessional finance
+2025,Nepal,scenario 3,841984133.5944235,30% decrease in concessional finance
+2025,Nicaragua,scenario 3,12377159.05954504,30% decrease in concessional finance
+2025,Niger,scenario 3,793125200.7579098,30% decrease in concessional finance
+2025,Nigeria,scenario 3,2302253393.7430363,30% decrease in concessional finance
+2025,North Macedonia,scenario 3,-192780758.81297636,30% decrease in concessional finance
+2025,Pakistan,scenario 3,-4475992178.650637,30% decrease in concessional finance
+2025,Papua New Guinea,scenario 3,497219853.17891407,30% decrease in concessional finance
+2025,Paraguay,scenario 3,293513575.314908,30% decrease in concessional finance
+2025,Peru,scenario 3,-1352697320.254738,30% decrease in concessional finance
+2025,Philippines,scenario 3,4448374552.764691,30% decrease in concessional finance
+2025,Rwanda,scenario 3,1487626961.3068757,30% decrease in concessional finance
+2025,Samoa,scenario 3,97485253.9577574,30% decrease in concessional finance
+2025,Sao Tome and Principe,scenario 3,76692202.17036337,30% decrease in concessional finance
+2025,Senegal,scenario 3,1339943645.6450458,30% decrease in concessional finance
+2025,Serbia,scenario 3,2914122349.135672,30% decrease in concessional finance
+2025,Sierra Leone,scenario 3,419848390.7092267,30% decrease in concessional finance
+2025,Solomon Islands,scenario 3,252806136.21327883,30% decrease in concessional finance
+2025,Somalia,scenario 3,1974466964.8372228,30% decrease in concessional finance
+2025,South Africa,scenario 3,-6917784443.974377,30% decrease in concessional finance
+2025,Sri Lanka,scenario 3,-2665970653.5638123,30% decrease in concessional finance
+2025,St. Lucia,scenario 3,83059766.65520594,30% decrease in concessional finance
+2025,St. Vincent and the Grenadines,scenario 3,47125105.043060765,30% decrease in concessional finance
+2025,Sudan,scenario 3,629512350.180927,30% decrease in concessional finance
+2025,Suriname,scenario 3,-10409559.85364926,30% decrease in concessional finance
+2025,Tajikistan,scenario 3,162014354.84426343,30% decrease in concessional finance
+2025,Tanzania,scenario 3,2644573788.2291965,30% decrease in concessional finance
+2025,Thailand,scenario 3,-2245627754.0777955,30% decrease in concessional finance
+2025,Timor-Leste,scenario 3,247776691.19417363,30% decrease in concessional finance
+2025,Togo,scenario 3,401293158.62828374,30% decrease in concessional finance
+2025,Tonga,scenario 3,110944147.01266684,30% decrease in concessional finance
+2025,Tunisia,scenario 3,-711459868.0178795,30% decrease in concessional finance
+2025,Turkmenistan,scenario 3,-407535633.7285832,30% decrease in concessional finance
+2025,Türkiye,scenario 3,-3590784647.478718,30% decrease in concessional finance
+2025,Uganda,scenario 3,2088660781.931849,30% decrease in concessional finance
+2025,Upper middle income,scenario 3,-17432197133.564606,30% decrease in concessional finance
+2025,Uzbekistan,scenario 3,2191362886.433629,30% decrease in concessional finance
+2025,Vanuatu,scenario 3,155858945.9626917,30% decrease in concessional finance
+2025,Vietnam,scenario 3,-2275166707.9867225,30% decrease in concessional finance
+2025,Yemen,scenario 3,1946256707.2108717,30% decrease in concessional finance
+2025,Zambia,scenario 3,-641525183.3025913,30% decrease in concessional finance
+2025,Zimbabwe,scenario 3,847413355.7577147,30% decrease in concessional finance
+2026,Afghanistan,scenario 3,2152510141.8027983,30% decrease in concessional finance
+2026,Africa,scenario 3,20339229572.8658,30% decrease in concessional finance
+2026,Albania,scenario 3,634385054.0325085,30% decrease in concessional finance
+2026,Algeria,scenario 3,117138606.91597292,30% decrease in concessional finance
+2026,Angola,scenario 3,-5764318723.116404,30% decrease in concessional finance
+2026,Argentina,scenario 3,167892723.16224384,30% decrease in concessional finance
+2026,Armenia,scenario 3,-131003169.0051738,30% decrease in concessional finance
+2026,Azerbaijan,scenario 3,-3436802324.3609996,30% decrease in concessional finance
+2026,Bangladesh,scenario 3,4368372205.217377,30% decrease in concessional finance
+2026,Belarus,scenario 3,-1426025751.4084692,30% decrease in concessional finance
+2026,Belize,scenario 3,-6900172.317792609,30% decrease in concessional finance
+2026,Benin,scenario 3,1067044764.322314,30% decrease in concessional finance
+2026,Bhutan,scenario 3,-235941184.4855561,30% decrease in concessional finance
+2026,Bolivia,scenario 3,-15694267.04121256,30% decrease in concessional finance
+2026,Bosnia and Herzegovina,scenario 3,-454405122.9838598,30% decrease in concessional finance
+2026,Botswana,scenario 3,-162832663.6507995,30% decrease in concessional finance
+2026,Brazil,scenario 3,200755564.9077568,30% decrease in concessional finance
+2026,Burkina Faso,scenario 3,1144572038.830475,30% decrease in concessional finance
+2026,Burundi,scenario 3,472385432.5700861,30% decrease in concessional finance
+2026,Cabo Verde,scenario 3,-1141110.079277873,30% decrease in concessional finance
+2026,Cambodia,scenario 3,1297939916.6330118,30% decrease in concessional finance
+2026,Cameroon,scenario 3,-90335323.02084851,30% decrease in concessional finance
+2026,Central African Republic,scenario 3,587816643.7860674,30% decrease in concessional finance
+2026,Chad,scenario 3,740708363.908839,30% decrease in concessional finance
+2026,Colombia,scenario 3,886053502.9313335,30% decrease in concessional finance
+2026,Comoros,scenario 3,98586870.2936052,30% decrease in concessional finance
+2026,Congo Republic,scenario 3,-280096644.0337392,30% decrease in concessional finance
+2026,Costa Rica,scenario 3,2153700466.363805,30% decrease in concessional finance
+2026,Cote d'Ivoire,scenario 3,1107673197.5822058,30% decrease in concessional finance
+2026,DR Congo,scenario 3,2897016063.1278505,30% decrease in concessional finance
+2026,Developing countries,scenario 3,10427887830.27594,30% decrease in concessional finance
+2026,Djibouti,scenario 3,188932078.9442736,30% decrease in concessional finance
+2026,Dominica,scenario 3,24692234.848797515,30% decrease in concessional finance
+2026,Dominican Republic,scenario 3,-591742220.1521635,30% decrease in concessional finance
+2026,Ecuador,scenario 3,-757570020.5609145,30% decrease in concessional finance
+2026,Egypt,scenario 3,-1752866145.8500445,30% decrease in concessional finance
+2026,El Salvador,scenario 3,375914040.3224819,30% decrease in concessional finance
+2026,Eritrea,scenario 3,84730414.47656897,30% decrease in concessional finance
+2026,Eswatini,scenario 3,19599056.766047597,30% decrease in concessional finance
+2026,Ethiopia,scenario 3,4843872264.779482,30% decrease in concessional finance
+2026,Fiji,scenario 3,93956585.5152919,30% decrease in concessional finance
+2026,Gabon,scenario 3,17502978.87787199,30% decrease in concessional finance
+2026,Gambia,scenario 3,291124754.7780627,30% decrease in concessional finance
+2026,Georgia,scenario 3,-346553157.1767678,30% decrease in concessional finance
+2026,Ghana,scenario 3,-2505157872.5552406,30% decrease in concessional finance
+2026,Grenada,scenario 3,18770699.66576989,30% decrease in concessional finance
+2026,Guatemala,scenario 3,191436913.5557692,30% decrease in concessional finance
+2026,Guinea,scenario 3,92274120.98763251,30% decrease in concessional finance
+2026,Guinea-Bissau,scenario 3,119197893.4975573,30% decrease in concessional finance
+2026,Guyana,scenario 3,73586122.46999454,30% decrease in concessional finance
+2026,Haiti,scenario 3,636428490.1566076,30% decrease in concessional finance
+2026,Honduras,scenario 3,-228091121.33999944,30% decrease in concessional finance
+2026,India,scenario 3,-5627116905.269661,30% decrease in concessional finance
+2026,Indonesia,scenario 3,4400865784.297325,30% decrease in concessional finance
+2026,Iran,scenario 3,200866436.7011999,30% decrease in concessional finance
+2026,Iraq,scenario 3,-22132123.06357861,30% decrease in concessional finance
+2026,Jamaica,scenario 3,-715243552.6546085,30% decrease in concessional finance
+2026,Jordan,scenario 3,1302852138.84021,30% decrease in concessional finance
+2026,Kazakhstan,scenario 3,-2338277850.5513124,30% decrease in concessional finance
+2026,Kenya,scenario 3,551729438.9453969,30% decrease in concessional finance
+2026,Kosovo,scenario 3,270271322.3005018,30% decrease in concessional finance
+2026,Kyrgyz Republic,scenario 3,219779250.05494595,30% decrease in concessional finance
+2026,Laos,scenario 3,-904800927.3943928,30% decrease in concessional finance
+2026,Lebanon,scenario 3,-1983161214.9940965,30% decrease in concessional finance
+2026,Lesotho,scenario 3,86475558.14356233,30% decrease in concessional finance
+2026,Liberia,scenario 3,444516012.4965504,30% decrease in concessional finance
+2026,Low income,scenario 3,27579932498.462223,30% decrease in concessional finance
+2026,Lower middle income,scenario 3,1535702861.6556702,30% decrease in concessional finance
+2026,Madagascar,scenario 3,1033003740.3619643,30% decrease in concessional finance
+2026,Malawi,scenario 3,1339086929.485739,30% decrease in concessional finance
+2026,Maldives,scenario 3,-383227303.2072036,30% decrease in concessional finance
+2026,Mali,scenario 3,893945353.0632948,30% decrease in concessional finance
+2026,Mauritania,scenario 3,43753197.067821085,30% decrease in concessional finance
+2026,Mauritius,scenario 3,1105905952.2413287,30% decrease in concessional finance
+2026,Mexico,scenario 3,-12931314717.02481,30% decrease in concessional finance
+2026,Moldova,scenario 3,1129506270.5967395,30% decrease in concessional finance
+2026,Mongolia,scenario 3,-564305071.2520983,30% decrease in concessional finance
+2026,Montenegro,scenario 3,-80569973.96628639,30% decrease in concessional finance
+2026,Morocco,scenario 3,1358040615.2622204,30% decrease in concessional finance
+2026,Mozambique,scenario 3,2185590618.32632,30% decrease in concessional finance
+2026,Myanmar,scenario 3,290758529.625631,30% decrease in concessional finance
+2026,Nepal,scenario 3,720216681.2251246,30% decrease in concessional finance
+2026,Nicaragua,scenario 3,-57850783.2890476,30% decrease in concessional finance
+2026,Niger,scenario 3,647200302.5524232,30% decrease in concessional finance
+2026,Nigeria,scenario 3,3033214964.978237,30% decrease in concessional finance
+2026,North Macedonia,scenario 3,510399623.1108579,30% decrease in concessional finance
+2026,Pakistan,scenario 3,-3857065281.619211,30% decrease in concessional finance
+2026,Papua New Guinea,scenario 3,436082094.0942036,30% decrease in concessional finance
+2026,Paraguay,scenario 3,-216863122.52381992,30% decrease in concessional finance
+2026,Peru,scenario 3,-2106660446.4440312,30% decrease in concessional finance
+2026,Philippines,scenario 3,5073031826.242352,30% decrease in concessional finance
+2026,Rwanda,scenario 3,1283080919.864179,30% decrease in concessional finance
+2026,Samoa,scenario 3,94942348.8571664,30% decrease in concessional finance
+2026,Sao Tome and Principe,scenario 3,75174405.90907767,30% decrease in concessional finance
+2026,Senegal,scenario 3,-241761971.6510377,30% decrease in concessional finance
+2026,Serbia,scenario 3,2374028253.8894954,30% decrease in concessional finance
+2026,Sierra Leone,scenario 3,379672587.0280135,30% decrease in concessional finance
+2026,Solomon Islands,scenario 3,248435161.70694748,30% decrease in concessional finance
+2026,Somalia,scenario 3,1647582037.6195345,30% decrease in concessional finance
+2026,South Africa,scenario 3,-5069293490.259725,30% decrease in concessional finance
+2026,Sri Lanka,scenario 3,-1160413117.7228994,30% decrease in concessional finance
+2026,St. Lucia,scenario 3,73370603.33136873,30% decrease in concessional finance
+2026,St. Vincent and the Grenadines,scenario 3,40846222.43272193,30% decrease in concessional finance
+2026,Sudan,scenario 3,506501936.3748828,30% decrease in concessional finance
+2026,Suriname,scenario 3,-11302620.82622236,30% decrease in concessional finance
+2026,Tajikistan,scenario 3,135046106.8985654,30% decrease in concessional finance
+2026,Tanzania,scenario 3,3172287414.1862254,30% decrease in concessional finance
+2026,Thailand,scenario 3,-1774076003.1973934,30% decrease in concessional finance
+2026,Timor-Leste,scenario 3,231296474.0202357,30% decrease in concessional finance
+2026,Togo,scenario 3,337902278.0839498,30% decrease in concessional finance
+2026,Tonga,scenario 3,109189303.14877588,30% decrease in concessional finance
+2026,Tunisia,scenario 3,199584431.11179304,30% decrease in concessional finance
+2026,Turkmenistan,scenario 3,-335227603.91734856,30% decrease in concessional finance
+2026,Türkiye,scenario 3,27568450.04361725,30% decrease in concessional finance
+2026,Uganda,scenario 3,1860008686.307559,30% decrease in concessional finance
+2026,Upper middle income,scenario 3,-18737310887.31186,30% decrease in concessional finance
+2026,Uzbekistan,scenario 3,1934802911.194504,30% decrease in concessional finance
+2026,Vanuatu,scenario 3,147767729.342929,30% decrease in concessional finance
+2026,Vietnam,scenario 3,-2123207116.719849,30% decrease in concessional finance
+2026,Yemen,scenario 3,1687907085.340025,30% decrease in concessional finance
+2026,Zambia,scenario 3,-574717882.8855336,30% decrease in concessional finance
+2026,Zimbabwe,scenario 3,707318476.1134754,30% decrease in concessional finance
+2027,Afghanistan,scenario 3,1753309417.6145933,30% decrease in concessional finance
+2027,Africa,scenario 3,22331054069.53633,30% decrease in concessional finance
+2027,Albania,scenario 3,154817978.39422035,30% decrease in concessional finance
+2027,Algeria,scenario 3,110019921.076684,30% decrease in concessional finance
+2027,Angola,scenario 3,-4889581717.924599,30% decrease in concessional finance
+2027,Argentina,scenario 3,793764320.7044439,30% decrease in concessional finance
+2027,Armenia,scenario 3,-51629422.44415355,30% decrease in concessional finance
+2027,Azerbaijan,scenario 3,-914313186.6567065,30% decrease in concessional finance
+2027,Bangladesh,scenario 3,3394739856.340374,30% decrease in concessional finance
+2027,Belarus,scenario 3,-2197046846.6330423,30% decrease in concessional finance
+2027,Belize,scenario 3,-14464841.915662557,30% decrease in concessional finance
+2027,Benin,scenario 3,1020912711.3995184,30% decrease in concessional finance
+2027,Bhutan,scenario 3,-155973369.73091573,30% decrease in concessional finance
+2027,Bolivia,scenario 3,5400138.641043901,30% decrease in concessional finance
+2027,Bosnia and Herzegovina,scenario 3,260093640.9117459,30% decrease in concessional finance
+2027,Botswana,scenario 3,-195964102.32219857,30% decrease in concessional finance
+2027,Brazil,scenario 3,4006155107.9483433,30% decrease in concessional finance
+2027,Burkina Faso,scenario 3,1019109033.0925947,30% decrease in concessional finance
+2027,Burundi,scenario 3,423775887.6867233,30% decrease in concessional finance
+2027,Cabo Verde,scenario 3,-1349967.2416024804,30% decrease in concessional finance
+2027,Cambodia,scenario 3,1221460899.3057983,30% decrease in concessional finance
+2027,Cameroon,scenario 3,9078679.060156344,30% decrease in concessional finance
+2027,Central African Republic,scenario 3,533314629.75043434,30% decrease in concessional finance
+2027,Chad,scenario 3,641057658.5146204,30% decrease in concessional finance
+2027,Colombia,scenario 3,276055744.6296444,30% decrease in concessional finance
+2027,Comoros,scenario 3,102100762.64410444,30% decrease in concessional finance
+2027,Congo Republic,scenario 3,-264789564.8641141,30% decrease in concessional finance
+2027,Costa Rica,scenario 3,1959250618.0080528,30% decrease in concessional finance
+2027,Cote d'Ivoire,scenario 3,960702824.7898196,30% decrease in concessional finance
+2027,DR Congo,scenario 3,2427254300.473262,30% decrease in concessional finance
+2027,Developing countries,scenario 3,24843282263.35547,30% decrease in concessional finance
+2027,Djibouti,scenario 3,194187133.3610091,30% decrease in concessional finance
+2027,Dominica,scenario 3,34171610.04682867,30% decrease in concessional finance
+2027,Dominican Republic,scenario 3,-239241667.96529105,30% decrease in concessional finance
+2027,Ecuador,scenario 3,-800371783.8379507,30% decrease in concessional finance
+2027,Egypt,scenario 3,2642769771.8013706,30% decrease in concessional finance
+2027,El Salvador,scenario 3,-272554363.05938554,30% decrease in concessional finance
+2027,Eritrea,scenario 3,80671335.99727827,30% decrease in concessional finance
+2027,Eswatini,scenario 3,-5065075.410437152,30% decrease in concessional finance
+2027,Ethiopia,scenario 3,4333969400.706612,30% decrease in concessional finance
+2027,Fiji,scenario 3,94133131.9927117,30% decrease in concessional finance
+2027,Gabon,scenario 3,70141795.72058475,30% decrease in concessional finance
+2027,Gambia,scenario 3,264223899.16313908,30% decrease in concessional finance
+2027,Georgia,scenario 3,100944770.47903667,30% decrease in concessional finance
+2027,Ghana,scenario 3,-1210393150.1602304,30% decrease in concessional finance
+2027,Grenada,scenario 3,21916763.756956033,30% decrease in concessional finance
+2027,Guatemala,scenario 3,406944095.8767559,30% decrease in concessional finance
+2027,Guinea,scenario 3,75175431.99641836,30% decrease in concessional finance
+2027,Guinea-Bissau,scenario 3,113879143.15796274,30% decrease in concessional finance
+2027,Guyana,scenario 3,67386504.47088757,30% decrease in concessional finance
+2027,Haiti,scenario 3,528251949.6889379,30% decrease in concessional finance
+2027,Honduras,scenario 3,-1042642937.4444232,30% decrease in concessional finance
+2027,India,scenario 3,-4625669413.448696,30% decrease in concessional finance
+2027,Indonesia,scenario 3,3662356776.7946625,30% decrease in concessional finance
+2027,Iran,scenario 3,210171389.40767887,30% decrease in concessional finance
+2027,Iraq,scenario 3,257834148.3227234,30% decrease in concessional finance
+2027,Jamaica,scenario 3,-689476376.2275589,30% decrease in concessional finance
+2027,Jordan,scenario 3,2295120231.573642,30% decrease in concessional finance
+2027,Kazakhstan,scenario 3,-1190885086.5044036,30% decrease in concessional finance
+2027,Kenya,scenario 3,514907310.40432835,30% decrease in concessional finance
+2027,Kosovo,scenario 3,221036265.0270975,30% decrease in concessional finance
+2027,Kyrgyz Republic,scenario 3,151231988.3594954,30% decrease in concessional finance
+2027,Laos,scenario 3,-570410226.7712569,30% decrease in concessional finance
+2027,Lebanon,scenario 3,-2610052518.1548786,30% decrease in concessional finance
+2027,Lesotho,scenario 3,59600853.95037474,30% decrease in concessional finance
+2027,Liberia,scenario 3,385270708.1295617,30% decrease in concessional finance
+2027,Low income,scenario 3,23812914446.587296,30% decrease in concessional finance
+2027,Lower middle income,scenario 3,12390160357.228302,30% decrease in concessional finance
+2027,Madagascar,scenario 3,960572440.470148,30% decrease in concessional finance
+2027,Malawi,scenario 3,1156939099.546242,30% decrease in concessional finance
+2027,Maldives,scenario 3,251248975.8903991,30% decrease in concessional finance
+2027,Mali,scenario 3,772967901.8247334,30% decrease in concessional finance
+2027,Mauritania,scenario 3,18333007.76483208,30% decrease in concessional finance
+2027,Mauritius,scenario 3,1332086643.284751,30% decrease in concessional finance
+2027,Mexico,scenario 3,-15410720683.520096,30% decrease in concessional finance
+2027,Moldova,scenario 3,1074907952.7558627,30% decrease in concessional finance
+2027,Mongolia,scenario 3,437196735.28364086,30% decrease in concessional finance
+2027,Montenegro,scenario 3,-865769641.4295516,30% decrease in concessional finance
+2027,Morocco,scenario 3,1288435761.2031574,30% decrease in concessional finance
+2027,Mozambique,scenario 3,1925439087.7706256,30% decrease in concessional finance
+2027,Myanmar,scenario 3,423335668.40045893,30% decrease in concessional finance
+2027,Nepal,scenario 3,610683916.8611144,30% decrease in concessional finance
+2027,Nicaragua,scenario 3,-85864244.58409154,30% decrease in concessional finance
+2027,Niger,scenario 3,505666849.9687817,30% decrease in concessional finance
+2027,Nigeria,scenario 3,383601822.45584106,30% decrease in concessional finance
+2027,North Macedonia,scenario 3,202422959.39885664,30% decrease in concessional finance
+2027,Pakistan,scenario 3,2285742503.6461143,30% decrease in concessional finance
+2027,Papua New Guinea,scenario 3,415131185.1397606,30% decrease in concessional finance
+2027,Paraguay,scenario 3,-284634227.5062785,30% decrease in concessional finance
+2027,Peru,scenario 3,-1592736395.64718,30% decrease in concessional finance
+2027,Philippines,scenario 3,3652242627.157303,30% decrease in concessional finance
+2027,Rwanda,scenario 3,1141312285.9661016,30% decrease in concessional finance
+2027,Samoa,scenario 3,92714586.23219717,30% decrease in concessional finance
+2027,Sao Tome and Principe,scenario 3,73011127.38704301,30% decrease in concessional finance
+2027,Senegal,scenario 3,996272919.8170024,30% decrease in concessional finance
+2027,Serbia,scenario 3,536011555.53567886,30% decrease in concessional finance
+2027,Sierra Leone,scenario 3,345022891.97128665,30% decrease in concessional finance
+2027,Solomon Islands,scenario 3,243154925.60161313,30% decrease in concessional finance
+2027,Somalia,scenario 3,1281571110.812363,30% decrease in concessional finance
+2027,South Africa,scenario 3,-5235584264.966718,30% decrease in concessional finance
+2027,Sri Lanka,scenario 3,-231961371.41715908,30% decrease in concessional finance
+2027,St. Lucia,scenario 3,71402170.8069289,30% decrease in concessional finance
+2027,St. Vincent and the Grenadines,scenario 3,40296167.79667364,30% decrease in concessional finance
+2027,Sudan,scenario 3,401376451.6776365,30% decrease in concessional finance
+2027,Suriname,scenario 3,-86312507.99677223,30% decrease in concessional finance
+2027,Tajikistan,scenario 3,165189538.6611681,30% decrease in concessional finance
+2027,Tanzania,scenario 3,3072184116.133688,30% decrease in concessional finance
+2027,Thailand,scenario 3,-2025715667.0974193,30% decrease in concessional finance
+2027,Timor-Leste,scenario 3,207224538.121809,30% decrease in concessional finance
+2027,Togo,scenario 3,302511462.2240173,30% decrease in concessional finance
+2027,Tonga,scenario 3,108021145.93753707,30% decrease in concessional finance
+2027,Tunisia,scenario 3,675782952.5489564,30% decrease in concessional finance
+2027,Turkmenistan,scenario 3,-269368239.40489465,30% decrease in concessional finance
+2027,Türkiye,scenario 3,4236421725.315754,30% decrease in concessional finance
+2027,Uganda,scenario 3,1652963843.4184384,30% decrease in concessional finance
+2027,Upper middle income,scenario 3,-11406965194.031006,30% decrease in concessional finance
+2027,Uzbekistan,scenario 3,2244942606.592179,30% decrease in concessional finance
+2027,Vanuatu,scenario 3,145029505.76663437,30% decrease in concessional finance
+2027,Vietnam,scenario 3,-1950346881.7305603,30% decrease in concessional finance
+2027,Yemen,scenario 3,1390735606.6501384,30% decrease in concessional finance
+2027,Zambia,scenario 3,-618615796.9384089,30% decrease in concessional finance
+2027,Zimbabwe,scenario 3,484222740.2424252,30% decrease in concessional finance
+2024,Afghanistan,2022-2023 average net flow,3524059260.0,
+2024,Africa,2022-2023 average net flow,43819293511.85,
+2024,Albania,2022-2023 average net flow,545746734.4499999,
+2024,Algeria,2022-2023 average net flow,122538258.25,
+2024,Angola,2022-2023 average net flow,-3540568594.3,
+2024,Argentina,2022-2023 average net flow,-2234792554.9500003,
+2024,Armenia,2022-2023 average net flow,53233268.05000007,
+2024,Azerbaijan,2022-2023 average net flow,-1006240336.8500001,
+2024,Bangladesh,2022-2023 average net flow,7903858841.75,
+2024,Belarus,2022-2023 average net flow,-1922327980.6999998,
+2024,Belize,2022-2023 average net flow,19919109.9,
+2024,Benin,2022-2023 average net flow,1204003125.2,
+2024,Bhutan,2022-2023 average net flow,138265758.2,
+2024,Bolivia,2022-2023 average net flow,220825143.29999995,
+2024,Bosnia and Herzegovina,2022-2023 average net flow,99446107.74999994,
+2024,Botswana,2022-2023 average net flow,27776693.350000024,
+2024,Brazil,2022-2023 average net flow,-8941686677.599997,
+2024,Burkina Faso,2022-2023 average net flow,1521920907.8,
+2024,Burundi,2022-2023 average net flow,596705639.1,
+2024,Cabo Verde,2022-2023 average net flow,55964005.9,
+2024,Cambodia,2022-2023 average net flow,1524217847.45,
+2024,Cameroon,2022-2023 average net flow,415320053.3000001,
+2024,Central African Republic,2022-2023 average net flow,680195173.0999999,
+2024,Chad,2022-2023 average net flow,602676013.9000001,
+2024,Colombia,2022-2023 average net flow,1619030303.8999987,
+2024,Comoros,2022-2023 average net flow,143831584.55,
+2024,Congo Republic,2022-2023 average net flow,-323526102.1999999,
+2024,Costa Rica,2022-2023 average net flow,903198226.9999998,
+2024,Cote d'Ivoire,2022-2023 average net flow,3261808577.2500005,
+2024,DR Congo,2022-2023 average net flow,3567603136.1000004,
+2024,Developing countries,2022-2023 average net flow,59536882052.600006,
+2024,Djibouti,2022-2023 average net flow,286969742.95,
+2024,Dominica,2022-2023 average net flow,37675333.3,
+2024,Dominican Republic,2022-2023 average net flow,1014669623.6500006,
+2024,Ecuador,2022-2023 average net flow,-58676319.849999905,
+2024,Egypt,2022-2023 average net flow,760072225.0999994,
+2024,El Salvador,2022-2023 average net flow,-446223740.85,
+2024,Eritrea,2022-2023 average net flow,83117640.15,
+2024,Eswatini,2022-2023 average net flow,176567988.8,
+2024,Ethiopia,2022-2023 average net flow,5307421866.25,
+2024,Fiji,2022-2023 average net flow,310994317.95000005,
+2024,Gabon,2022-2023 average net flow,-184625446.00000003,
+2024,Gambia,2022-2023 average net flow,329489571.25,
+2024,Georgia,2022-2023 average net flow,569596193.6999999,
+2024,Ghana,2022-2023 average net flow,1218605570.0,
+2024,Grenada,2022-2023 average net flow,18071174.199999996,
+2024,Guatemala,2022-2023 average net flow,583634147.5,
+2024,Guinea,2022-2023 average net flow,564889554.55,
+2024,Guinea-Bissau,2022-2023 average net flow,139046111.45,
+2024,Guyana,2022-2023 average net flow,206109028.75,
+2024,Haiti,2022-2023 average net flow,951232491.5,
+2024,Honduras,2022-2023 average net flow,175783660.55,
+2024,India,2022-2023 average net flow,4593493581.949999,
+2024,Indonesia,2022-2023 average net flow,-9889699377.949999,
+2024,Iran,2022-2023 average net flow,292113612.20000005,
+2024,Iraq,2022-2023 average net flow,-1626742589.2999997,
+2024,Jamaica,2022-2023 average net flow,-812905813.4,
+2024,Jordan,2022-2023 average net flow,2553251482.6499996,
+2024,Kazakhstan,2022-2023 average net flow,-2409380865.95,
+2024,Kenya,2022-2023 average net flow,1456164065.05,
+2024,Kosovo,2022-2023 average net flow,376564787.2,
+2024,Kyrgyz Republic,2022-2023 average net flow,479909776.25,
+2024,Laos,2022-2023 average net flow,292113075.9499999,
+2024,Lebanon,2022-2023 average net flow,1684694016.4499998,
+2024,Lesotho,2022-2023 average net flow,163203198.75,
+2024,Liberia,2022-2023 average net flow,543541023.1,
+2024,Low income,2022-2023 average net flow,36211874801.149994,
+2024,Lower middle income,2022-2023 average net flow,50693107615.35,
+2024,Madagascar,2022-2023 average net flow,1199373521.25,
+2024,Malawi,2022-2023 average net flow,1560462591.6,
+2024,Maldives,2022-2023 average net flow,145691758.55,
+2024,Mali,2022-2023 average net flow,1305182911.6999998,
+2024,Mauritania,2022-2023 average net flow,154949889.84999996,
+2024,Mauritius,2022-2023 average net flow,440086396.25,
+2024,Mexico,2022-2023 average net flow,69446757.39999962,
+2024,Moldova,2022-2023 average net flow,1084164780.6,
+2024,Mongolia,2022-2023 average net flow,-745669412.95,
+2024,Montenegro,2022-2023 average net flow,-147725627.89999998,
+2024,Morocco,2022-2023 average net flow,1295817754.0000002,
+2024,Mozambique,2022-2023 average net flow,2680164027.4,
+2024,Myanmar,2022-2023 average net flow,389862665.55,
+2024,Nepal,2022-2023 average net flow,1114115460.75,
+2024,Nicaragua,2022-2023 average net flow,342417973.7,
+2024,Niger,2022-2023 average net flow,1528618578.25,
+2024,Nigeria,2022-2023 average net flow,4664735812.650001,
+2024,North Macedonia,2022-2023 average net flow,397279019.3000001,
+2024,Pakistan,2022-2023 average net flow,-1257572853.6000004,
+2024,Papua New Guinea,2022-2023 average net flow,1111523448.4499998,
+2024,Paraguay,2022-2023 average net flow,823381004.2500001,
+2024,Peru,2022-2023 average net flow,-745866200.1500001,
+2024,Philippines,2022-2023 average net flow,4697182012.049999,
+2024,Rwanda,2022-2023 average net flow,1502080548.35,
+2024,Samoa,2022-2023 average net flow,97719363.8,
+2024,Sao Tome and Principe,2022-2023 average net flow,93517903.0,
+2024,Senegal,2022-2023 average net flow,1664628554.35,
+2024,Serbia,2022-2023 average net flow,2059365568.2499998,
+2024,Sierra Leone,2022-2023 average net flow,480931202.65,
+2024,Solomon Islands,2022-2023 average net flow,254339526.75,
+2024,Somalia,2022-2023 average net flow,2170761074.25,
+2024,South Africa,2022-2023 average net flow,-5902196601.4,
+2024,Sri Lanka,2022-2023 average net flow,1859549125.75,
+2024,St. Lucia,2022-2023 average net flow,48553235.349999994,
+2024,St. Vincent and the Grenadines,2022-2023 average net flow,60890633.7,
+2024,Sudan,2022-2023 average net flow,1324193786.9,
+2024,Suriname,2022-2023 average net flow,192228604.7,
+2024,Tajikistan,2022-2023 average net flow,464997410.95000005,
+2024,Tanzania,2022-2023 average net flow,3004709357.25,
+2024,Thailand,2022-2023 average net flow,-2691195513.4,
+2024,Timor-Leste,2022-2023 average net flow,243877834.3,
+2024,Togo,2022-2023 average net flow,462480477.9499999,
+2024,Tonga,2022-2023 average net flow,124219952.35,
+2024,Tunisia,2022-2023 average net flow,331026713.3499999,
+2024,Turkmenistan,2022-2023 average net flow,-638494492.95,
+2024,Türkiye,2022-2023 average net flow,790724556.4499989,
+2024,Uganda,2022-2023 average net flow,2335418452.15,
+2024,Upper middle income,2022-2023 average net flow,-27574209392.649998,
+2024,Uzbekistan,2022-2023 average net flow,3411200617.85,
+2024,Vanuatu,2022-2023 average net flow,150422782.60000002,
+2024,Vietnam,2022-2023 average net flow,-2098503386.3000002,
+2024,Yemen,2022-2023 average net flow,2766431286.5,
+2024,Zambia,2022-2023 average net flow,1236932550.05,
+2024,Zimbabwe,2022-2023 average net flow,1104706427.35,
+2025,Afghanistan,2022-2023 average net flow,3524059260.0,
+2025,Africa,2022-2023 average net flow,43819293511.85,
+2025,Albania,2022-2023 average net flow,545746734.4499999,
+2025,Algeria,2022-2023 average net flow,122538258.25,
+2025,Angola,2022-2023 average net flow,-3540568594.3,
+2025,Argentina,2022-2023 average net flow,-2234792554.9500003,
+2025,Armenia,2022-2023 average net flow,53233268.05000007,
+2025,Azerbaijan,2022-2023 average net flow,-1006240336.8500001,
+2025,Bangladesh,2022-2023 average net flow,7903858841.75,
+2025,Belarus,2022-2023 average net flow,-1922327980.6999998,
+2025,Belize,2022-2023 average net flow,19919109.9,
+2025,Benin,2022-2023 average net flow,1204003125.2,
+2025,Bhutan,2022-2023 average net flow,138265758.2,
+2025,Bolivia,2022-2023 average net flow,220825143.29999995,
+2025,Bosnia and Herzegovina,2022-2023 average net flow,99446107.74999994,
+2025,Botswana,2022-2023 average net flow,27776693.350000024,
+2025,Brazil,2022-2023 average net flow,-8941686677.599997,
+2025,Burkina Faso,2022-2023 average net flow,1521920907.8,
+2025,Burundi,2022-2023 average net flow,596705639.1,
+2025,Cabo Verde,2022-2023 average net flow,55964005.9,
+2025,Cambodia,2022-2023 average net flow,1524217847.45,
+2025,Cameroon,2022-2023 average net flow,415320053.3000001,
+2025,Central African Republic,2022-2023 average net flow,680195173.0999999,
+2025,Chad,2022-2023 average net flow,602676013.9000001,
+2025,Colombia,2022-2023 average net flow,1619030303.8999987,
+2025,Comoros,2022-2023 average net flow,143831584.55,
+2025,Congo Republic,2022-2023 average net flow,-323526102.1999999,
+2025,Costa Rica,2022-2023 average net flow,903198226.9999998,
+2025,Cote d'Ivoire,2022-2023 average net flow,3261808577.2500005,
+2025,DR Congo,2022-2023 average net flow,3567603136.1000004,
+2025,Developing countries,2022-2023 average net flow,59536882052.600006,
+2025,Djibouti,2022-2023 average net flow,286969742.95,
+2025,Dominica,2022-2023 average net flow,37675333.3,
+2025,Dominican Republic,2022-2023 average net flow,1014669623.6500006,
+2025,Ecuador,2022-2023 average net flow,-58676319.849999905,
+2025,Egypt,2022-2023 average net flow,760072225.0999994,
+2025,El Salvador,2022-2023 average net flow,-446223740.85,
+2025,Eritrea,2022-2023 average net flow,83117640.15,
+2025,Eswatini,2022-2023 average net flow,176567988.8,
+2025,Ethiopia,2022-2023 average net flow,5307421866.25,
+2025,Fiji,2022-2023 average net flow,310994317.95000005,
+2025,Gabon,2022-2023 average net flow,-184625446.00000003,
+2025,Gambia,2022-2023 average net flow,329489571.25,
+2025,Georgia,2022-2023 average net flow,569596193.6999999,
+2025,Ghana,2022-2023 average net flow,1218605570.0,
+2025,Grenada,2022-2023 average net flow,18071174.199999996,
+2025,Guatemala,2022-2023 average net flow,583634147.5,
+2025,Guinea,2022-2023 average net flow,564889554.55,
+2025,Guinea-Bissau,2022-2023 average net flow,139046111.45,
+2025,Guyana,2022-2023 average net flow,206109028.75,
+2025,Haiti,2022-2023 average net flow,951232491.5,
+2025,Honduras,2022-2023 average net flow,175783660.55,
+2025,India,2022-2023 average net flow,4593493581.949999,
+2025,Indonesia,2022-2023 average net flow,-9889699377.949999,
+2025,Iran,2022-2023 average net flow,292113612.20000005,
+2025,Iraq,2022-2023 average net flow,-1626742589.2999997,
+2025,Jamaica,2022-2023 average net flow,-812905813.4,
+2025,Jordan,2022-2023 average net flow,2553251482.6499996,
+2025,Kazakhstan,2022-2023 average net flow,-2409380865.95,
+2025,Kenya,2022-2023 average net flow,1456164065.05,
+2025,Kosovo,2022-2023 average net flow,376564787.2,
+2025,Kyrgyz Republic,2022-2023 average net flow,479909776.25,
+2025,Laos,2022-2023 average net flow,292113075.9499999,
+2025,Lebanon,2022-2023 average net flow,1684694016.4499998,
+2025,Lesotho,2022-2023 average net flow,163203198.75,
+2025,Liberia,2022-2023 average net flow,543541023.1,
+2025,Low income,2022-2023 average net flow,36211874801.149994,
+2025,Lower middle income,2022-2023 average net flow,50693107615.35,
+2025,Madagascar,2022-2023 average net flow,1199373521.25,
+2025,Malawi,2022-2023 average net flow,1560462591.6,
+2025,Maldives,2022-2023 average net flow,145691758.55,
+2025,Mali,2022-2023 average net flow,1305182911.6999998,
+2025,Mauritania,2022-2023 average net flow,154949889.84999996,
+2025,Mauritius,2022-2023 average net flow,440086396.25,
+2025,Mexico,2022-2023 average net flow,69446757.39999962,
+2025,Moldova,2022-2023 average net flow,1084164780.6,
+2025,Mongolia,2022-2023 average net flow,-745669412.95,
+2025,Montenegro,2022-2023 average net flow,-147725627.89999998,
+2025,Morocco,2022-2023 average net flow,1295817754.0000002,
+2025,Mozambique,2022-2023 average net flow,2680164027.4,
+2025,Myanmar,2022-2023 average net flow,389862665.55,
+2025,Nepal,2022-2023 average net flow,1114115460.75,
+2025,Nicaragua,2022-2023 average net flow,342417973.7,
+2025,Niger,2022-2023 average net flow,1528618578.25,
+2025,Nigeria,2022-2023 average net flow,4664735812.650001,
+2025,North Macedonia,2022-2023 average net flow,397279019.3000001,
+2025,Pakistan,2022-2023 average net flow,-1257572853.6000004,
+2025,Papua New Guinea,2022-2023 average net flow,1111523448.4499998,
+2025,Paraguay,2022-2023 average net flow,823381004.2500001,
+2025,Peru,2022-2023 average net flow,-745866200.1500001,
+2025,Philippines,2022-2023 average net flow,4697182012.049999,
+2025,Rwanda,2022-2023 average net flow,1502080548.35,
+2025,Samoa,2022-2023 average net flow,97719363.8,
+2025,Sao Tome and Principe,2022-2023 average net flow,93517903.0,
+2025,Senegal,2022-2023 average net flow,1664628554.35,
+2025,Serbia,2022-2023 average net flow,2059365568.2499998,
+2025,Sierra Leone,2022-2023 average net flow,480931202.65,
+2025,Solomon Islands,2022-2023 average net flow,254339526.75,
+2025,Somalia,2022-2023 average net flow,2170761074.25,
+2025,South Africa,2022-2023 average net flow,-5902196601.4,
+2025,Sri Lanka,2022-2023 average net flow,1859549125.75,
+2025,St. Lucia,2022-2023 average net flow,48553235.349999994,
+2025,St. Vincent and the Grenadines,2022-2023 average net flow,60890633.7,
+2025,Sudan,2022-2023 average net flow,1324193786.9,
+2025,Suriname,2022-2023 average net flow,192228604.7,
+2025,Tajikistan,2022-2023 average net flow,464997410.95000005,
+2025,Tanzania,2022-2023 average net flow,3004709357.25,
+2025,Thailand,2022-2023 average net flow,-2691195513.4,
+2025,Timor-Leste,2022-2023 average net flow,243877834.3,
+2025,Togo,2022-2023 average net flow,462480477.9499999,
+2025,Tonga,2022-2023 average net flow,124219952.35,
+2025,Tunisia,2022-2023 average net flow,331026713.3499999,
+2025,Turkmenistan,2022-2023 average net flow,-638494492.95,
+2025,Türkiye,2022-2023 average net flow,790724556.4499989,
+2025,Uganda,2022-2023 average net flow,2335418452.15,
+2025,Upper middle income,2022-2023 average net flow,-27574209392.649998,
+2025,Uzbekistan,2022-2023 average net flow,3411200617.85,
+2025,Vanuatu,2022-2023 average net flow,150422782.60000002,
+2025,Vietnam,2022-2023 average net flow,-2098503386.3000002,
+2025,Yemen,2022-2023 average net flow,2766431286.5,
+2025,Zambia,2022-2023 average net flow,1236932550.05,
+2025,Zimbabwe,2022-2023 average net flow,1104706427.35,
+2026,Afghanistan,2022-2023 average net flow,3524059260.0,
+2026,Africa,2022-2023 average net flow,43819293511.85,
+2026,Albania,2022-2023 average net flow,545746734.4499999,
+2026,Algeria,2022-2023 average net flow,122538258.25,
+2026,Angola,2022-2023 average net flow,-3540568594.3,
+2026,Argentina,2022-2023 average net flow,-2234792554.9500003,
+2026,Armenia,2022-2023 average net flow,53233268.05000007,
+2026,Azerbaijan,2022-2023 average net flow,-1006240336.8500001,
+2026,Bangladesh,2022-2023 average net flow,7903858841.75,
+2026,Belarus,2022-2023 average net flow,-1922327980.6999998,
+2026,Belize,2022-2023 average net flow,19919109.9,
+2026,Benin,2022-2023 average net flow,1204003125.2,
+2026,Bhutan,2022-2023 average net flow,138265758.2,
+2026,Bolivia,2022-2023 average net flow,220825143.29999995,
+2026,Bosnia and Herzegovina,2022-2023 average net flow,99446107.74999994,
+2026,Botswana,2022-2023 average net flow,27776693.350000024,
+2026,Brazil,2022-2023 average net flow,-8941686677.599997,
+2026,Burkina Faso,2022-2023 average net flow,1521920907.8,
+2026,Burundi,2022-2023 average net flow,596705639.1,
+2026,Cabo Verde,2022-2023 average net flow,55964005.9,
+2026,Cambodia,2022-2023 average net flow,1524217847.45,
+2026,Cameroon,2022-2023 average net flow,415320053.3000001,
+2026,Central African Republic,2022-2023 average net flow,680195173.0999999,
+2026,Chad,2022-2023 average net flow,602676013.9000001,
+2026,Colombia,2022-2023 average net flow,1619030303.8999987,
+2026,Comoros,2022-2023 average net flow,143831584.55,
+2026,Congo Republic,2022-2023 average net flow,-323526102.1999999,
+2026,Costa Rica,2022-2023 average net flow,903198226.9999998,
+2026,Cote d'Ivoire,2022-2023 average net flow,3261808577.2500005,
+2026,DR Congo,2022-2023 average net flow,3567603136.1000004,
+2026,Developing countries,2022-2023 average net flow,59536882052.600006,
+2026,Djibouti,2022-2023 average net flow,286969742.95,
+2026,Dominica,2022-2023 average net flow,37675333.3,
+2026,Dominican Republic,2022-2023 average net flow,1014669623.6500006,
+2026,Ecuador,2022-2023 average net flow,-58676319.849999905,
+2026,Egypt,2022-2023 average net flow,760072225.0999994,
+2026,El Salvador,2022-2023 average net flow,-446223740.85,
+2026,Eritrea,2022-2023 average net flow,83117640.15,
+2026,Eswatini,2022-2023 average net flow,176567988.8,
+2026,Ethiopia,2022-2023 average net flow,5307421866.25,
+2026,Fiji,2022-2023 average net flow,310994317.95000005,
+2026,Gabon,2022-2023 average net flow,-184625446.00000003,
+2026,Gambia,2022-2023 average net flow,329489571.25,
+2026,Georgia,2022-2023 average net flow,569596193.6999999,
+2026,Ghana,2022-2023 average net flow,1218605570.0,
+2026,Grenada,2022-2023 average net flow,18071174.199999996,
+2026,Guatemala,2022-2023 average net flow,583634147.5,
+2026,Guinea,2022-2023 average net flow,564889554.55,
+2026,Guinea-Bissau,2022-2023 average net flow,139046111.45,
+2026,Guyana,2022-2023 average net flow,206109028.75,
+2026,Haiti,2022-2023 average net flow,951232491.5,
+2026,Honduras,2022-2023 average net flow,175783660.55,
+2026,India,2022-2023 average net flow,4593493581.949999,
+2026,Indonesia,2022-2023 average net flow,-9889699377.949999,
+2026,Iran,2022-2023 average net flow,292113612.20000005,
+2026,Iraq,2022-2023 average net flow,-1626742589.2999997,
+2026,Jamaica,2022-2023 average net flow,-812905813.4,
+2026,Jordan,2022-2023 average net flow,2553251482.6499996,
+2026,Kazakhstan,2022-2023 average net flow,-2409380865.95,
+2026,Kenya,2022-2023 average net flow,1456164065.05,
+2026,Kosovo,2022-2023 average net flow,376564787.2,
+2026,Kyrgyz Republic,2022-2023 average net flow,479909776.25,
+2026,Laos,2022-2023 average net flow,292113075.9499999,
+2026,Lebanon,2022-2023 average net flow,1684694016.4499998,
+2026,Lesotho,2022-2023 average net flow,163203198.75,
+2026,Liberia,2022-2023 average net flow,543541023.1,
+2026,Low income,2022-2023 average net flow,36211874801.149994,
+2026,Lower middle income,2022-2023 average net flow,50693107615.35,
+2026,Madagascar,2022-2023 average net flow,1199373521.25,
+2026,Malawi,2022-2023 average net flow,1560462591.6,
+2026,Maldives,2022-2023 average net flow,145691758.55,
+2026,Mali,2022-2023 average net flow,1305182911.6999998,
+2026,Mauritania,2022-2023 average net flow,154949889.84999996,
+2026,Mauritius,2022-2023 average net flow,440086396.25,
+2026,Mexico,2022-2023 average net flow,69446757.39999962,
+2026,Moldova,2022-2023 average net flow,1084164780.6,
+2026,Mongolia,2022-2023 average net flow,-745669412.95,
+2026,Montenegro,2022-2023 average net flow,-147725627.89999998,
+2026,Morocco,2022-2023 average net flow,1295817754.0000002,
+2026,Mozambique,2022-2023 average net flow,2680164027.4,
+2026,Myanmar,2022-2023 average net flow,389862665.55,
+2026,Nepal,2022-2023 average net flow,1114115460.75,
+2026,Nicaragua,2022-2023 average net flow,342417973.7,
+2026,Niger,2022-2023 average net flow,1528618578.25,
+2026,Nigeria,2022-2023 average net flow,4664735812.650001,
+2026,North Macedonia,2022-2023 average net flow,397279019.3000001,
+2026,Pakistan,2022-2023 average net flow,-1257572853.6000004,
+2026,Papua New Guinea,2022-2023 average net flow,1111523448.4499998,
+2026,Paraguay,2022-2023 average net flow,823381004.2500001,
+2026,Peru,2022-2023 average net flow,-745866200.1500001,
+2026,Philippines,2022-2023 average net flow,4697182012.049999,
+2026,Rwanda,2022-2023 average net flow,1502080548.35,
+2026,Samoa,2022-2023 average net flow,97719363.8,
+2026,Sao Tome and Principe,2022-2023 average net flow,93517903.0,
+2026,Senegal,2022-2023 average net flow,1664628554.35,
+2026,Serbia,2022-2023 average net flow,2059365568.2499998,
+2026,Sierra Leone,2022-2023 average net flow,480931202.65,
+2026,Solomon Islands,2022-2023 average net flow,254339526.75,
+2026,Somalia,2022-2023 average net flow,2170761074.25,
+2026,South Africa,2022-2023 average net flow,-5902196601.4,
+2026,Sri Lanka,2022-2023 average net flow,1859549125.75,
+2026,St. Lucia,2022-2023 average net flow,48553235.349999994,
+2026,St. Vincent and the Grenadines,2022-2023 average net flow,60890633.7,
+2026,Sudan,2022-2023 average net flow,1324193786.9,
+2026,Suriname,2022-2023 average net flow,192228604.7,
+2026,Tajikistan,2022-2023 average net flow,464997410.95000005,
+2026,Tanzania,2022-2023 average net flow,3004709357.25,
+2026,Thailand,2022-2023 average net flow,-2691195513.4,
+2026,Timor-Leste,2022-2023 average net flow,243877834.3,
+2026,Togo,2022-2023 average net flow,462480477.9499999,
+2026,Tonga,2022-2023 average net flow,124219952.35,
+2026,Tunisia,2022-2023 average net flow,331026713.3499999,
+2026,Turkmenistan,2022-2023 average net flow,-638494492.95,
+2026,Türkiye,2022-2023 average net flow,790724556.4499989,
+2026,Uganda,2022-2023 average net flow,2335418452.15,
+2026,Upper middle income,2022-2023 average net flow,-27574209392.649998,
+2026,Uzbekistan,2022-2023 average net flow,3411200617.85,
+2026,Vanuatu,2022-2023 average net flow,150422782.60000002,
+2026,Vietnam,2022-2023 average net flow,-2098503386.3000002,
+2026,Yemen,2022-2023 average net flow,2766431286.5,
+2026,Zambia,2022-2023 average net flow,1236932550.05,
+2026,Zimbabwe,2022-2023 average net flow,1104706427.35,
+2027,Afghanistan,2022-2023 average net flow,3524059260.0,
+2027,Africa,2022-2023 average net flow,43819293511.85,
+2027,Albania,2022-2023 average net flow,545746734.4499999,
+2027,Algeria,2022-2023 average net flow,122538258.25,
+2027,Angola,2022-2023 average net flow,-3540568594.3,
+2027,Argentina,2022-2023 average net flow,-2234792554.9500003,
+2027,Armenia,2022-2023 average net flow,53233268.05000007,
+2027,Azerbaijan,2022-2023 average net flow,-1006240336.8500001,
+2027,Bangladesh,2022-2023 average net flow,7903858841.75,
+2027,Belarus,2022-2023 average net flow,-1922327980.6999998,
+2027,Belize,2022-2023 average net flow,19919109.9,
+2027,Benin,2022-2023 average net flow,1204003125.2,
+2027,Bhutan,2022-2023 average net flow,138265758.2,
+2027,Bolivia,2022-2023 average net flow,220825143.29999995,
+2027,Bosnia and Herzegovina,2022-2023 average net flow,99446107.74999994,
+2027,Botswana,2022-2023 average net flow,27776693.350000024,
+2027,Brazil,2022-2023 average net flow,-8941686677.599997,
+2027,Burkina Faso,2022-2023 average net flow,1521920907.8,
+2027,Burundi,2022-2023 average net flow,596705639.1,
+2027,Cabo Verde,2022-2023 average net flow,55964005.9,
+2027,Cambodia,2022-2023 average net flow,1524217847.45,
+2027,Cameroon,2022-2023 average net flow,415320053.3000001,
+2027,Central African Republic,2022-2023 average net flow,680195173.0999999,
+2027,Chad,2022-2023 average net flow,602676013.9000001,
+2027,Colombia,2022-2023 average net flow,1619030303.8999987,
+2027,Comoros,2022-2023 average net flow,143831584.55,
+2027,Congo Republic,2022-2023 average net flow,-323526102.1999999,
+2027,Costa Rica,2022-2023 average net flow,903198226.9999998,
+2027,Cote d'Ivoire,2022-2023 average net flow,3261808577.2500005,
+2027,DR Congo,2022-2023 average net flow,3567603136.1000004,
+2027,Developing countries,2022-2023 average net flow,59536882052.600006,
+2027,Djibouti,2022-2023 average net flow,286969742.95,
+2027,Dominica,2022-2023 average net flow,37675333.3,
+2027,Dominican Republic,2022-2023 average net flow,1014669623.6500006,
+2027,Ecuador,2022-2023 average net flow,-58676319.849999905,
+2027,Egypt,2022-2023 average net flow,760072225.0999994,
+2027,El Salvador,2022-2023 average net flow,-446223740.85,
+2027,Eritrea,2022-2023 average net flow,83117640.15,
+2027,Eswatini,2022-2023 average net flow,176567988.8,
+2027,Ethiopia,2022-2023 average net flow,5307421866.25,
+2027,Fiji,2022-2023 average net flow,310994317.95000005,
+2027,Gabon,2022-2023 average net flow,-184625446.00000003,
+2027,Gambia,2022-2023 average net flow,329489571.25,
+2027,Georgia,2022-2023 average net flow,569596193.6999999,
+2027,Ghana,2022-2023 average net flow,1218605570.0,
+2027,Grenada,2022-2023 average net flow,18071174.199999996,
+2027,Guatemala,2022-2023 average net flow,583634147.5,
+2027,Guinea,2022-2023 average net flow,564889554.55,
+2027,Guinea-Bissau,2022-2023 average net flow,139046111.45,
+2027,Guyana,2022-2023 average net flow,206109028.75,
+2027,Haiti,2022-2023 average net flow,951232491.5,
+2027,Honduras,2022-2023 average net flow,175783660.55,
+2027,India,2022-2023 average net flow,4593493581.949999,
+2027,Indonesia,2022-2023 average net flow,-9889699377.949999,
+2027,Iran,2022-2023 average net flow,292113612.20000005,
+2027,Iraq,2022-2023 average net flow,-1626742589.2999997,
+2027,Jamaica,2022-2023 average net flow,-812905813.4,
+2027,Jordan,2022-2023 average net flow,2553251482.6499996,
+2027,Kazakhstan,2022-2023 average net flow,-2409380865.95,
+2027,Kenya,2022-2023 average net flow,1456164065.05,
+2027,Kosovo,2022-2023 average net flow,376564787.2,
+2027,Kyrgyz Republic,2022-2023 average net flow,479909776.25,
+2027,Laos,2022-2023 average net flow,292113075.9499999,
+2027,Lebanon,2022-2023 average net flow,1684694016.4499998,
+2027,Lesotho,2022-2023 average net flow,163203198.75,
+2027,Liberia,2022-2023 average net flow,543541023.1,
+2027,Low income,2022-2023 average net flow,36211874801.149994,
+2027,Lower middle income,2022-2023 average net flow,50693107615.35,
+2027,Madagascar,2022-2023 average net flow,1199373521.25,
+2027,Malawi,2022-2023 average net flow,1560462591.6,
+2027,Maldives,2022-2023 average net flow,145691758.55,
+2027,Mali,2022-2023 average net flow,1305182911.6999998,
+2027,Mauritania,2022-2023 average net flow,154949889.84999996,
+2027,Mauritius,2022-2023 average net flow,440086396.25,
+2027,Mexico,2022-2023 average net flow,69446757.39999962,
+2027,Moldova,2022-2023 average net flow,1084164780.6,
+2027,Mongolia,2022-2023 average net flow,-745669412.95,
+2027,Montenegro,2022-2023 average net flow,-147725627.89999998,
+2027,Morocco,2022-2023 average net flow,1295817754.0000002,
+2027,Mozambique,2022-2023 average net flow,2680164027.4,
+2027,Myanmar,2022-2023 average net flow,389862665.55,
+2027,Nepal,2022-2023 average net flow,1114115460.75,
+2027,Nicaragua,2022-2023 average net flow,342417973.7,
+2027,Niger,2022-2023 average net flow,1528618578.25,
+2027,Nigeria,2022-2023 average net flow,4664735812.650001,
+2027,North Macedonia,2022-2023 average net flow,397279019.3000001,
+2027,Pakistan,2022-2023 average net flow,-1257572853.6000004,
+2027,Papua New Guinea,2022-2023 average net flow,1111523448.4499998,
+2027,Paraguay,2022-2023 average net flow,823381004.2500001,
+2027,Peru,2022-2023 average net flow,-745866200.1500001,
+2027,Philippines,2022-2023 average net flow,4697182012.049999,
+2027,Rwanda,2022-2023 average net flow,1502080548.35,
+2027,Samoa,2022-2023 average net flow,97719363.8,
+2027,Sao Tome and Principe,2022-2023 average net flow,93517903.0,
+2027,Senegal,2022-2023 average net flow,1664628554.35,
+2027,Serbia,2022-2023 average net flow,2059365568.2499998,
+2027,Sierra Leone,2022-2023 average net flow,480931202.65,
+2027,Solomon Islands,2022-2023 average net flow,254339526.75,
+2027,Somalia,2022-2023 average net flow,2170761074.25,
+2027,South Africa,2022-2023 average net flow,-5902196601.4,
+2027,Sri Lanka,2022-2023 average net flow,1859549125.75,
+2027,St. Lucia,2022-2023 average net flow,48553235.349999994,
+2027,St. Vincent and the Grenadines,2022-2023 average net flow,60890633.7,
+2027,Sudan,2022-2023 average net flow,1324193786.9,
+2027,Suriname,2022-2023 average net flow,192228604.7,
+2027,Tajikistan,2022-2023 average net flow,464997410.95000005,
+2027,Tanzania,2022-2023 average net flow,3004709357.25,
+2027,Thailand,2022-2023 average net flow,-2691195513.4,
+2027,Timor-Leste,2022-2023 average net flow,243877834.3,
+2027,Togo,2022-2023 average net flow,462480477.9499999,
+2027,Tonga,2022-2023 average net flow,124219952.35,
+2027,Tunisia,2022-2023 average net flow,331026713.3499999,
+2027,Turkmenistan,2022-2023 average net flow,-638494492.95,
+2027,Türkiye,2022-2023 average net flow,790724556.4499989,
+2027,Uganda,2022-2023 average net flow,2335418452.15,
+2027,Upper middle income,2022-2023 average net flow,-27574209392.649998,
+2027,Uzbekistan,2022-2023 average net flow,3411200617.85,
+2027,Vanuatu,2022-2023 average net flow,150422782.60000002,
+2027,Vietnam,2022-2023 average net flow,-2098503386.3000002,
+2027,Yemen,2022-2023 average net flow,2766431286.5,
+2027,Zambia,2022-2023 average net flow,1236932550.05,
+2027,Zimbabwe,2022-2023 average net flow,1104706427.35,
