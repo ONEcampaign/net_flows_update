@@ -53,7 +53,7 @@ def read_projections() -> pd.DataFrame:
     # Clean column names
     data.columns = clean_column_names(data.columns)
 
-    return data
+    return data.loc[lambda d: d.year != 2024]
 
 
 def get_seek_indicator(indicator: str) -> pd.DataFrame:
