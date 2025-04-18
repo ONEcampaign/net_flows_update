@@ -6,12 +6,42 @@ from bblocks import add_iso_codes_column
 from oda_data import ODAData, set_data_path
 from oda_data import donor_groupings
 
-
+from scripts import config
 from scripts.config import Paths
+from scripts.data.inflows import clean_grants_inflows_output
 from scripts.logger import logger
 from scripts.models.seek import extract_decreases, apply_linear_reduction
 
 set_data_path(Paths.raw_data)
+
+
+def get_historical_oda(constant: bool = False) -> pd.DataFrame:
+    """
+    Retrieve oda inflows from OECD ODA data.
+
+    Args:
+        - constant (bool): Whether to retrieve the data in constant or current prices.
+
+    Returns:
+        pd.DataFrame: DataFrame containing grants inflows data.
+    """
+
+    # Create an object with the basic settings
+    oda = ODAData(
+        donors=list(donor_groupings()["dac_countries"]) + [83],
+        years=range(config.ANALYSIS_YEARS[0], config.ANALYSIS_YEARS[1] + 1),
+        include_names=True,
+        base_year=config.CONSTANT_BASE_YEAR if constant else None,
+        prices="constant" if constant else "current",
+    )
+
+    # Load the data
+    oda.load_indicator("total_oda_official_definition")
+
+    # Retrieve and clean the data
+    data = oda.get_data().assign(value=lambda d: d.value * 1e6)
+
+    return data
 
 
 def projected_oda_with_multiplier(
@@ -120,7 +150,7 @@ def projected_inflows_scenario(
     Returns:
         pd.DataFrame: The projected inflows DataFrame.
     """
-    data = add_iso_codes_column(data, id_column="donor_name", id_type="regex")
+    data = add_iso_codes_column(data, id_column="donor_code", id_type="DACCode")
 
     # Prepare decreasing countries and projection parameters based on scenario
     if scenario == 2:
@@ -158,5 +188,23 @@ def projected_inflows_scenario(
         data_rest, reduce_by=reductions["rest"], **projection_args
     )
 
-    projected = pd.concat([data_seek, data_us, data_rest], ignore_index=True)
+    projected = pd.concat([data_seek, data_us, data_rest], ignore_index=True).drop(
+        columns=["realistic_multiplier_reduced"]
+    )
+
+    total = (
+        projected.assign(donor_code=20001, donor_name="DAC Countries", iso_code="DAC")
+        .groupby([c for c in projected.columns if c not in ["value"]])
+        .sum()
+        .reset_index()
+    )
+
+    projected = pd.concat([total, projected], ignore_index=True)
+
     return projected
+
+
+if __name__ == "__main__":
+    data = get_historical_oda()
+    oda_projected = projected_inflows_scenario(data, scenario=3)
+    oda_projected.to_clipboard(index=False)
