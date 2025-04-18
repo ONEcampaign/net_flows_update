@@ -134,6 +134,20 @@ def projected_oda_scenarios(
     return data
 
 
+def add_dac_total(data: pd.DataFrame) -> pd.DataFrame:
+    if "realistic_multiplier" in data.columns:
+        data = data.drop(columns=["realistic_multiplier"])
+
+    total = (
+        data.assign(donor_code=20001, donor_name="DAC Countries", iso_code="DAC")
+        .groupby([c for c in data.columns if c not in ["value"]])
+        .sum()
+        .reset_index()
+    )
+
+    return pd.concat([total, data], ignore_index=True)
+
+
 def projected_inflows_scenario(
     data: pd.DataFrame,
     *,
@@ -188,23 +202,50 @@ def projected_inflows_scenario(
         data_rest, reduce_by=reductions["rest"], **projection_args
     )
 
-    projected = pd.concat([data_seek, data_us, data_rest], ignore_index=True).drop(
-        columns=["realistic_multiplier_reduced"]
-    )
+    projected = pd.concat([data_seek, data_us, data_rest], ignore_index=True)
 
-    total = (
-        projected.assign(donor_code=20001, donor_name="DAC Countries", iso_code="DAC")
-        .groupby([c for c in projected.columns if c not in ["value"]])
-        .sum()
-        .reset_index()
-    )
+    if "realistic_multiplier_reduced" in projected.columns:
+        projected = projected.drop(columns=["realistic_multiplier_reduced"])
 
-    projected = pd.concat([total, projected], ignore_index=True)
+    projected = add_dac_total(projected)
 
     return projected
 
 
-if __name__ == "__main__":
+def projections_chart() -> None:
     data = get_historical_oda()
-    oda_projected = projected_inflows_scenario(data, scenario=3)
-    oda_projected.to_clipboard(index=False)
+    columns = ["year", "donor_name", "currency", "prices", "value"]
+    oda_projected2 = (
+        projected_inflows_scenario(data, scenario=2)
+        .filter(columns)
+        .rename(columns={"value": "ODA (Projected Scenario 2)"})
+    )
+    oda_projected3 = projected_inflows_scenario(data, scenario=3)
+    oda_projected3 = oda_projected3.filter(columns).rename(
+        columns={"value": "ODA (Projected Scenario 3)"}
+    )
+    historical = (
+        data.pipe(add_dac_total).filter(columns).rename(columns={"value": "ODA"})
+    )
+
+    full = historical.merge(
+        oda_projected2, how="outer", on=["year", "donor_name", "currency", "prices"]
+    ).merge(
+        oda_projected3, how="outer", on=["year", "donor_name", "currency", "prices"]
+    )
+
+    full.loc[
+        lambda d: d.year < 2024,
+        ["ODA (Projected Scenario 2)", "ODA (Projected Scenario 3)"],
+    ] = pd.NA
+
+    full_dac = full.loc[lambda d: d.donor_name == "DAC Countries"]
+    full_non_dac = full.loc[lambda d: d.donor_name != "DAC Countries"]
+
+    full = pd.concat([full_dac, full_non_dac], ignore_index=True)
+
+    full.to_csv(Paths.output / "oda_scenarios.csv", index=False)
+
+
+if __name__ == "__main__":
+    projections_chart()
