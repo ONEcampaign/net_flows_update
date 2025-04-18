@@ -115,52 +115,34 @@ def chart_5():
     # get average of 2022-23 net flows
 
     net_flows = net_flows_data.loc[lambda d: (d.indicator_type == "net_flow")&(d.flow_type == "all"), ['year', 'country', 'value']]
-
-    avg_scen = (net_flows
-                .loc[lambda d: d.year.isin([2022, 2023])]
-                .groupby(['country'])
-                .agg({"value": "mean"})
-                .reset_index()
-                .rename(columns = {'value': "2022-2023 average net flow"})
-                )
-
     net_flows_scenarios = net_flows_scenarios_data.loc[:, ['year', 'country', 'scenario', 'net_flows']].rename(columns = {"net_flows": 'value'})
 
     # chart data
-    (pd.concat([
+    df = (pd.concat([
+        net_flows,
         net_flows.loc[lambda d: d.year == 2023].assign(scenario = "scenario 1"),
         net_flows.loc[lambda d: d.year == 2023].assign(scenario = "scenario 2"),
         net_flows.loc[lambda d: d.year == 2023].assign(scenario = "scenario 3"),
         net_flows_scenarios,
 
-    ])
+    ]))
+
+    # download data
+    df.to_csv(Paths.output / "chart_5.csv", index=False)
+
+    # chart data
+    (df
+    # .assign(scenario_label = lambda d: d.scenario)
+     .assign(scenario = lambda d: d.scenario.fillna("all net flows"))
      .pivot(index=['year', 'country'], columns = 'scenario', values='value')
      .reset_index()
-     .merge(avg_scen, how='left')
-     .melt(id_vars=['year', 'country'])
-     .assign(show = lambda d: np.where(d.variable != "2022-2023 average net flow", True, None))
-     .pivot(index=['year', 'country', 'show'], columns='variable', values='value')
-     .reset_index()
-
-     .rename(columns = {"scenario 1": "constant aid ratios",
-                        "scenario 2": "20% decrease in concessional finance",
-                        "scenario 3": "30% decrease in concessional finance"})
-
-     .pipe(custom_sort, "country", ['Developing countries', "Africa", "Low income", "Lower middle income", "Upper middle income"])
+     .rename(columns = {"scenario 1": "optimistic",
+                        "scenario 2": "realistic",
+                        "scenario 3": "pessimistic"})
+        .pipe(custom_sort, "country", ['Developing countries', "Africa", "Low income", "Lower middle income", "Upper middle income"])
      .to_csv(Paths.output / "chart_5.csv", index=False)
      )
 
-    # download data
-    (net_flows_scenarios
-     .pivot(index=['year', 'country'], columns = 'scenario', values='value')
-     .reset_index()
-     .merge(avg_scen, how='left')
-     .melt(id_vars=['year', 'country'])
-     .assign(notes = lambda d: d.variable.map({"scenario 1": "constant aid ratios",
-                                               "scenario 2": "20% decrease in concessional finance",
-                                               "scenario 3": "30% decrease in concessional finance"}))
-     .to_csv(Paths.output / "chart_5_download.csv", index=False)
-     )
 
 
 def chart_6():
@@ -193,10 +175,10 @@ def chart_6():
 
 
 if __name__ == "__main__":
-    chart_1()
-    chart_2()
-    chart_3()
-    chart_4()
+    # chart_1()
+    # chart_2()
+    # chart_3()
+    # chart_4()
     chart_5()
-    chart_6()
+    # chart_6()
 
