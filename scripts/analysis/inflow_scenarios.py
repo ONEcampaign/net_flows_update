@@ -86,10 +86,6 @@ def projected_scenarios(
         pd.DataFrame: The projected DataFrame.
     """
 
-    # TODO: Remove this once the data is updated
-    # Extend 2023 data to 2024
-    data = extent_2023_data_to_2024(data)
-
     latest_year = data["year"].max()
 
     # Extend data to target_year by duplicating latest known year
@@ -141,9 +137,6 @@ def projected_scenarios_with_multiplier(
     Returns:
         pd.DataFrame: Projected DataFrame with values scaled by the multiplier.
     """
-
-    # Extend 2023 data to 2024 (temporary fix)
-    data = extent_2023_data_to_2024(data)
 
     latest_year = data["year"].max()
 
